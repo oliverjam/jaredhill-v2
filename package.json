@@ -1,0 +1,16 @@
+{
+  "name": "jaredhill-v2",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "eleventy build --serve --incremental --quiet",
+    "build": "ELEVENTY_ENV=production eleventy build"
+  },
+  "keywords": [],
+  "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es)",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}

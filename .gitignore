@@ -1,0 +1,6 @@
+# Mac Finder preference files
+.DS_Store
+# libraries installed from npm
+node_modules/
+# generated Eleventy folder
+_site/
