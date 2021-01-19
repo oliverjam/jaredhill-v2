@@ -1,1 +1,3 @@
-exports.render = () => "<h1>Hello world</h1>";
+const html = require("./html");
+
+exports.render = () => html`<h1>Hello world</h1>`;
