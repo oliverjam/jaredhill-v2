@@ -18,3 +18,7 @@ exports.colors = {
   bg: palette.bgGrey,
   white: palette.white,
 };
+
+exports.sizes = {
+  gutter: "1.5rem",
+};

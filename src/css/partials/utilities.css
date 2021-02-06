@@ -1,0 +1,95 @@
+.vh {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.pad-sm {
+  padding: 0.5rem;
+}
+
+.pad-md {
+  padding: 1rem;
+}
+
+.pad-lg {
+  padding: 1.5rem;
+}
+
+.pad-xl {
+  padding: 2rem;
+}
+
+.pad-xxl {
+  padding: 4rem;
+}
+
+.pad-gutter {
+  padding: var(--gutter);
+}
+
+.fz-sm {
+  font-size: 0.875rem;
+}
+
+.fz-md {
+  font-size: 1rem;
+}
+
+.fz-lg {
+  font-size: 1.25rem;
+}
+
+.fz-xl {
+  font-size: 1.5rem;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-stretch {
+  align-items: stretch;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.ji-center {
+  justify-items: center;
+}
+
+.js-stretch {
+  justify-self: stretch;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.tac {
+  text-align: center;
+}
+
+.grow {
+  flex: 1;
+}
+
+@media (max-width: 40rem) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
