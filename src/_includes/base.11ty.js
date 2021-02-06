@@ -1,6 +1,16 @@
 const html = require("../html");
 
-exports.render = ({ title, config, page, nav, date, readingTime, content }) => {
+exports.render = (data) => {
+  const {
+    title,
+    config,
+    page,
+    navigation,
+    date,
+    readingTime,
+    blocks,
+    content,
+  } = data;
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -13,14 +23,16 @@ exports.render = ({ title, config, page, nav, date, readingTime, content }) => {
         <link href="${googleFont(config.theme.fonts.body)}" rel="stylesheet" />
       </head>
       <body class="page">
-        ${Header({ page, nav, socials: config.site.socials })}
+        ${Header({ page, navigation, socials: config.site.socials })}
         ${Title({
           title,
           date,
-          readingTime: readingTime && getReadingTime(content),
+          seconds: readingTime && getReadingTime(content),
         })}
         <main class="pad-gutter">
-          <div class="w-content flow">${content}</div>
+          <div class="w-content flow">
+            ${blocks ? blocks.map(renderBlock(data)) : content}
+          </div>
         </main>
         ${Footer({ footer: config.site.footer })}
       </body>
@@ -74,24 +86,12 @@ function Link(page) {
   };
 }
 
-function Title({ title, date, readingTime }) {
-  const niceDate = date && readableDate(date);
-  const mins = Math.round(readingTime / 60);
+function Title({ title, date, seconds }) {
   return html`
     <header class="mh-25 cover pad-xl tac bg-primary">
-      <div class="w-content vstack">
+      <div class="w-content vstack ji-center">
         <h1>${title}</h1>
-        ${date &&
-        readingTime &&
-        html`
-          <div class="hstack gap-sm jc-center">
-            <span>${niceDate}</span>
-            <span>-</span>
-            <time datetime="${readingTime}s">
-              ${mins} minute${mins > 1 && "s"}
-            </time>
-          </div>
-        `}
+        ${date && seconds && PostMeta({ date, seconds })}
       </div>
     </header>
   `;
@@ -103,6 +103,18 @@ function readableDate(date) {
     day: "numeric",
     year: "numeric",
   });
+}
+
+function PostMeta({ date, seconds, className = "" }) {
+  const niceDate = readableDate(date);
+  const mins = Math.round(seconds / 60);
+  return html`
+    <div class="hstack gap-sm ${className}">
+      <span>${niceDate}</span>
+      <span>-</span>
+      <time datetime="${seconds}s"> ${mins} minute${mins > 1 && "s"} </time>
+    </div>
+  `;
 }
 
 // very rough estimate in seconds
@@ -125,11 +137,44 @@ function Footer({ footer }) {
           <p>${footer.contact.body}</p>
         </div>
       </div>
-      <div class="pad-xl tac invert">
+      <div class="pad-xl tac invert fz-md">
         <div class="w-content">
           <p>${footer.credit}</p>
         </div>
       </div>
     </footer>
+  `;
+}
+
+const components = {
+  collection,
+};
+
+function renderBlock(data) {
+  return (block) => {
+    const component = components[block.type];
+    if (!component) throw new Error(`Unrecognise block type: ${block.type}`);
+    return component(data, block.props);
+  };
+}
+
+function collection(data, { tag } = {}) {
+  const pages = data.collections[tag];
+  if (!pages) throw new Error(`Cannot find collection ${tag}`);
+  return html`
+    <ul role="list" class="hstack wrap">
+      ${pages.map(
+        ({ url, data }) => html`
+          <li class="vstack gap-sm">
+            <a href=${url} class="td-hover">${data.title}</a>
+            ${PostMeta({
+              date: data.date,
+              seconds: getReadingTime(data.content),
+              className: "color-text-light fz-md",
+            })}
+          </li>
+        `
+      )}
+    </ul>
   `;
 }

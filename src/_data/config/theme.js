@@ -3,7 +3,7 @@ let palette = {
   darkerBlue: "#BFE3FF",
   lightOrange: "#FFDFBA",
   textGrey: "#333333",
-  textGreyAA: "#767676",
+  textGreyLight: "hsl(0, 0%, 40%)",
   lighterGrey: "#767676",
   bgGrey: "#FAFAFA",
   white: "#FFFFFF",
@@ -14,7 +14,7 @@ exports.colors = {
   secondary: palette.darkerBlue,
   alternate: palette.lightOrange,
   text: palette.textGrey,
-  textAA: palette.textGreyAA,
+  textLight: palette.textGreyLight,
   bg: palette.bgGrey,
   white: palette.white,
 };

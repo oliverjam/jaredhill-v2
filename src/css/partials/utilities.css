@@ -112,3 +112,15 @@
     display: none;
   }
 }
+
+.td-hover {
+  text-decoration-line: none;
+}
+
+.td-hover:hover {
+  text-decoration-line: underline;
+}
+
+.color-text-light {
+  color: var(--textLight);
+}

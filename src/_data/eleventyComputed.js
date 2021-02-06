@@ -1,5 +1,5 @@
 module.exports = {
-  nav: (data) => {
+  navigation: (data) => {
     let nav = [];
     for (let page of data.collections.all) {
       if (page.data.nav) {
