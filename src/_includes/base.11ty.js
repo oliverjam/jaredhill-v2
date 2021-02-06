@@ -1,6 +1,6 @@
 const html = require("../html");
 
-exports.render = ({ title, config, nav, content }) => {
+exports.render = ({ title, config, nav, date, readingTime, content }) => {
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -12,6 +12,7 @@ exports.render = ({ title, config, nav, content }) => {
       </head>
       <body>
         ${Header({ nav, socials: config.site.socials })}
+        ${Title({ title, date, readingTime })}
         <main class="pad-gutter">${content}</main>
       </body>
     </html>
@@ -48,4 +49,22 @@ function Header({ nav = [], socials = {} }) {
       </nav>
     </header>
   `;
+}
+
+function Title({ title, date, readingTime }) {
+  const niceDate = date && readableDate(date);
+  return html`
+    <header class="pad-xxl tac bg-primary">
+      <h1>${title}</h1>
+      ${date && readingTime && html`<div>${niceDate} - ${readingTime}</div>`}
+    </header>
+  `;
+}
+
+function readableDate(date) {
+  return date.toLocaleDateString("en-GB", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
 }
