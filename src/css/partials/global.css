@@ -1,9 +1,24 @@
 body {
+  font-family: var(--body), Georgia, "Times New Roman", Times, serif;
+  font-size: clamp(
+    var(--font-body-min),
+    var(--font-body-min) + 0.5vw,
+    var(--font-body-max)
+  );
+  line-height: 1.6;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", sans-serif;
-  font-size: var(--font-body);
-  line-height: 1.6;
-  color: var(--text);
+  line-height: 1.2;
 }
 
 a {

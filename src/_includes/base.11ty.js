@@ -9,6 +9,8 @@ exports.render = ({ title, config, page, nav, date, readingTime, content }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>${title}${title && " | "}${config.site.title}</title>
         <link rel="stylesheet" href="/css/styles.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="${googleFont(config.theme.fonts.body)}" rel="stylesheet" />
       </head>
       <body class="page">
         ${Header({ page, nav, socials: config.site.socials })}
@@ -25,6 +27,10 @@ exports.render = ({ title, config, page, nav, date, readingTime, content }) => {
     </html>
   `;
 };
+
+function googleFont(name) {
+  return `https://fonts.googleapis.com/css2?family=${name}:ital,wght@0,400;0,600;1,400;1,600&display=swap`;
+}
 
 function Header({ page, nav = [], socials = {} }) {
   return html`

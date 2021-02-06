@@ -15,11 +15,13 @@ exports.render = async ({ config }) => {
 
   const colors = Object.entries(config.theme.colors).map(jsonToCss);
   const sizes = Object.entries(config.theme.sizes).map(jsonToCss);
+  const fonts = Object.entries(config.theme.fonts).map(jsonToCss);
 
   return `
 html {
   ${colors.join("\n")}
   ${sizes.join("\n")}
+  ${fonts.join("\n")}
 }
 
 ${contents.join("\n")}
