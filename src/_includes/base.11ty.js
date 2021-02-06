@@ -12,7 +12,11 @@ exports.render = ({ title, config, page, nav, date, readingTime, content }) => {
       </head>
       <body>
         ${Header({ page, nav, socials: config.site.socials })}
-        ${Title({ title, date, readingTime })}
+        ${Title({
+          title,
+          date,
+          readingTime: readingTime && getReadingTime(content),
+        })}
         <main class="pad-gutter">${content}</main>
       </body>
     </html>
@@ -63,10 +67,21 @@ function Link(page) {
 
 function Title({ title, date, readingTime }) {
   const niceDate = date && readableDate(date);
+  const mins = Math.round(readingTime / 60);
   return html`
     <header class="pad-xxl tac bg-primary">
       <h1>${title}</h1>
-      ${date && readingTime && html`<div>${niceDate} - ${readingTime}</div>`}
+      ${date &&
+      readingTime &&
+      html`
+        <div class="hstack gap-sm jc-center">
+          <span>${niceDate}</span>
+          <span>-</span>
+          <time datetime="${readingTime}s">
+            ${mins} minute${mins > 1 && "s"}
+          </time>
+        </div>
+      `}
     </header>
   `;
 }
@@ -77,4 +92,15 @@ function readableDate(date) {
     day: "numeric",
     year: "numeric",
   });
+}
+
+// very rough estimate in seconds
+// don't use regexp to parse html!
+function getReadingTime(content) {
+  const contentWithoutHtml = content.replace(/(<([^>]+)>)/gi, "");
+  const words = contentWithoutHtml.match(/[\u0400-\u04FF]+|\S+\s*/g);
+  const wordCount = words ? words.length : 0;
+  const wordsPerSecond = 200 / 60;
+  const readingTime = wordCount / wordsPerSecond;
+  return readingTime;
 }
