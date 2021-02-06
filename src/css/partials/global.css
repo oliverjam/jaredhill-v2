@@ -1,6 +1,8 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", sans-serif;
+  font-size: var(--font-body);
+  line-height: 1.6;
   color: var(--text);
 }
 

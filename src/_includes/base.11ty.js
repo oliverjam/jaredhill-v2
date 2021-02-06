@@ -10,14 +10,17 @@ exports.render = ({ title, config, page, nav, date, readingTime, content }) => {
         <title>${title}${title && " | "}${config.site.title}</title>
         <link rel="stylesheet" href="/css/styles.css" />
       </head>
-      <body>
+      <body class="page">
         ${Header({ page, nav, socials: config.site.socials })}
         ${Title({
           title,
           date,
           readingTime: readingTime && getReadingTime(content),
         })}
-        <main class="pad-gutter">${content}</main>
+        <main class="pad-gutter">
+          <div class="w-content flow">${content}</div>
+        </main>
+        ${Footer({ footer: config.site.footer })}
       </body>
     </html>
   `;
@@ -69,19 +72,21 @@ function Title({ title, date, readingTime }) {
   const niceDate = date && readableDate(date);
   const mins = Math.round(readingTime / 60);
   return html`
-    <header class="pad-xxl tac bg-primary">
-      <h1>${title}</h1>
-      ${date &&
-      readingTime &&
-      html`
-        <div class="hstack gap-sm jc-center">
-          <span>${niceDate}</span>
-          <span>-</span>
-          <time datetime="${readingTime}s">
-            ${mins} minute${mins > 1 && "s"}
-          </time>
-        </div>
-      `}
+    <header class="mh-25 cover pad-xl tac bg-primary">
+      <div class="w-content vstack">
+        <h1>${title}</h1>
+        ${date &&
+        readingTime &&
+        html`
+          <div class="hstack gap-sm jc-center">
+            <span>${niceDate}</span>
+            <span>-</span>
+            <time datetime="${readingTime}s">
+              ${mins} minute${mins > 1 && "s"}
+            </time>
+          </div>
+        `}
+      </div>
     </header>
   `;
 }
@@ -103,4 +108,22 @@ function getReadingTime(content) {
   const wordsPerSecond = 200 / 60;
   const readingTime = wordCount / wordsPerSecond;
   return readingTime;
+}
+
+function Footer({ footer }) {
+  return html`
+    <footer>
+      <div class="pad-xxl bg-primary leading-sm">
+        <div class="w-content vstack">
+          <h2>${footer.contact.title}</h2>
+          <p>${footer.contact.body}</p>
+        </div>
+      </div>
+      <div class="pad-xl tac invert">
+        <div class="w-content">
+          <p>${footer.credit}</p>
+        </div>
+      </div>
+    </footer>
+  `;
 }

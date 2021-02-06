@@ -46,7 +46,6 @@
 }
 
 .cover {
-  min-height: 100vh;
   display: grid;
   place-content: center;
 }
@@ -61,4 +60,14 @@
   --threshold: 28rem;
   flex-grow: 1;
   flex-basis: calc((var(--threshold) - 100%) * 999);
+}
+
+.flow > * + * {
+  margin-top: 1.25em;
+}
+
+.page {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
 }

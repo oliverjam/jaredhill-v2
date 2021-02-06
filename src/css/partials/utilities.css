@@ -80,8 +80,27 @@
   background-color: var(--primary);
 }
 
+.invert {
+  background-color: var(--text);
+  color: var(--bg);
+}
+
 .tac {
   text-align: center;
+}
+
+.w-content {
+  max-width: var(--measure);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mh-25 {
+  min-height: 25vh;
+}
+
+.leading-sm {
+  line-height: 1.2;
 }
 
 .grow {
