@@ -1,6 +1,6 @@
 const html = require("../html");
 
-exports.render = ({ title, config, nav, date, readingTime, content }) => {
+exports.render = ({ title, config, page, nav, date, readingTime, content }) => {
   return html`
     <!DOCTYPE html>
     <html lang="en">
@@ -11,7 +11,7 @@ exports.render = ({ title, config, nav, date, readingTime, content }) => {
         <link rel="stylesheet" href="/css/styles.css" />
       </head>
       <body>
-        ${Header({ nav, socials: config.site.socials })}
+        ${Header({ page, nav, socials: config.site.socials })}
         ${Title({ title, date, readingTime })}
         <main class="pad-gutter">${content}</main>
       </body>
@@ -19,7 +19,7 @@ exports.render = ({ title, config, nav, date, readingTime, content }) => {
   `;
 };
 
-function Header({ nav = [], socials = {} }) {
+function Header({ page, nav = [], socials = {} }) {
   return html`
     <header class="hstack wrap gap-xl pad-gutter bg-primary">
       <a href="/">
@@ -27,13 +27,7 @@ function Header({ nav = [], socials = {} }) {
       </a>
       <nav class="grow hstack wrap jc-between">
         <ul role="list" class="hstack">
-          ${nav.map(
-            (page) => html`
-              <li>
-                <a href=${page.url}>${page.label}</a>
-              </li>
-            `
-          )}
+          ${nav.map(Link(page))}
         </ul>
         <ul role="list" class="hstack hide-on-mobile">
           ${Object.entries(socials).map(
@@ -49,6 +43,22 @@ function Header({ nav = [], socials = {} }) {
       </nav>
     </header>
   `;
+}
+
+function Link(page) {
+  return ({ url, label }) => {
+    const current =
+      page.url === url
+        ? "page"
+        : page.url.includes(url) && url !== "/"
+        ? "true"
+        : false;
+    return html`
+      <li>
+        <a href=${url} ${current && `aria-current="${current}"`}>${label}</a>
+      </li>
+    `;
+  };
 }
 
 function Title({ title, date, readingTime }) {
