@@ -12,7 +12,7 @@ exports.render = ({ title, config, nav, content }) => {
       </head>
       <body>
         ${Header({ nav, socials: config.site.socials })}
-        <main>${content}</main>
+        <main class="pad-gutter">${content}</main>
       </body>
     </html>
   `;
@@ -20,12 +20,12 @@ exports.render = ({ title, config, nav, content }) => {
 
 function Header({ nav = [], socials = {} }) {
   return html`
-    <header>
+    <header class="hstack wrap gap-xl pad-gutter bg-primary">
       <a href="/">
         <img src="/assets/icons/logo.svg" alt="Home" width="32" height="32" />
       </a>
-      <nav>
-        <ul role="list">
+      <nav class="grow hstack wrap jc-between">
+        <ul role="list" class="hstack">
           ${nav.map(
             (page) => html`
               <li>
@@ -34,12 +34,12 @@ function Header({ nav = [], socials = {} }) {
             `
           )}
         </ul>
-        <ul role="list">
+        <ul role="list" class="hstack hide-on-mobile">
           ${Object.entries(socials).map(
             ([name, { url, icon }]) => html`
               <li>
                 <a href=${url}>
-                  <img src=${icon} alt="${name}" width="32" height="32" />
+                  <img src=${icon} alt="${name}" width="24" height="24" />
                 </a>
               </li>
             `
