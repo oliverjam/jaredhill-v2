@@ -28,7 +28,7 @@ exports.render = ({ title, config, page, nav, date, readingTime, content }) => {
 
 function Header({ page, nav = [], socials = {} }) {
   return html`
-    <header class="hstack wrap gap-xl pad-gutter bg-primary">
+    <header class="hstack wrap gap-xl pad-gutter fz-md bg-primary">
       <a href="/">
         <img src="/assets/icons/logo.svg" alt="Home" width="32" height="32" />
       </a>
