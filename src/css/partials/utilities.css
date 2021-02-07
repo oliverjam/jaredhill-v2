@@ -110,6 +110,10 @@
   background-color: var(--primary);
 }
 
+.bg-mid {
+  background-color: var(--bgMid);
+}
+
 .invert {
   background-color: var(--text);
   color: var(--bg);
@@ -159,4 +163,10 @@
 
 .color-text-light {
   color: var(--textLight);
+}
+
+.pill {
+  display: block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 99rem;
 }

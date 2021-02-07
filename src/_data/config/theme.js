@@ -4,7 +4,7 @@ let palette = {
   lightOrange: "#FFDFBA",
   textGrey: "#333333",
   textGreyLight: "hsl(0, 0%, 40%)",
-  lighterGrey: "#767676",
+  lighterGrey: "#F1F1F1",
   bgGrey: "#FAFAFA",
   white: "#FFFFFF",
 };
@@ -16,6 +16,7 @@ exports.colors = {
   text: palette.textGrey,
   textLight: palette.textGreyLight,
   bg: palette.bgGrey,
+  bgMid: palette.lighterGrey,
   white: palette.white,
 };
 

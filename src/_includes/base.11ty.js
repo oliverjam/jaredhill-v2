@@ -163,6 +163,7 @@ function Footer({ footer, socials }) {
 const components = {
   collection,
   heading,
+  tags,
 };
 
 function renderBlock(data) {
@@ -200,5 +201,22 @@ function collection(data, { tag, limit } = {}) {
 function heading(_data, { level = 2, content }) {
   return html`
     <h${level}>${content}</h${level}>
+  `;
+}
+
+function tags(data) {
+  const allTags = Object.entries(data.collections);
+  return html`
+    <ul role="list" class="hstack wrap">
+      ${allTags.map(
+        ([tag, { length }]) => html`
+          <li>
+            <a href="/blog/tags/${tag}/" class="bg-mid pill td-hover">
+              <strong>${tag}</strong> ${length}
+            </a>
+          </li>
+        `
+      )}
+    </ul>
   `;
 }
