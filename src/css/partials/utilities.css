@@ -113,6 +113,12 @@
   }
 }
 
+@media (min-width: 40rem) {
+  .hide-above-mobile {
+    display: none;
+  }
+}
+
 .td-hover {
   text-decoration-line: none;
 }

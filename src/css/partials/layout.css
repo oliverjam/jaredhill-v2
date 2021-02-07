@@ -39,6 +39,11 @@
   gap: 2rem;
 }
 
+.hstack.gap-xxl,
+.vstack.gap-xxl {
+  gap: 4rem;
+}
+
 .center {
   max-width: var(--measure, 80rem);
   margin-left: auto;

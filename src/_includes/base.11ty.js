@@ -34,7 +34,7 @@ exports.render = (data) => {
             ${blocks ? blocks.map(renderBlock(data)) : content}
           </div>
         </main>
-        ${Footer({ footer: config.site.footer })}
+        ${Footer({ footer: config.site.footer, socials: config.site.socials })}
       </body>
     </html>
   `;
@@ -57,19 +57,25 @@ function Header({ page, navigation = [], socials = {} }) {
         <ul role="list" class="hstack">
           ${navigation.map(Link(page))}
         </ul>
-        <ul role="list" class="hstack hide-on-mobile">
-          ${Object.entries(socials).map(
-            ([name, { url, icon }]) => html`
-              <li>
-                <a href=${url}>
-                  <img src=${icon} alt="${name}" width="24" height="24" />
-                </a>
-              </li>
-            `
-          )}
-        </ul>
+        ${Socials({ socials, className: "hide-on-mobile" })}
       </nav>
     </header>
+  `;
+}
+
+function Socials({ socials, className, size = 24 }) {
+  return html`
+    <ul role="list" class="hstack ${className}">
+      ${Object.entries(socials).map(
+        ([name, { url, icon }]) => html`
+          <li>
+            <a href=${url}>
+              <img src=${icon} alt="${name}" width="${size}" height="${size}" />
+            </a>
+          </li>
+        `
+      )}
+    </ul>
   `;
 }
 
@@ -131,7 +137,7 @@ function getReadingTime(content) {
   return readingTime;
 }
 
-function Footer({ footer }) {
+function Footer({ footer, socials }) {
   return html`
     <footer>
       <div class="pad-xxl bg-primary leading-sm">
@@ -140,6 +146,11 @@ function Footer({ footer }) {
           <p>${footer.contact.body}</p>
         </div>
       </div>
+      ${Socials({
+        socials,
+        size: 32,
+        className: "hide-above-mobile pad-lg gap-xxl jc-center",
+      })}
       <div class="pad-xl tac invert fz-md">
         <div class="w-content">
           <p>${footer.credit}</p>
