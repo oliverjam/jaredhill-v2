@@ -204,8 +204,10 @@ function heading(_data, { level = 2, content }) {
   `;
 }
 
-function tags(data) {
-  const allTags = Object.entries(data.collections);
+function tags(data, { filter = [] } = {}) {
+  const allTags = Object.entries(data.collections).filter(
+    ([tag]) => !filter.includes(tag)
+  );
   return html`
     <ul role="list" class="hstack wrap">
       ${allTags.map(

@@ -6,6 +6,7 @@ pagination:
   filter:
     - all
     - blog
+    - work
 permalink: "/blog/tags/{{ tag | slug }}/"
 eleventyComputed:
   title: "Posts tagged with '{{ tag | capitalize }}'"
