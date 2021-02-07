@@ -229,25 +229,23 @@ function tags(data, { filter = [] } = {}) {
   `;
 }
 
-function work(data, { limit } = {}) {
+function work(data) {
   const pages = data.collections.work;
   if (!pages?.length)
     throw new Error(`Cannot find any pages tagged with 'work'`);
+  const featured = pages.filter((page) => page.data.featured);
   return html`
     <ul role="list" class="grid gap-xl">
-      ${pages
-        .slice(0, limit)
-        .reverse()
-        .map(
-          ({ url, data }) => html`
-            <li class="vstack gap-sm">
-              <h3>
-                <a href=${url} class="td-hover leading-sm">${data.title}</a>
-              </h3>
-              <img src=${url + data.cover} alt="" />
-            </li>
-          `
-        )}
+      ${featured.map(
+        ({ url, data }) => html`
+          <li class="vstack gap-sm">
+            <h3>
+              <a href=${url} class="td-hover leading-sm">${data.title}</a>
+            </h3>
+            <img src=${url + data.cover} alt="" />
+          </li>
+        `
+      )}
     </ul>
   `;
 }
