@@ -6,23 +6,16 @@ nav:
   label: Home
 blocks:
   - type: heading
-    props:
-      level: 2
-      content: Latest posts
-  - type: collection
-    props:
-      tag: blog
-      limit: 3
+    level: 2
+    content: Latest posts
+  - type: blog
+    limit: 3
   - type: heading
-    props:
-      level: 2
-      content: My work
+    level: 2
+    content: My work
   - type: text
-    props:
-      content: A lot of my stuff is under wraps, but here’s a quick (and whitelabelled) look at what I’ve done.
+    content: A lot of my stuff is under wraps, but here’s a quick (and whitelabelled) look at what I’ve done.
   - type: work
-    props:
-      limit: 3
 ---
 
 Hello, I'm Jared and I'm a product designer based in London. The above quotes are real: in the name of transparency, I asked the people closest to me to describe my worst qualities.

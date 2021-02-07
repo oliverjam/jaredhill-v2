@@ -161,7 +161,7 @@ function Footer({ footer, socials }) {
 }
 
 const components = {
-  collection,
+  blog,
   heading,
   text,
   tags,
@@ -169,14 +169,14 @@ const components = {
 };
 
 function renderBlock(data) {
-  return (block) => {
-    const component = components[block.type];
-    if (!component) throw new Error(`Unrecognise block type: ${block.type}`);
-    return component(data, block.props);
+  return ({ type, ...props }) => {
+    const component = components[type];
+    if (!component) throw new Error(`Unrecognise block type: ${type}`);
+    return component(data, props);
   };
 }
 
-function collection(data, { tag, limit } = {}) {
+function blog(data, { tag = "blog", limit } = {}) {
   const pages = data.collections[tag];
   if (!pages) throw new Error(`Cannot find collection ${tag}`);
   return html`

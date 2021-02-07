@@ -11,7 +11,6 @@ permalink: "/blog/tags/{{ tag | slug }}/"
 eleventyComputed:
   title: "Posts tagged with '{{ tag | capitalize }}'"
   blocks:
-    - type: collection
-      props:
-        tag: "{{ tag }}"
+    - type: blog
+      tag: "{{ tag }}"
 ---
