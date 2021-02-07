@@ -178,18 +178,21 @@ function collection(data, { tag, limit } = {}) {
   if (!pages) throw new Error(`Cannot find collection ${tag}`);
   return html`
     <ul role="list" class="grid gap-xl">
-      ${[...pages, ...pages, ...pages, ...pages, ...pages].slice(0, limit).map(
-        ({ url, data }) => html`
-          <li class="vstack gap-sm">
-            <a href=${url} class="td-hover">${data.title}</a>
-            ${PostMeta({
-              date: data.date,
-              seconds: getReadingTime(data.content),
-              className: "color-text-light fz-md",
-            })}
-          </li>
-        `
-      )}
+      ${pages
+        .slice(0, limit)
+        .reverse()
+        .map(
+          ({ url, data }) => html`
+            <li class="vstack gap-sm">
+              <a href=${url} class="td-hover leading-sm">${data.title}</a>
+              ${PostMeta({
+                date: data.date,
+                seconds: getReadingTime(data.content),
+                className: "color-text-light fz-md",
+              })}
+            </li>
+          `
+        )}
     </ul>
   `;
 }
