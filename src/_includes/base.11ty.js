@@ -163,7 +163,9 @@ function Footer({ footer, socials }) {
 const components = {
   collection,
   heading,
+  text,
   tags,
+  work,
 };
 
 function renderBlock(data) {
@@ -204,6 +206,10 @@ function heading(_data, { level = 2, content }) {
   `;
 }
 
+function text(_data, { content }) {
+  return html` <p>${content}</p> `;
+}
+
 function tags(data, { filter = [] } = {}) {
   const allTags = Object.entries(data.collections).filter(
     ([tag]) => !filter.includes(tag)
@@ -219,6 +225,29 @@ function tags(data, { filter = [] } = {}) {
           </li>
         `
       )}
+    </ul>
+  `;
+}
+
+function work(data, { limit } = {}) {
+  const pages = data.collections.work;
+  if (!pages?.length)
+    throw new Error(`Cannot find any pages tagged with 'work'`);
+  return html`
+    <ul role="list" class="grid gap-xl">
+      ${pages
+        .slice(0, limit)
+        .reverse()
+        .map(
+          ({ url, data }) => html`
+            <li class="vstack gap-sm">
+              <h3>
+                <a href=${url} class="td-hover leading-sm">${data.title}</a>
+              </h3>
+              <img src=${url + data.cover} alt="" />
+            </li>
+          `
+        )}
     </ul>
   `;
 }
