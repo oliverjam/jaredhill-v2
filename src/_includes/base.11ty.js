@@ -44,15 +44,18 @@ function googleFont(name) {
   return `https://fonts.googleapis.com/css2?family=${name}:ital,wght@0,400;0,600;1,400;1,600&display=swap`;
 }
 
-function Header({ page, nav = [], socials = {} }) {
+function Header({ page, navigation = [], socials = {} }) {
   return html`
-    <header class="hstack wrap gap-xl pad-gutter fz-md bg-primary">
+    <header
+      class="hstack wrap gap-xl fz-md bg-primary"
+      style="padding: 2rem var(--gutter)"
+    >
       <a href="/">
         <img src="/assets/icons/logo.svg" alt="Home" width="32" height="32" />
       </a>
       <nav class="grow hstack wrap jc-between">
         <ul role="list" class="hstack">
-          ${nav.map(Link(page))}
+          ${navigation.map(Link(page))}
         </ul>
         <ul role="list" class="hstack hide-on-mobile">
           ${Object.entries(socials).map(
