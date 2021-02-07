@@ -177,7 +177,7 @@ function collection(data, { tag, limit } = {}) {
   const pages = data.collections[tag];
   if (!pages) throw new Error(`Cannot find collection ${tag}`);
   return html`
-    <ul role="list" class="hstack wrap">
+    <ul role="list" class="grid gap-xl">
       ${[...pages, ...pages, ...pages, ...pages, ...pages].slice(0, limit).map(
         ({ url, data }) => html`
           <li class="vstack gap-sm">

@@ -14,36 +14,6 @@
   align-content: start;
 }
 
-.hstack.gap-none,
-.vstack.gap-none {
-  gap: 0;
-}
-
-.hstack.gap-sm,
-.vstack.gap-sm {
-  gap: 0.5rem;
-}
-
-.hstack.gap-md,
-.vstack.gap-md {
-  gap: 1rem;
-}
-
-.hstack.gap-lg,
-.vstack.gap-lg {
-  gap: 1.5rem;
-}
-
-.hstack.gap-xl,
-.vstack.gap-xl {
-  gap: 2rem;
-}
-
-.hstack.gap-xxl,
-.vstack.gap-xxl {
-  gap: 4rem;
-}
-
 .center {
   max-width: var(--measure, 80rem);
   margin-left: auto;
@@ -75,4 +45,10 @@
   height: 100%;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
 }

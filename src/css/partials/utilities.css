@@ -8,6 +8,36 @@
   width: 1px;
 }
 
+.gap-none,
+.gap-none {
+  gap: 0;
+}
+
+.gap-sm,
+.gap-sm {
+  gap: 0.5rem;
+}
+
+.gap-md,
+.gap-md {
+  gap: 1rem;
+}
+
+.gap-lg,
+.gap-lg {
+  gap: 1.5rem;
+}
+
+.gap-xl,
+.gap-xl {
+  gap: 2rem;
+}
+
+.gap-xxl,
+.gap-xxl {
+  gap: 4rem;
+}
+
 .pad-sm {
   padding: 0.5rem;
 }
