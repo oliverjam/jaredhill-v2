@@ -162,6 +162,7 @@ function Footer({ footer, socials }) {
 
 const components = {
   collection,
+  heading,
 };
 
 function renderBlock(data) {
@@ -172,12 +173,12 @@ function renderBlock(data) {
   };
 }
 
-function collection(data, { tag } = {}) {
+function collection(data, { tag, limit } = {}) {
   const pages = data.collections[tag];
   if (!pages) throw new Error(`Cannot find collection ${tag}`);
   return html`
     <ul role="list" class="hstack wrap">
-      ${pages.map(
+      ${[...pages, ...pages, ...pages, ...pages, ...pages].slice(0, limit).map(
         ({ url, data }) => html`
           <li class="vstack gap-sm">
             <a href=${url} class="td-hover">${data.title}</a>
@@ -190,5 +191,11 @@ function collection(data, { tag } = {}) {
         `
       )}
     </ul>
+  `;
+}
+
+function heading(_data, { level = 2, content }) {
+  return html`
+    <h${level}>${content}</h${level}>
   `;
 }
