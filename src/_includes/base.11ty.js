@@ -185,13 +185,15 @@ function blog(data, { tag = "blog", limit } = {}) {
         .reverse()
         .map(
           ({ url, data }) => html`
-            <li class="vstack gap-sm">
-              <a href=${url} class="td-hover leading-sm">${data.title}</a>
-              ${PostMeta({
-                date: data.date,
-                seconds: getReadingTime(data.content),
-                className: "color-text-light fz-md",
-              })}
+            <li ${!limit && `class="list-separator"`}>
+              <div class="vstack gap-sm">
+                <a href=${url} class="td-hover leading-sm">${data.title}</a>
+                ${PostMeta({
+                  date: data.date,
+                  seconds: getReadingTime(data.content),
+                  className: "color-text-light fz-md",
+                })}
+              </div>
             </li>
           `
         )}

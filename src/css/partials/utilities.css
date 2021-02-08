@@ -158,9 +158,3 @@
 .color-text-light {
   color: var(--textLight);
 }
-
-.pill {
-  display: block;
-  padding: 0.5rem 1.25rem;
-  border-radius: 99rem;
-}

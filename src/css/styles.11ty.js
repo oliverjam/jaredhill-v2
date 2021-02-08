@@ -6,7 +6,13 @@ exports.data = {
   permalink: "css/styles.css",
 };
 
-const files = ["reset.css", "global.css", "layout.css", "utilities.css"];
+const files = [
+  "reset.css",
+  "global.css",
+  "layout.css",
+  "components.css",
+  "utilities.css",
+];
 
 exports.render = async ({ config }) => {
   const contents = await Promise.all(
