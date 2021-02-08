@@ -8,6 +8,7 @@ pagination:
     - blog
     - work
 permalink: "/blog/tags/{{ tag | slug }}/"
+measure: wide
 eleventyComputed:
   title: "Posts tagged with '{{ tag | capitalize }}'"
   blocks:

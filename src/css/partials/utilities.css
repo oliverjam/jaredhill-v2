@@ -123,12 +123,6 @@
   text-align: center;
 }
 
-.w-content {
-  max-width: var(--measure);
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mh-25 {
   min-height: 25vh;
 }

@@ -8,6 +8,7 @@ exports.render = (data) => {
     navigation,
     date,
     readingTime,
+    measure = "narrow",
     blocks,
     content,
   } = data;
@@ -29,10 +30,8 @@ exports.render = (data) => {
           date,
           seconds: readingTime && getReadingTime(content),
         })}
-        <main class="pad-gutter">
-          <div class="w-content flow">
-            ${blocks ? blocks.map(renderBlock(data)) : content}
-          </div>
+        <main class="layout ${measure} flow">
+          ${blocks ? blocks.map(renderBlock(data)) : content}
         </main>
         ${Footer({ footer: config.site.footer, socials: config.site.socials })}
       </body>
@@ -97,8 +96,8 @@ function Link(page) {
 
 function Title({ title, date, seconds }) {
   return html`
-    <header class="mh-25 cover pad-xl tac bg-primary">
-      <div class="w-content vstack ji-center">
+    <header class="mh-25 cover pad-gutter tac bg-primary">
+      <div class="center narrow vstack ji-center">
         <h1>${title}</h1>
         ${date && seconds && PostMeta({ date, seconds })}
       </div>
@@ -140,8 +139,8 @@ function getReadingTime(content) {
 function Footer({ footer, socials }) {
   return html`
     <footer>
-      <div class="pad-xxl bg-primary leading-sm">
-        <div class="w-content vstack">
+      <div class="pad-gutter bg-primary leading-sm">
+        <div class="center narrow vstack">
           <h2>${footer.contact.title}</h2>
           <p>${footer.contact.body}</p>
         </div>
@@ -152,7 +151,7 @@ function Footer({ footer, socials }) {
         className: "hide-above-mobile pad-lg gap-xxl jc-center",
       })}
       <div class="pad-xl tac invert fz-md">
-        <div class="w-content">
+        <div class="center narrow">
           <p>${footer.credit}</p>
         </div>
       </div>

@@ -1,6 +1,7 @@
 ---
 title: Home
 permalink: /
+measure: wide
 nav:
   order: 1
   label: Home
