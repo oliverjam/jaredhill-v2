@@ -9,7 +9,7 @@ tags:
 
 This is an intro!!!
 
-### Big fuckin heading
+# Big fuckin heading
 
 ck before Graphical User Interfaces (or GUIs) were invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal) was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room.
 
@@ -17,6 +17,10 @@ ck before Graphical User Interfaces (or GUIs) were invented a [terminal](https:/
 
 Way back before Graphical User Interfaces (or GUIs) were invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal) was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room.
 
-# Even smaller one
+### Even smaller one
 
 Way back before Graphical User Interfaces (or GUIs) were invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal) was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room.
+
+#### Testing H4
+##### Testing H5
+###### Testing H6
