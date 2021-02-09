@@ -4,6 +4,9 @@
   functions = "backend"
   publish = "_site"
 
+[build.environment]
+  NODE_VERSION = 14
+
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/master/docs/netlify-dev.md#project-detection
   #[dev]
