@@ -8,6 +8,7 @@ exports.render = (data) => {
     navigation,
     date,
     readingTime,
+    padding = true,
     measure = "narrow",
     blocks,
     content,
@@ -30,7 +31,7 @@ exports.render = (data) => {
           date,
           seconds: readingTime && getReadingTime(content),
         })}
-        <main class="layout ${measure} flow">
+        <main class="layout ${padding && "py-gutter"} ${measure} flow">
           ${blocks ? blocks.map(renderBlock(data)) : content}
         </main>
         ${Footer({ footer: config.site.footer, socials: config.site.socials })}
@@ -162,6 +163,7 @@ function Footer({ footer, socials }) {
 const components = {
   blog,
   heading,
+  section,
   text,
   tags,
   work,
@@ -171,6 +173,11 @@ function renderBlock(data) {
   return ({ type, ...props }) => {
     const component = components[type];
     if (!component) throw new Error(`Unrecognise block type: ${type}`);
+    if (Array.isArray(props.content)) {
+      props.content = props.content.map(renderBlock(data));
+    } else if (typeof props.content === "object") {
+      props.content = renderBlock(data)(props.content);
+    }
     return component(data, props);
   };
 }
@@ -198,6 +205,14 @@ function blog(data, { tag = "blog", limit } = {}) {
           `
         )}
     </ul>
+  `;
+}
+
+function section(_data, { bg = "white", content }) {
+  return html`
+    <section class="layout--full layout--inherit py-gutter flow bg-${bg}">
+      ${content}
+    </section>
   `;
 }
 

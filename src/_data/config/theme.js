@@ -15,8 +15,9 @@ exports.colors = {
   alternate: palette.lightOrange,
   text: palette.textGrey,
   textLight: palette.textGreyLight,
-  bg: palette.bgGrey,
-  bgMid: palette.lighterGrey,
+  "bg-white": palette.white,
+  "bg-grey": palette.bgGrey,
+  "bg-mid": palette.lighterGrey,
   white: palette.white,
 };
 

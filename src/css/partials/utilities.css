@@ -62,6 +62,11 @@
   padding: var(--gutter);
 }
 
+.py-gutter {
+  padding-top: var(--gutter);
+  padding-bottom: var(--gutter);
+}
+
 .fz-sm {
   font-size: 0.875rem;
 }
@@ -110,13 +115,21 @@
   background-color: var(--primary);
 }
 
+.bg-white {
+  background-color: var(--bg-white);
+}
+
+.bg-grey {
+  background-color: var(--bg-grey);
+}
+
 .bg-mid {
-  background-color: var(--bgMid);
+  background-color: var(--bg-mid);
 }
 
 .invert {
   background-color: var(--text);
-  color: var(--bg);
+  color: var(--bg-white);
 }
 
 .tac {

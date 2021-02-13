@@ -66,8 +66,6 @@
     var(--spacer)
     var(--gutter)
     [full-end];
-  padding-top: var(--gutter);
-  padding-bottom: var(--gutter);
 }
 
 .layout.wide {
@@ -75,6 +73,19 @@
 }
 
 .layout > * {
+  grid-column: content;
+}
+
+.layout--full {
+  grid-column: full;
+}
+
+.layout--inherit {
+  display: grid;
+  grid-template-columns: inherit;
+}
+
+.layout--inherit > * {
   grid-column: content;
 }
 
