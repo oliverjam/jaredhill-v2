@@ -6,6 +6,7 @@ exports.render = (data) => {
     config,
     page,
     navigation,
+    intro,
     date,
     readingTime,
     padding = true,
@@ -25,12 +26,14 @@ exports.render = (data) => {
         <link href="${googleFont(config.theme.fonts.body)}" rel="stylesheet" />
       </head>
       <body class="page">
-        ${Header({ page, navigation, socials: config.site.socials })}
-        ${Title({
-          title,
-          date,
-          seconds: readingTime && getReadingTime(content),
-        })}
+        ${SiteHeader({ page, navigation, socials: config.site.socials })}
+        ${intro
+          ? Intro(intro)
+          : Title({
+              title,
+              date,
+              seconds: readingTime && getReadingTime(content),
+            })}
         <main class="layout ${padding && "py-gutter"} ${measure} flow">
           ${blocks ? blocks.map(renderBlock(data)) : content}
         </main>
@@ -44,7 +47,7 @@ function googleFont(name) {
   return `https://fonts.googleapis.com/css2?family=${name}:ital,wght@0,400;0,600;1,400;1,600&display=swap`;
 }
 
-function Header({ page, navigation = [], socials = {} }) {
+function SiteHeader({ page, navigation = [], socials = {} }) {
   return html`
     <header
       class="hstack wrap gap-xl fz-md bg-primary"
@@ -101,6 +104,32 @@ function Title({ title, date, seconds }) {
       <div class="center narrow vstack ji-center">
         <h1>${title}</h1>
         ${date && seconds && PostMeta({ date, seconds })}
+      </div>
+    </header>
+  `;
+}
+
+function Intro({ quotes = [], description }) {
+  return html`
+    <header class="mh-25 cover pad-gutter bg-primary">
+      <div class="center narrow vstack gap-xl">
+        <ul role="list">
+          ${quotes.map(
+            (q) => html`
+              <li>
+                <blockquote class="vstack font-sans fw-500">
+                  <div class="highlight">
+                    <p class="fz-xxl">“${q.body}”</p>
+                  </div>
+                  <div class="highlight js-end">
+                    <cite class="">- ${q.author}</cite>
+                  </div>
+                </blockquote>
+              </li>
+            `
+          )}
+        </ul>
+        <p style="white-space: break-spaces">${description}</p>
       </div>
     </header>
   `;

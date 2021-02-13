@@ -16,3 +16,12 @@
   align-self: end;
   border-bottom: 0.125rem solid var(--alternate);
 }
+
+.highlight > * {
+  display: inline;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 0.5rem;
+  line-height: 1.9;
+  background-color: var(--bg-white);
+}
