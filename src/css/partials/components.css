@@ -25,3 +25,21 @@
   line-height: 1.9;
   background-color: var(--bg-white);
 }
+
+animated-carousel {
+  display: grid; /* this fixes overflow for some reason? */
+}
+
+animated-carousel ul {
+  /* puts every child into a full-width column */
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+animated-carousel li {
+  scroll-snap-align: center;
+}

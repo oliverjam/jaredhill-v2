@@ -13,6 +13,7 @@ exports.render = (data) => {
     measure = "narrow",
     blocks,
     content,
+    js = [],
   } = data;
   return html`
     <!DOCTYPE html>
@@ -38,6 +39,11 @@ exports.render = (data) => {
           ${blocks ? blocks.map(renderBlock(data)) : content}
         </main>
         ${Footer({ footer: config.site.footer, socials: config.site.socials })}
+        ${js.map(
+          (name) => html`
+            <script src="/assets/js/${name}.js" type="module"></script>
+          `
+        )}
       </body>
     </html>
   `;
@@ -113,22 +119,24 @@ function Intro({ quotes = [], description }) {
   return html`
     <header class="mh-25 cover pad-gutter bg-primary">
       <div class="center narrow vstack gap-xl">
-        <ul role="list">
-          ${quotes.map(
-            (q) => html`
-              <li>
-                <blockquote class="vstack font-sans fw-500">
-                  <div class="highlight">
-                    <p class="fz-xxl">“${q.body}”</p>
-                  </div>
-                  <div class="highlight js-end">
-                    <cite class="">- ${q.author}</cite>
-                  </div>
-                </blockquote>
-              </li>
-            `
-          )}
-        </ul>
+        <animated-carousel>
+          <ul role="list">
+            ${quotes.map(
+              (quote, index) => html`
+                <li style="--i: ${index}">
+                  <blockquote class="vstack font-sans fw-500">
+                    <div class="highlight">
+                      <p class="fz-xxl">“${quote.body}”</p>
+                    </div>
+                    <div class="highlight">
+                      <cite class="">- ${quote.author}</cite>
+                    </div>
+                  </blockquote>
+                </li>
+              `
+            )}
+          </ul>
+        </animated-carousel>
         <p style="white-space: break-spaces">${description}</p>
       </div>
     </header>
