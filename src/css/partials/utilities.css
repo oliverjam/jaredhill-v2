@@ -153,8 +153,16 @@
   color: var(--bg-white);
 }
 
-.tac {
+.text-align\:left {
+  text-align: left;
+}
+
+.text-align\:center {
   text-align: center;
+}
+
+.text-align\:right {
+  text-align: right;
 }
 
 .mh-25 {
@@ -191,4 +199,8 @@
 
 .color-text-light {
   color: var(--textLight);
+}
+
+.width\:full {
+  width: 100%;
 }

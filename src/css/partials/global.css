@@ -10,6 +10,15 @@ body {
   color: var(--text);
 }
 
+:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px var(--alternate);
+}
+
+:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
 h1,
 h2,
 h3,
@@ -38,4 +47,17 @@ nav a[aria-current] {
   text-decoration-skip-ink: none;
   text-decoration-thickness: 2.5px;
   text-underline-offset: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 1rem;
+}
+
+button {
+  border: 0;
 }

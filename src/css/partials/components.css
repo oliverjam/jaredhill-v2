@@ -43,3 +43,9 @@ animated-carousel ul {
 animated-carousel li {
   scroll-snap-align: center;
 }
+
+.input {
+  border: 1px solid var(--textLight);
+  border-radius: 4px;
+  line-height: 1;
+}

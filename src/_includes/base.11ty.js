@@ -106,7 +106,7 @@ function Link(page) {
 
 function Title({ title, date, seconds }) {
   return html`
-    <header class="mh-25 cover pad-gutter tac bg-primary">
+    <header class="mh-25 cover pad-gutter text-align:center bg-primary">
       <div class="center narrow vstack ji-center">
         <h1>${title}</h1>
         ${date && seconds && PostMeta({ date, seconds })}
@@ -204,6 +204,9 @@ const components = {
   text,
   tags,
   work,
+  form,
+  input,
+  button,
 };
 
 function renderBlock(data) {
@@ -259,8 +262,8 @@ function heading(_data, { level = 2, content }) {
   `;
 }
 
-function text(_data, { content }) {
-  return html` <p>${content}</p> `;
+function text(_data, { align, content }) {
+  return html`<p ${align && `class="text-align:${align}"`}>${content}</p>`;
 }
 
 function tags(data, { filter = [] } = {}) {
@@ -300,5 +303,48 @@ function work(data) {
         `
       )}
     </ul>
+  `;
+}
+
+function form(_data, { id, content }) {
+  return html`
+    <form name="${id}" class="flow font-sans" data-netlify="true">
+      ${content}
+    </form>
+  `;
+}
+
+function input(_data, { label, hint, variant = "text" }) {
+  const id = label.toLowerCase().replace(/\s/, "-");
+  const styles = "pad-sm bg-grey fz-md input";
+  return html`
+    <div class="vstack gap-sm">
+      <label class="fz-md fw-500" for="${id}">${label}</label>
+      ${variant === "long"
+        ? html`
+            <textarea
+              id="${id}"
+              name="${id}"
+              placeholder="${hint}"
+              class="${styles}"
+              rows="4"
+            ></textarea>
+          `
+        : html`
+            <input
+              type="${variant}"
+              id="${id}"
+              name="${id}"
+              placeholder="${hint}"
+              class="${styles}"
+            />
+          `}
+    </div>
+  `;
+}
+
+function button(_data, { label }) {
+  return html`
+    <button class="pill width:full pad-md fw-500 bg-primary">${label}</button>
   `;
 }
