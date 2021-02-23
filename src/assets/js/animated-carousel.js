@@ -156,7 +156,6 @@ class AnimatedCarousel extends HTMLElement {
   play() {
     this.interval = setInterval(() => {
       const { scrollLeft, scrollWidth, clientWidth } = this.scroller;
-      console.log({ scrollLeft, scrollWidth, clientWidth });
       // force the element to scroll one column along
       // (clientWidth is 100% of the visible container)
       // the modulus forces it back to start after the last slide
