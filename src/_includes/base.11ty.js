@@ -306,9 +306,14 @@ function work(data) {
   `;
 }
 
-function form(_data, { id, content }) {
+function form(_data, { id, success, content }) {
   return html`
-    <form name="${id}" class="flow font-sans" data-netlify="true">
+    <form
+      name="${id}"
+      action="${success}"
+      class="flow font-sans"
+      data-netlify="true"
+    >
       ${content}
     </form>
   `;
