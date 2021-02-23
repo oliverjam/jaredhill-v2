@@ -116,9 +116,8 @@ class AnimatedCarousel extends HTMLElement {
 
   connectedCallback() {
     const motionQuery = window.matchMedia("(prefers-reduced-motion)");
-    this.items = this.querySelectorAll("li");
+    this.scroller = this.querySelector("ul");
     this.button = this.shadowRoot.querySelector("button");
-    this.index = 0;
 
     const checkMotion = () => {
       this.state = motionQuery.matches ? "paused" : "playing";
@@ -156,8 +155,14 @@ class AnimatedCarousel extends HTMLElement {
 
   play() {
     this.interval = setInterval(() => {
-      this.index = (this.index + 1) % this.items.length;
-      this.items[this.index].scrollIntoView({ block: "nearest" });
+      const { scrollLeft, scrollWidth, clientWidth } = this.scroller;
+      console.log({ scrollLeft, scrollWidth, clientWidth });
+      // force the element to scroll one column along
+      // (clientWidth is 100% of the visible container)
+      // the modulus forces it back to start after the last slide
+      // the +1 is because browsers round these values
+      // so at certain viewports we end up 1 pixel short on the last slide
+      this.scroller.scrollLeft = (scrollLeft + clientWidth + 1) % scrollWidth;
     }, 4000);
   }
 
