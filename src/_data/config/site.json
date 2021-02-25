@@ -1,7 +1,10 @@
 {
   "title": "Jared Hill",
+  "description": "Hello, I’m Jared and I'm a product designer based in London",
+  "base_url": "https://jaredhill-v2.netlify.app",
   "socials": {
     "twitter": {
+      "user": "jamchiller",
       "url": "https://twitter.com/jamchiller",
       "icon": "/assets/icons/twitter.svg"
     },

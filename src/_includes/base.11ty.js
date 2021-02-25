@@ -4,6 +4,7 @@ exports.render = (data) => {
   const {
     title,
     config,
+    og,
     page,
     navigation,
     intro,
@@ -15,19 +16,29 @@ exports.render = (data) => {
     content,
     js = [],
   } = data;
+  const { site, theme } = config;
   return html`
     <!DOCTYPE html>
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>${title}${title && " | "}${config.site.title}</title>
+        <title>${title}${title && " | "}${site.title}</title>
         <link rel="stylesheet" href="/css/styles.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="${googleFont(config.theme.fonts.body)}" rel="stylesheet" />
+        <link href="${googleFont(theme.fonts.body)}" rel="stylesheet" />
+
+        <meta name="description" content="${site.description}" />
+        <meta property="og:title" content="${title}" />
+        <meta property="og:description" content="${site.description}" />
+        <meta property="og:image" content="${site.base_url}/assets/og/${og}" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="${site.socials.twitter.user}" />
+        <meta name="keywords" content="blog, tech, design, ux, ui" />
       </head>
       <body class="page">
-        ${SiteHeader({ page, navigation, socials: config.site.socials })}
+        ${SiteHeader({ page, navigation, socials: site.socials })}
         ${intro
           ? Intro(intro)
           : Title({
@@ -38,7 +49,7 @@ exports.render = (data) => {
         <main class="layout ${padding && "py-gutter"} ${measure} flow">
           ${blocks ? blocks.map(renderBlock(data)) : content}
         </main>
-        ${Footer({ footer: config.site.footer, socials: config.site.socials })}
+        ${Footer({ footer: site.footer, socials: site.socials })}
         ${js.map(
           (name) => html`
             <script src="/assets/js/${name}.js" type="module"></script>
