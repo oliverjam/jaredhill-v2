@@ -4,6 +4,10 @@
   border-radius: 99rem;
 }
 
+.pill.lg {
+  padding: 1rem 1.75rem;
+}
+
 .list-separator {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -48,4 +52,54 @@ animated-carousel li {
   border: 1px solid var(--textLight);
   border-radius: 4px;
   line-height: 1;
+}
+
+.work {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 6rem auto 6rem;
+  column-gap: clamp(1rem, 1rem + 2vw, 2rem);
+  align-items: stretch;
+  padding: 0 clamp(0.5rem, 0.5rem + 4vw, 4rem);
+  transform: translate(0, 0); /* stupid hack to fix bg z-index */
+}
+
+.work:nth-child(odd)::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  bottom: 1rem;
+  left: 0;
+  border-radius: 1rem;
+  background-color: var(--alternate);
+  z-index: -10;
+}
+
+.work > div {
+  grid-row: 2 / 3;
+}
+
+.work > img {
+  grid-row: 1 / -1;
+  object-fit: cover;
+}
+
+.work:nth-child(odd) > img {
+  order: -1;
+}
+
+.block-link {
+  text-decoration: none;
+}
+
+.block-link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }

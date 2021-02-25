@@ -302,13 +302,21 @@ function work(data) {
     throw new Error(`Cannot find any pages tagged with 'work'`);
   const featured = pages.filter((page) => page.data.featured);
   return html`
-    <ul role="list" class="grid gap-xl">
+    <ul role="list" class="vstack gap-xxl">
       ${featured.map(
         ({ url, data }) => html`
-          <li class="vstack gap-sm">
-            <h3>
-              <a href=${url} class="td-hover leading-sm">${data.title}</a>
-            </h3>
+          <li class="work">
+            <div class="vstack leading-sm ji-start">
+              <h3 class="font-sans">
+                <a href="${url}" class="block-link">${data.title}</a>
+              </h3>
+              <p class="hide-on-mobile">${data.description}</p>
+              <span
+                class="hide-on-mobile pill lg bg-white-50 fz-lg fw-600 font-sans"
+              >
+                View project<span aria-hidden="true"> ›</span>
+              </span>
+            </div>
             <img src=${url + data.cover} alt="" />
           </li>
         `

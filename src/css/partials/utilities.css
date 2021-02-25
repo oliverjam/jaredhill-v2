@@ -13,29 +13,28 @@
   gap: 0;
 }
 
-.gap-sm,
 .gap-sm {
   gap: 0.5rem;
 }
 
-.gap-md,
 .gap-md {
   gap: 1rem;
 }
 
-.gap-lg,
 .gap-lg {
   gap: 1.5rem;
 }
 
-.gap-xl,
 .gap-xl {
   gap: 2rem;
 }
 
-.gap-xxl,
 .gap-xxl {
   gap: 4rem;
+}
+
+.gap-xxxl {
+  gap: 8rem;
 }
 
 .pad-sm {
@@ -116,6 +115,10 @@
   justify-content: center;
 }
 
+.ji-start {
+  justify-items: start;
+}
+
 .ji-center {
   justify-items: center;
 }
@@ -146,6 +149,10 @@
 
 .bg-mid {
   background-color: var(--bg-mid);
+}
+
+.bg-white-50 {
+  background-color: hsla(0, 0%, 100%, 50%);
 }
 
 .invert {
