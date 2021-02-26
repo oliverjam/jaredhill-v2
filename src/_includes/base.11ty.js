@@ -26,7 +26,7 @@ exports.render = (data) => {
         <title>${title}${title && " | "}${site.title}</title>
         <link rel="stylesheet" href="/css/styles.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="${googleFont(theme.fonts.body)}" rel="stylesheet" />
+        <link href="${googleFonts(theme.fonts)}" rel="stylesheet" />
 
         <meta name="description" content="${site.description}" />
         <meta property="og:title" content="${title}" />
@@ -60,8 +60,10 @@ exports.render = (data) => {
   `;
 };
 
-function googleFont(name) {
-  return `https://fonts.googleapis.com/css2?family=${name}:ital,wght@0,400;0,600;1,400;1,600&display=swap`;
+function googleFonts({ body, heading }) {
+  const bodyFont = `family=${body}:ital,wght@0,400;0,600;1,400;1,600`;
+  const headingFont = `family=${heading}:wght@700`;
+  return `https://fonts.googleapis.com/css2?${bodyFont}&${headingFont}&display=swap`;
 }
 
 function SiteHeader({ page, navigation = [], socials = {} }) {

@@ -31,4 +31,5 @@ exports.sizes = {
 
 exports.fonts = {
   body: "Spectral",
+  heading: "Lato",
 };
