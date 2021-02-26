@@ -190,7 +190,7 @@ function Footer({ footer, socials }) {
     <footer>
       <div class="pad-gutter bg-primary leading-sm">
         <div class="center narrow vstack">
-          <h2>${footer.contact.title}</h2>
+          <h2 class="fz-inherit">${footer.contact.title}</h2>
           <p>${footer.contact.body}</p>
         </div>
       </div>
@@ -267,9 +267,9 @@ function section(_data, { bg = "white", content }) {
   `;
 }
 
-function heading(_data, { level = 2, content }) {
+function heading(_data, { level = 2, size = "inherit", content }) {
   return html`
-    <h${level}>${content}</h${level}>
+    <h${level} class="fz-${size}">${content}</h${level}>
   `;
 }
 
@@ -307,7 +307,7 @@ function work(data) {
         ({ url, data }) => html`
           <li class="work">
             <div class="vstack leading-sm ji-start">
-              <h3 class="font-sans">
+              <h3 class="font-sans fz-xxl">
                 <a href="${url}" class="block-link">${data.title}</a>
               </h3>
               <p class="hide-on-mobile">${data.description}</p>

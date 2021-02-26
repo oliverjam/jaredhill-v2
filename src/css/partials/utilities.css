@@ -86,6 +86,10 @@
   font-size: 2rem;
 }
 
+.fz-inherit {
+  font-size: inherit;
+}
+
 .fw-600 {
   font-weight: 600;
 }
