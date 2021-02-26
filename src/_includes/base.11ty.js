@@ -317,7 +317,9 @@ function work(data) {
                 View project<span aria-hidden="true"> ›</span>
               </span>
             </div>
-            <img src=${url + data.cover} alt="" />
+            <div class="work__img">
+              <img src=${url + data.cover} alt="" />
+            </div>
           </li>
         `
       )}

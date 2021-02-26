@@ -56,37 +56,39 @@ animated-carousel li {
 
 .work {
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 6rem auto 6rem;
+  display: flex;
   column-gap: clamp(1rem, 1rem + 2vw, 2rem);
-  align-items: stretch;
-  padding: 0 clamp(0.5rem, 0.5rem + 4vw, 4rem);
+  column-gap: var(--gutter);
+  align-items: center;
+  padding: 0 clamp(1rem, 1rem + 4vw, 4rem);
+  padding: 0 var(--gutter);
   transform: translate(0, 0); /* stupid hack to fix bg z-index */
 }
 
 .work:nth-child(odd)::after {
   content: "";
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   right: 0;
-  bottom: 1rem;
+  bottom: 2rem;
   left: 0;
   border-radius: 1rem;
   background-color: var(--alternate);
   z-index: -10;
 }
 
-.work > div {
-  grid-row: 2 / 3;
+.work__img {
+  flex: 1 0 40%;
+  aspect-ratio: 2 / 3;
 }
 
-.work > img {
-  grid-row: 1 / -1;
+.work__img > img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
-.work:nth-child(odd) > img {
+.work:nth-child(odd) .work__img {
   order: -1;
 }
 
