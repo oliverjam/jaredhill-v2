@@ -26,7 +26,7 @@ exports.sizes = {
   "measure-wide": "70rem",
   "measure-narrow": "55ch",
   "font-body-min": "1rem",
-  "font-body-max": "1.5rem",
+  "font-body-max": "1.4rem",
 };
 
 exports.fonts = {
