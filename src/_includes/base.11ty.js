@@ -75,7 +75,7 @@ function SiteHeader({ page, navigation = [], socials = {} }) {
       <a href="/">
         <img src="/assets/icons/logo.svg" alt="Home" width="32" height="32" />
       </a>
-      <nav class="grow hstack wrap jc-between">
+      <nav class="grow hstack wrap jc-between font-sans">
         <ul role="list" class="hstack">
           ${navigation.map(Link(page))}
         </ul>
