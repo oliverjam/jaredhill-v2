@@ -5,7 +5,7 @@ body {
     var(--font-body-min) + 0.5vw,
     var(--font-body-max)
   );
-  line-height: 1.6;
+  line-height: 1.5;
   background-color: var(--bg-white);
   color: var(--text);
 }
