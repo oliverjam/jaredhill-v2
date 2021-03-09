@@ -15,6 +15,7 @@ exports.render = (data) => {
     blocks,
     content,
     js = [],
+    footer = true,
   } = data;
   const { site, theme } = config;
   return html`
@@ -49,7 +50,15 @@ exports.render = (data) => {
         <main class="layout ${padding && "py-gutter"} ${measure} flow">
           ${blocks ? blocks.map(renderBlock(data)) : content}
         </main>
-        ${Footer({ footer: site.footer, socials: site.socials })}
+        <footer>
+          ${footer && Contact(site.footer.contact)}
+          ${Socials({
+            socials: site.socials,
+            size: 32,
+            className: "hide-above-mobile pad-lg gap-xxl jc-center",
+          })}
+          ${Credit(site.footer)}
+        </footer>
         ${js.map(
           (name) => html`
             <script src="/assets/js/${name}.js" type="module"></script>
@@ -187,26 +196,24 @@ function getReadingTime(content) {
   return readingTime;
 }
 
-function Footer({ footer, socials }) {
+function Contact({ title, body }) {
   return html`
-    <footer>
-      <div class="pad-gutter bg-primary leading-sm">
-        <div class="center narrow vstack">
-          <h2 class="fz-inherit">${footer.contact.title}</h2>
-          <p>${footer.contact.body}</p>
-        </div>
+    <div class="pad-gutter bg-primary leading-sm">
+      <div class="center narrow vstack">
+        <h2 class="fz-inherit">${title}</h2>
+        <p>${body}</p>
       </div>
-      ${Socials({
-        socials,
-        size: 32,
-        className: "hide-above-mobile pad-lg gap-xxl jc-center",
-      })}
-      <div class="pad-xl tac invert fz-md">
-        <div class="center narrow">
-          <p>${footer.credit}</p>
-        </div>
+    </div>
+  `;
+}
+
+function Credit({ credit }) {
+  return html`
+    <div class="pad-xl tac invert fz-md">
+      <div class="center narrow">
+        <p>${credit}</p>
       </div>
-    </footer>
+    </div>
   `;
 }
 
