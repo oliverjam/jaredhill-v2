@@ -8,10 +8,7 @@ tags:
   - rant
 ---
 
-
-## Mind your language
-
-I sometimes wonder how the design community — a group of people who pride themselves on their empathy and ability to communicate clearly — have been able to create a such an unapproachable world. For outsiders, the litany of buzzwords, methodologies and rules can at best confuse newcomers, and at worst, deceive them. I recently experienced the latter.
+I sometimes wonder how the design community — a group of people who pride themselves on their empathy and ability to communicate clearly — have been able to create a such an unapproachable profession. For outsiders, the litany of buzzwords, methodologies and rules can at best confuse newcomers, and at worst, deceive them. This article explores the latter.
 
 ## Giving the wrong impression
 
@@ -27,7 +24,7 @@ But then, I got thinking — how was this experienced front-end developer able t
 
 ## The nuance lost online
 
-Looking at the above screenshot — which includes [an article](https://www.nngroup.com/articles/first-rule-of-usability-dont-listen-to-users/) from (gasp) our beloved NNGroup — I had to wonder how, despite all our talk about dark patterns and clickbait, we still have these sweeping, generalised statements dominating the design community?
+Looking at the above screenshot — which includes [an article](https://www.nngroup.com/articles/first-rule-of-usability-dont-listen-to-users/) from (gasp) our beloved NN Group — I had to wonder how, despite all our talk about dark patterns and clickbait, we still have these sweeping, generalised statements dominating the design community?
 
 The first thing to point out is that this doesn’t happen everywhere. My experiences with actual real-life designers is great — most have a fairly good sense of nuance, using a healthy dollop of ‘it depends’ in their day-to-day design work. Designers in podcasts, books, and talks usually don’t have much trouble communicating more balanced and pragmatic opinions.
 
@@ -35,7 +32,7 @@ The places *where* this happens gives us a little clue as to *why* it does. In m
 
 ![Mr Spool is particularly infamous for his controversial hot takes.](https://cdn-images-1.medium.com/max/2400/1*Yy50J2yiQcu7ddMK8dyUrA.png)
 
-This doesn’t, however, fully explain the case of the NNGroup — surely they would be above basing the title of an article purely off its ability to attract clicks? I can only explain this by assuming that the author of the article assumed that the title would be read in the context of the article itself, where the comment would be given more nuance as the reader continues down the page. They certainly didn’t imagine the title in the context of a search results page, surrounded by a number of other articles that have also attempted the same clickbait-y trick.
+This doesn’t, however, fully explain the case of the NN Group — surely they would be above basing the title of an article purely off its ability to attract clicks? I can only explain this by assuming that the author of the article assumed that the title would be read in the context of the article itself, where the comment would be given more nuance as the reader continues down the page. They certainly didn’t imagine the title in the context of a search results page, surrounded by a number of other articles that have also attempted the same clickbaity trick.
 
 ## The easy answer: just communicate better
 
@@ -43,8 +40,8 @@ Now, I’m not going to attempt to tackle ethics in design and whether designers
 
 Which brings me to my first conclusion: people form assumptions by gleaning headlines, and if we really want to communicate well as a design community, we should design our content to fit this scenario. Meaning that we should aim to **avoid misleading or sweeping statements in article titles**.
 
-I wish that was the end of this article, and that removing clickbait-y article titles would solve the communication issues in our industry. Alas, after talking to friend, I decided to read a bit more of NNGroup article, to see how they applied nuance to the statement in the article title. Here’s the summary:
-> # *Summary: To design the best UX, pay attention to what users do, not what they say. Self-reported claims are unreliable, as are user speculations about future behavior. Users do not know what they want.*
+I wish that was the end of this article, and that removing clickbaity article titles would solve the communication issues in our industry. Alas, after talking to friend, I decided to read a bit more of NN Group article, to see how they applied nuance to the statement in the article title. Here’s the summary:
+> *Summary: To design the best UX, pay attention to what users do, not what they say. Self-reported claims are unreliable, as are user speculations about future behavior. Users do not know what they want.*
 
 “Users do not know what they want.”
 
@@ -52,7 +49,7 @@ Hmm.
 
 ## Stupid users and their dumb opinions
 
-I can forgive NNGroup for a clickbait-y title — after all, we all do it. My most successful article ever [makes indirect reference to my own diarrhoea](https://medium.com/@jamchiller/one-week-on-huel-one-small-step-for-man-one-giant-leap-for-my-bowels-a9026a48d94d) — I’m no angel.
+I can forgive NN Group for a clickbaity title — after all, we all do it. My most successful article ever [makes indirect reference to my own diarrhoea](https://medium.com/@jamchiller/one-week-on-huel-one-small-step-for-man-one-giant-leap-for-my-bowels-a9026a48d94d) — I’m no angel.
 
 However, the idea that a user ‘does not know what they want’, is in my opinion not just condescending and dismissive, but just plain wrong. Sure, in many cases this *is* true, and the idea at the core of it is right: that, where possible, we should watch watch a person does, and take what what they say with a pinch of salt. The statement itself, however, is indicative of a larger problem in design.
 
@@ -71,10 +68,11 @@ But worst of all, it’s just not empathetic. We need to have the empathy to res
 
 ## A conclusion of sorts
 
-I realise this seems like it has turned into a bit of a hit piece against NNGroup and the author of that article, who I’ve just realised is Jakob Nielsen himself (gulp). It is not intended to be, so please, don’t come after me. We all use flippant, absolutist phrases to teach, to excite, to memorise… I often do the same. That Henry Ford quote is a go-to for me when trying to convince clients to conduct further testing.
+I realise this seems like it has turned into a bit of a hit piece against NN Group and the author of that article, who I’ve just realised is Jakob Nielsen himself (gulp). It is not intended to be. We all use flippant, absolutist phrases to teach, to excite, to memorise… I often do the same. That Henry Ford quote is a go-to for me when trying to convince clients to conduct further testing.
 
 ![Only a lazy designer deals in absolutes.](https://cdn-images-1.medium.com/max/2560/1*Xf046CN2a2dcdG4zcxLqyQ.jpeg)
 
 But I think it’s incredibly important that we are aware of the effect that these over-simplifications have on junior designers and those outside the design community. And most importantly, we need to always remember to respect the user’s intelligence and creativity.
 
 *Thanks for reading! If you’re interested in UX, remember to follow me on Medium ([here](https://medium.com/@jamchiller)) and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content.*
+
