@@ -1,8 +1,9 @@
 ---
 title: Mind your language
-date: 2020-02-01
+date: 2020-03-09
 tags:
   - design
+  - community
   - ux
   - rant
 ---
@@ -56,7 +57,7 @@ I can forgive NNGroup for a clickbait-y title — after all, we all do it. My mo
 However, the idea that a user ‘does not know what they want’, is in my opinion not just condescending and dismissive, but just plain wrong. Sure, in many cases this *is* true, and the idea at the core of it is right: that, where possible, we should watch watch a person does, and take what what they say with a pinch of salt. The statement itself, however, is indicative of a larger problem in design.
 
 There’s a very overused (and potentially misattributed) quote that is often used to justify this kind of thinking:
-> # *“If I had asked people what they wanted, they would have said faster horses.” — Henry Ford*
+> *“If I had asked people what they wanted, they would have said faster horses.” — Henry Ford*
 
 Now, I’m no time traveller (working on it), but I’m sure that there were plenty of intelligent and creative people back then, who, if asked what they wanted, would have almost certainly said ‘carriages without smelly horses that can go really fast like trains’.
 

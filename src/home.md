@@ -34,9 +34,9 @@ intro:
       author: Hannah Phillips
 
   description: |
-    Hello, I’m Jared and I'm a product designer based in London. The above quotes are real: in the name of transparency, I asked the people closest to me to describe my worst qualities.
+    Hi, I’m Jared and I'm a UX designer based in London. The above quotes are real: in the name of transparency, I asked the people closest to me to describe my worst qualities.
 
-    If you still want to work with me, you can view my portfolio here.
+    If you still want to work with me, read on.
 blocks:
   - type: section
     content:
