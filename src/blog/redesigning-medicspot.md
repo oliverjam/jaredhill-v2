@@ -1,10 +1,11 @@
 ---
 title: "Redesigning MedicSpot: a case study"
-date: 2020-07-12
+date: 2017-10-27
 tags:
   - work
   - case study
   - heathcare
+  - desktop
 ---
 
 LARGE TEXT: Creating an intuitive video chat system that builds patient-doctor engagement — without getting in the way
@@ -68,7 +69,7 @@ As part of our user-centred approach, we conducted sixteen in-depth interviews w
 #### **Engaged**
 
 Doctors wanted to feel *engaged. *One of my interviewees, GP Dr Craig Thompson, said:
-> # “My main job satisfaction comes from interacting with patients and building a rapport.”
+> *“My main job satisfaction comes from interacting with patients and building a rapport.”*
 
 This sentiment was overwhelmingly shared by the cohort of doctors interviewed. The main frustration linked with this? Anything that required the doctor’s attention, or distracted the doctor, whilst they were trying to focus on the patient.
 
@@ -91,7 +92,7 @@ We realised our system, whilst providing the vast range of tools that doctors ne
 We initially thought from our contextual research that we could improve the experience for doctors by increasing efficiency, and therefore shortening consultation length.
 
 Through user research, however, we found that doctors did not so much care about the length of the consultation, but more the *quality of the consultation*. In my interview with Dr Wasif Razzaq, a current MedicSpot doctor, he said:
-> # *“A good consultation is one that flows easily, when you’re not distracted by the system, and have the time and tools to make an accurate diagnosis.”*
+> *“A good consultation is one that flows easily, when you’re not distracted by the system, and have the time and tools to make an accurate diagnosis.”*
 
 We realised that providing **convenient and efficient access to all the tools **necessary to the doctors would be of tantamount importance to the design, as well as providing an accurate diagnosis for the doctors.
 
