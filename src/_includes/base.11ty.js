@@ -295,7 +295,7 @@ function tags(data, { filter = [] } = {}) {
       ${allTags.map(
         ([tag, { length }]) => html`
           <li>
-            <a href="/blog/tags/${tag}/" class="bg-mid pill td-hover">
+            <a href="/blog/tags/${tag}/" class="pill td-hover">
               <strong>${tag}</strong> ${length}
             </a>
           </li>
@@ -323,7 +323,10 @@ function work(data, { show = "all" }) {
                 <a href="${url}" class="block-link">${data.title}</a>
               </h3>
               <p class="hide-on-mobile">${data.description}</p>
-              <span class="hide-on-mobile pill lg bg-white-50 fz-lg fw-600">
+              <span
+                class="hide-on-mobile pill lg fz-lg fw-600 work__btn"
+                style="--bg: hsla(0, 0%, 100%, 50%)"
+              >
                 View project<span aria-hidden="true"> ›</span>
               </span>
             </div>

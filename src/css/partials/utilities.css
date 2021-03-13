@@ -155,10 +155,6 @@
   background-color: var(--bg-mid);
 }
 
-.bg-white-50 {
-  background-color: hsla(0, 0%, 100%, 50%);
-}
-
 .invert {
   background-color: var(--text);
   color: var(--bg-white);
