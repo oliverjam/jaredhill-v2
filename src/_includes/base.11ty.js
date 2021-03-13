@@ -243,13 +243,13 @@ function renderBlock(data) {
 }
 
 function blog(data, { tag = "blog", limit } = {}) {
-  const pages = data.collections[tag];
+  const pages = data.collections[tag].slice();
   if (!pages) throw new Error(`Cannot find collection ${tag}`);
   return html`
     <ul role="list" class="grid gap-xl">
       ${pages
-        .slice(0, limit)
         .reverse()
+        .slice(0, limit)
         .map(
           ({ url, data }) => html`
             <li ${!limit && `class="list-separator"`}>
