@@ -243,13 +243,13 @@ function renderBlock(data) {
 }
 
 function blog(data, { tag = "blog", limit } = {}) {
-  const pages = data.collections[tag];
+  const pages = data.collections[tag].slice();
   if (!pages) throw new Error(`Cannot find collection ${tag}`);
   return html`
     <ul role="list" class="grid gap-xl">
       ${pages
-        .slice(0, limit)
         .reverse()
+        .slice(0, limit)
         .map(
           ({ url, data }) => html`
             <li ${!limit && `class="list-separator"`}>
@@ -286,23 +286,46 @@ function text(_data, { align, content }) {
   return html`<p ${align && `class="text-align:${align}"`}>${content}</p>`;
 }
 
-function tags(data, { filter = [] } = {}) {
-  const allTags = Object.entries(data.collections).filter(
-    ([tag]) => !filter.includes(tag)
-  );
+function tags(data, { filter = [], limit } = {}) {
+  const allTags = getTags(data, { filter, limit });
   return html`
     <ul role="list" class="hstack wrap">
       ${allTags.map(
-        ([tag, { length }]) => html`
+        ([tag, count]) => html`
           <li>
             <a href="/blog/tags/${tag}/" class="pill td-hover">
-              <strong>${tag}</strong> ${length}
+              <strong>${tag}</strong> ${count}
             </a>
           </li>
         `
       )}
+      ${limit &&
+      html`
+        <li>
+          <a
+            href="/blog/tags/"
+            class="pill td-hover"
+            style="--bg: transparent; border: 0"
+          >
+            All
+          </a>
+        </li>
+      `}
     </ul>
   `;
+}
+
+function getTags(data, { filter, limit }) {
+  // filter out "blog", "all" etc
+  const allTags = Object.entries(data.collections);
+  let filteredTags = [];
+  for (let [tag, { length }] of allTags) {
+    if (!filter.includes(tag)) {
+      filteredTags.push([tag, length]);
+    }
+  }
+  // sort by count e.g. [ ["sport", 3], ["case study", 1]]
+  return filteredTags.sort((a, b) => b[1] - a[1]).slice(0, limit);
 }
 
 function work(data, { show = "all" }) {

@@ -1,7 +1,7 @@
 ---
 title: Get in touch
 nav:
-  order: 5
+  order: 4
   label: Contact
 footer: false
 blocks:
