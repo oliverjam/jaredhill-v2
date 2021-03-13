@@ -198,7 +198,7 @@ function getReadingTime(content) {
 
 function Contact({ title, body }) {
   return html`
-    <div class="pad-gutter bg-primary leading-sm">
+    <div class="pad-gutter bg-primary">
       <div class="center narrow vstack">
         <h2 class="fz-inherit">${title}</h2>
         <p>${body}</p>
