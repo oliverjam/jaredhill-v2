@@ -69,6 +69,11 @@ textarea::placeholder {
   font-size: 1rem;
 }
 
-button {
+button[type="submit"] {
   border: 0;
+}
+
+form:invalid button[type="submit"] {
+  opacity: 0.6;
+  cursor: not-allowed;
 }

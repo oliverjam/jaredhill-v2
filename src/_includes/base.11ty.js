@@ -352,12 +352,14 @@ function form(_data, { id, success, content }) {
   `;
 }
 
-function input(_data, { label, hint, variant = "text" }) {
+function input(_data, { label, hint, variant = "text", required = true }) {
   const id = label.toLowerCase().replace(/\s/, "-");
   const styles = "pad-sm bg-grey fz-md input";
   return html`
     <div class="vstack gap-sm">
-      <label class="fz-md fw-500" for="${id}">${label}</label>
+      <label class="fz-md fw-500" for="${id}">
+        ${label} ${required && html`<span aria-hidden="true">*</span>`}
+      </label>
       ${variant === "long"
         ? html`
             <textarea
@@ -366,6 +368,7 @@ function input(_data, { label, hint, variant = "text" }) {
               placeholder="${hint}"
               class="${styles}"
               rows="4"
+              ${required && "required"}
             ></textarea>
           `
         : html`
@@ -375,6 +378,7 @@ function input(_data, { label, hint, variant = "text" }) {
               name="${id}"
               placeholder="${hint}"
               class="${styles}"
+              ${required && "required"}
             />
           `}
     </div>
@@ -383,6 +387,8 @@ function input(_data, { label, hint, variant = "text" }) {
 
 function button(_data, { label }) {
   return html`
-    <button class="pill width:full pad-md fw-500 bg-primary">${label}</button>
+    <button type="submit" class="pill width:full pad-md fw-500 bg-primary">
+      ${label}
+    </button>
   `;
 }
