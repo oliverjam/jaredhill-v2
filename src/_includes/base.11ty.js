@@ -323,9 +323,7 @@ function work(data, { show = "all" }) {
                 <a href="${url}" class="block-link">${data.title}</a>
               </h3>
               <p class="hide-on-mobile">${data.description}</p>
-              <span
-                class="hide-on-mobile pill lg bg-white-50 fz-lg fw-600 font-sans"
-              >
+              <span class="hide-on-mobile pill lg bg-white-50 fz-lg fw-600">
                 View project<span aria-hidden="true"> ›</span>
               </span>
             </div>
