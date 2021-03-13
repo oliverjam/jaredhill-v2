@@ -305,14 +305,17 @@ function tags(data, { filter = [] } = {}) {
   `;
 }
 
-function work(data) {
-  const pages = data.collections.work;
-  if (!pages?.length)
+function work(data, { show = "all" }) {
+  const allPages = data.collections.work;
+  if (!allPages?.length)
     throw new Error(`Cannot find any pages tagged with 'work'`);
-  const featured = pages.filter((page) => page.data.featured);
+  const pages =
+    show === "featured"
+      ? allPages.filter((page) => page.data.featured)
+      : allPages;
   return html`
     <ul role="list" class="vstack gap-xxl">
-      ${featured.map(
+      ${pages.map(
         ({ url, data }) => html`
           <li class="work">
             <div class="vstack leading-sm ji-start">

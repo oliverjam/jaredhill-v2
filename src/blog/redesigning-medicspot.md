@@ -2,9 +2,8 @@
 title: "Redesigning MedicSpot: a case study"
 date: 2017-10-27
 tags:
-  - work
   - case study
-  - heathcare
+  - healthcare
   - desktop
 ---
 
@@ -54,9 +53,9 @@ For the project, we followed the Double Diamond approach so that we’d have the
 
 To get a full understanding of the current MedicSpot process, we observed one of the doctors undertaking a video consultation using the current MedicSpot system. There were very evidently a lot of issues causing frustration during the call, at the end of which the doctor described himself as ‘stressed out.’ Our key findings were that:
 
- 1. **Issues with layout** were affecting the doctor’s pace during the consultation, including a small clinical notes box and a lot of scrolling required
+1.  **Issues with layout** were affecting the doctor’s pace during the consultation, including a small clinical notes box and a lot of scrolling required
 
- 2. **Very little access to important resources** meant that the doctor had to switch between windows during the call, breaking engagement with the patient
+2.  **Very little access to important resources** meant that the doctor had to switch between windows during the call, breaking engagement with the patient
 
 Essentially, we noticed there was a lot of **multitasking** involved during the consultation, and the system hadn’t been designed to allow for this.
 
@@ -69,7 +68,8 @@ As part of our user-centred approach, we conducted sixteen in-depth interviews w
 #### **Engaged**
 
 Doctors wanted to feel *engaged. *One of my interviewees, GP Dr Craig Thompson, said:
-> *“My main job satisfaction comes from interacting with patients and building a rapport.”*
+
+> _“My main job satisfaction comes from interacting with patients and building a rapport.”_
 
 This sentiment was overwhelmingly shared by the cohort of doctors interviewed. The main frustration linked with this? Anything that required the doctor’s attention, or distracted the doctor, whilst they were trying to focus on the patient.
 
@@ -79,7 +79,7 @@ We realised that the new system needed to add a **‘personal touch**’ for the
 
 #### Intuitive
 
-Doctors wanted their systems to be *intuitive*.
+Doctors wanted their systems to be _intuitive_.
 
 We found that the current state of IT in the medical world is quite dire. Doctors were very vocal in their complaints, saying systems were complicated, overly-governed and difficult to learn and use.
 
@@ -91,8 +91,9 @@ We realised our system, whilst providing the vast range of tools that doctors ne
 
 We initially thought from our contextual research that we could improve the experience for doctors by increasing efficiency, and therefore shortening consultation length.
 
-Through user research, however, we found that doctors did not so much care about the length of the consultation, but more the *quality of the consultation*. In my interview with Dr Wasif Razzaq, a current MedicSpot doctor, he said:
-> *“A good consultation is one that flows easily, when you’re not distracted by the system, and have the time and tools to make an accurate diagnosis.”*
+Through user research, however, we found that doctors did not so much care about the length of the consultation, but more the _quality of the consultation_. In my interview with Dr Wasif Razzaq, a current MedicSpot doctor, he said:
+
+> _“A good consultation is one that flows easily, when you’re not distracted by the system, and have the time and tools to make an accurate diagnosis.”_
 
 We realised that providing **convenient and efficient access to all the tools **necessary to the doctors would be of tantamount importance to the design, as well as providing an accurate diagnosis for the doctors.
 
@@ -116,22 +117,23 @@ To understand this, we built an experience map depicting Dr Patel’s current jo
 
 ![](https://cdn-images-1.medium.com/max/8612/1*OpUCExqv1I5DQgsPJ74CRw.jpeg)
 
-Of note is the dip in mood when the doctor begins the consultation and is met by a number of challenges, including the patient *not following instructions*, the *inability to fill a prescription during the call*, and a *difficulty in filling in clinical notes whilst talking to the patient*.
+Of note is the dip in mood when the doctor begins the consultation and is met by a number of challenges, including the patient _not following instructions_, the _inability to fill a prescription during the call_, and a _difficulty in filling in clinical notes whilst talking to the patient_.
 
 Understanding these key frustrations is what led us to come up with a specific **design challenge**:
+
 > # Redesign the interface to be more **engaging**, intuitive and convenient.
 
-By tackling this, we would allow doctors to conduct **quality consultations, **which importantly would not only improve the doctor’s satisfaction, but the *patient’s* satisfaction as well.
+By tackling this, we would allow doctors to conduct **quality consultations, **which importantly would not only improve the doctor’s satisfaction, but the _patient’s_ satisfaction as well.
 
 ### The third ingredient: design principles
 
 Before launching into the design phase, one final ingredient was needed: principles with which we would design the system. Combining aspects of MedicSpot’s brand with doctor feedback and the findings from user interviews, the system’s design had to be:
 
- 1. Efficient
+1.  Efficient
 
- 2. Easily-accessible
+2.  Easily-accessible
 
- 3. Intuitive
+3.  Intuitive
 
 The sun was dawning on the Discovery phase, but a new phase beckoned: the Design phase. Buckle up.
 
@@ -151,11 +153,11 @@ Refining the ideas turned out to be difficult, but the most popular solutions we
 
 #### 1. Tabs
 
-The amount of information and text fields that a doctor needs access to is vast and ever-changing. Hence, tabs were agreed to be a simple, scalable way to organise content and provide all-in-one access ****to information without having to scroll. Giving the doctor quick access to all this information would hopefully increase the **engagement** the doctor has with their patient.
+The amount of information and text fields that a doctor needs access to is vast and ever-changing. Hence, tabs were agreed to be a simple, scalable way to organise content and provide all-in-one access \***\*to information without having to scroll. Giving the doctor quick access to all this information would hopefully increase the **engagement\*\* the doctor has with their patient.
 
 #### 2. Prompts
 
-A huge concern for doctors was the fact that they had to remember to ask certain regulatory questions to the patient, and risked getting into legal trouble if they didn’t. Prompts that let doctors know when they needed to ask questions — whilst also *not getting in their way* — would make the system **intuitive** and easy for the doctor.
+A huge concern for doctors was the fact that they had to remember to ask certain regulatory questions to the patient, and risked getting into legal trouble if they didn’t. Prompts that let doctors know when they needed to ask questions — whilst also _not getting in their way_ — would make the system **intuitive** and easy for the doctor.
 
 #### 3. Online referral and sick note process
 
@@ -163,11 +165,11 @@ Currently, to refer a patient to a specialist or create a sick note required the
 
 ### Structure and layout
 
-At this stage, it was obvious that the *structure* *and* *layout* of the all-important ‘consultation screen’ (the screen in which the doctor conducts the video call) would be absolutely essential to the success or failure of the designs to solve the Dr Patel’s problems. Hence, before diving into a full design, the team took stock, and invested a lot of time into making decisions around this. This culminated in *three key design considerations:*
-
+At this stage, it was obvious that the _structure_ _and_ _layout_ of the all-important ‘consultation screen’ (the screen in which the doctor conducts the video call) would be absolutely essential to the success or failure of the designs to solve the Dr Patel’s problems. Hence, before diving into a full design, the team took stock, and invested a lot of time into making decisions around this. This culminated in _three key design considerations:_
 
 #### 1. Information prioritisation
-Clinical notes, past appointments, two video streams of the patient, medical instruments, patient information, chat, patient instructions, prescriptions, attachments… phew! That’s a lot of content to fit onto one screen without any scrolling, whilst *also* making sure the doctor doesn’t have to think about any of these things, and can focus entirely on the patient.
+
+Clinical notes, past appointments, two video streams of the patient, medical instruments, patient information, chat, patient instructions, prescriptions, attachments… phew! That’s a lot of content to fit onto one screen without any scrolling, whilst _also_ making sure the doctor doesn’t have to think about any of these things, and can focus entirely on the patient.
 
 Therefore, we asked GPs to rate these elements in terms of their importance during the call. Below are the results:
 
@@ -183,7 +185,7 @@ In the paper prototype (above left), you can see the decision to place the overl
 
 #### 2. Eye Contact
 
-With the knowledge that engagement was one of the key indicators of success of the interface for Dr Patel, an important consideration was *eye contact with the patient*, and how the interface could help improve this. We wanted to know whether where the doctor looked on the screen affected the how engaged the patient felt, as this would then affect where we put important elements in the design.
+With the knowledge that engagement was one of the key indicators of success of the interface for Dr Patel, an important consideration was _eye contact with the patient_, and how the interface could help improve this. We wanted to know whether where the doctor looked on the screen affected the how engaged the patient felt, as this would then affect where we put important elements in the design.
 
 Why maximise the engagement for the patient when the primary user is the doctor? Well, we found throughout the user interviews that the experience of the patient — whether they were cooperative and in a good state of mind — was inextricably linked to the experience of the doctor.
 
@@ -193,7 +195,7 @@ To explore this issue, I set up and ran a small study. I sat participants in fro
 
 ![Hello from the other side.](https://cdn-images-1.medium.com/max/8064/1*zYb3Lvf1YUF6Opr6YTDhuQ.jpeg)
 
-The results of this study showed that the level of engagement the patient felt was, in fact, *very much affected* by where the doctor was looking on the screen when talking to them. As the below graph indicates, patients felt extremely engaged when the doctor looked down the laptop camera at them (unfortunately, this is not viable for large portions of the consultation), with diminishing engagement as the gaze moved farther away from the camera.
+The results of this study showed that the level of engagement the patient felt was, in fact, _very much affected_ by where the doctor was looking on the screen when talking to them. As the below graph indicates, patients felt extremely engaged when the doctor looked down the laptop camera at them (unfortunately, this is not viable for large portions of the consultation), with diminishing engagement as the gaze moved farther away from the camera.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*yXDPSLjUIH1cg6uzMuLiWA.png)
 
@@ -254,6 +256,7 @@ Step inside the shoes of a real-life doctor, by viewing the final Invision proto
 The usability tests showed that we had created a system that gave GPs access to the many resources and notes they need to give the good diagnosis, whilst most importantly, staying out of the way so that they could build a strong rapport with the patient.
 
 MedicSpot were extremely happy with the new designs and features, and are currently in the process of implementing the designs into their new system. Dr Tarlochan Tor, one of the founders, said:
+
 > Working with Jared was an excellent experience for MedicSpot. From the beginning, I found him to be an extremely knowledgeable UX designer and a creative thinker, and he and the team exceeded even our loftiest of expectations in their redesign of the doctor interface of the system. We were amazed at how quickly they understood the entire consultation process, interviewed lots of GPs and then came up with some incredible solutions to key problems for our doctors.
 > Their designs make it a lot easier for doctors to interact our patients, and we’re in the process of implementing them now.
 
@@ -272,4 +275,3 @@ However, I believe that it is something that MedicSpot could provide using a for
 ### Snooze button
 
 As the company grows, there will be a bigger backlog of patients waiting to be seen by doctors. Some doctors said that it would be helpful to be able to put a 5 minute timer on a patient waiting, which would give the patient an idea for how long they’ll be waiting as well as letting the doctor complete the clinical notes of the previous consultation without being rushed.
-

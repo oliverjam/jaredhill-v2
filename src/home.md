@@ -54,6 +54,7 @@ blocks:
       - type: text
         content: A lot of my stuff is under wraps, but here’s a quick (and whitelabelled) look at what I’ve done.
       - type: work
+        show: featured
 js:
   - animated-carousel
 ---
