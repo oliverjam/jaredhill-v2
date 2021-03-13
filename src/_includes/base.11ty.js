@@ -198,7 +198,7 @@ function getReadingTime(content) {
 
 function Contact({ title, body }) {
   return html`
-    <div class="pad-gutter bg-primary leading-sm">
+    <div class="pad-gutter bg-primary">
       <div class="center narrow vstack">
         <h2 class="fz-inherit">${title}</h2>
         <p>${body}</p>
@@ -295,7 +295,7 @@ function tags(data, { filter = [] } = {}) {
       ${allTags.map(
         ([tag, { length }]) => html`
           <li>
-            <a href="/blog/tags/${tag}/" class="bg-mid pill td-hover">
+            <a href="/blog/tags/${tag}/" class="pill td-hover">
               <strong>${tag}</strong> ${length}
             </a>
           </li>
@@ -324,7 +324,8 @@ function work(data, { show = "all" }) {
               </h3>
               <p class="hide-on-mobile">${data.description}</p>
               <span
-                class="hide-on-mobile pill lg bg-white-50 fz-lg fw-600 font-sans"
+                class="hide-on-mobile pill lg fz-lg fw-600 work__btn"
+                style="--bg: hsla(0, 0%, 100%, 50%)"
               >
                 View project<span aria-hidden="true"> ›</span>
               </span>
@@ -352,12 +353,14 @@ function form(_data, { id, success, content }) {
   `;
 }
 
-function input(_data, { label, hint, variant = "text" }) {
+function input(_data, { label, hint, variant = "text", required = true }) {
   const id = label.toLowerCase().replace(/\s/, "-");
   const styles = "pad-sm bg-grey fz-md input";
   return html`
     <div class="vstack gap-sm">
-      <label class="fz-md fw-500" for="${id}">${label}</label>
+      <label class="fz-md fw-500" for="${id}">
+        ${label} ${required && html`<span aria-hidden="true">*</span>`}
+      </label>
       ${variant === "long"
         ? html`
             <textarea
@@ -366,6 +369,7 @@ function input(_data, { label, hint, variant = "text" }) {
               placeholder="${hint}"
               class="${styles}"
               rows="4"
+              ${required && "required"}
             ></textarea>
           `
         : html`
@@ -375,6 +379,7 @@ function input(_data, { label, hint, variant = "text" }) {
               name="${id}"
               placeholder="${hint}"
               class="${styles}"
+              ${required && "required"}
             />
           `}
     </div>
@@ -383,6 +388,8 @@ function input(_data, { label, hint, variant = "text" }) {
 
 function button(_data, { label }) {
   return html`
-    <button class="pill width:full pad-md fw-500 bg-primary">${label}</button>
+    <button type="submit" class="pill width:full pad-md fw-500 bg-primary">
+      ${label}
+    </button>
   `;
 }

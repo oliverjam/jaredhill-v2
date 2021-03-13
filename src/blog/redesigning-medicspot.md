@@ -121,7 +121,7 @@ Of note is the dip in mood when the doctor begins the consultation and is met by
 
 Understanding these key frustrations is what led us to come up with a specific **design challenge**:
 
-> # Redesign the interface to be more **engaging**, intuitive and convenient.
+> Redesign the interface to be more **engaging**, intuitive and convenient.
 
 By tackling this, we would allow doctors to conduct **quality consultations, **which importantly would not only improve the doctor’s satisfaction, but the _patient’s_ satisfaction as well.
 
