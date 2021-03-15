@@ -1,6 +1,6 @@
 ---
-title: Building the bank of the future
-description: Won the Banker Innovation Award and did lots of cool things.
+title: Bringing transparency to African banking
+description: I lead a ground-up digital rebuild for Africa’s biggest corporate bank.
 featured: true
 cover: sample-image-1.png
 ---

@@ -1,6 +1,6 @@
 ---
-title: 2 Building the bank of the future
-description: Won the Banker Innovation Award and did lots of cool things.
+title: Helping users start their savings journey
+description: I helped a brand-new challenger banking app for one of the UK’s best-known financial brands. 
 featured: true
 cover: bank.jpg
 ---

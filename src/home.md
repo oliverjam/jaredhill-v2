@@ -52,7 +52,7 @@ blocks:
         level: 2
         content: My work
       - type: text
-        content: A lot of my stuff is under wraps, but here’s a quick (and whitelabelled) look at what I’ve done.
+        content: A lot of my stuff is under wraps, but here’s a little whitelabelled look at what I’ve worked on.
       - type: work
         show: featured
 js:

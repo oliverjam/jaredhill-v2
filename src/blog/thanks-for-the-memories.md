@@ -6,7 +6,9 @@ tags:
   - AFL
 ---
 
+{% callout %}
 My alarm rung at 5am. I jumped down from the top bunk and shook awake my best friend, who grunted and rolled away from me to show his enthusiasm for the early wake-up call. A symphony of six snoring men filled the dark room.
+{% endcallout %}
 
 We left the hostel and flagged a cab — it was a chilly morning in New York and I was still feeling extremely hesitant that the ‘Australian bar’ we had found would actually be showing the game. The streets were completely bare. New York — the ‘city that never sleeps’ — was sleeping. Or, at the very least, snoozing. To my delight, the bar was open when we arrived, and we gravitated towards the back, where we could hear a few TVs and quite a few excited Australian accents. The game was about to start.
 

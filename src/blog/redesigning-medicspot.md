@@ -6,8 +6,9 @@ tags:
   - healthcare
   - desktop
 ---
-
-LARGE TEXT: Creating an intuitive video chat system that builds patient-doctor engagement — without getting in the way
+{% callout %}
+Creating an intuitive video chat system that builds patient-doctor engagement — without getting in the way
+{% endcallout %}
 
 ## Summary
 
