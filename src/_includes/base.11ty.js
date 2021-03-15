@@ -336,10 +336,10 @@ function work(data, { show = "all" }) {
   const pages =
     show === "featured"
       ? allPages.filter((page) => page.data.featured)
-      : allPages;
+      : allPages.slice();
   return html`
     <ul role="list" class="vstack gap-xxl">
-      ${pages.map(
+      ${pages.reverse().map(
         ({ url, data }) => html`
           <li class="work">
             <div class="vstack leading-sm ji-start">
