@@ -11,5 +11,5 @@ blocks:
       - blog
       - work
     limit: 3
-  - type: blog
+  - type: posts
 ---
