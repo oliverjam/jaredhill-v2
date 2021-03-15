@@ -15,3 +15,9 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
+
+[[headers]]
+  for = "/work/*"
+
+  [headers.values]
+    X-Robots-Tag = "noindex"
