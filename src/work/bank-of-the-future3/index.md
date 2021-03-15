@@ -1,6 +1,6 @@
 ---
-title: 2 Building the bank of the future
-description: Won the Banker Innovation Award and did lots of cool things.
+title: An app to build healthier habits
+description: For a US insurance company, I designed a financial wellness app based around behavioural science theories.
 featured: true
 cover: bank.jpg
 ---
