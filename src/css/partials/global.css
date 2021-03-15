@@ -94,5 +94,6 @@ form:invalid button[type="submit"] {
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
   }
 }
