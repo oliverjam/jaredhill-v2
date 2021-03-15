@@ -43,7 +43,7 @@ blocks:
       - type: heading
         level: 2
         content: Latest posts
-      - type: blog
+      - type: posts
         limit: 3
   - type: section
     bg: grey

@@ -219,7 +219,7 @@ function Credit({ credit }) {
 }
 
 const components = {
-  blog,
+  posts,
   heading,
   section,
   text,
@@ -243,7 +243,7 @@ function renderBlock(data) {
   };
 }
 
-function blog(data, { tag = "blog", limit } = {}) {
+function posts(data, { tag = "blog", limit } = {}) {
   const pages = data.collections[tag].slice();
   if (!pages) throw new Error(`Cannot find collection ${tag}`);
   return html`
