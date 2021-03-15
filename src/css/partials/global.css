@@ -81,3 +81,19 @@ form:invalid button[type="submit"] {
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+.header-anchor {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+:is(h2, h3):hover .header-anchor {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+  }
+}
