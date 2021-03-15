@@ -24,7 +24,7 @@ exports.colors = {
 exports.sizes = {
   gutter: "clamp(1rem, 1rem + 4vw, 4rem)",
   "measure-wide": "70rem",
-  "measure-narrow": "55ch",
+  "measure-narrow": "60ch",
   "font-body-min": "1rem",
   "font-body-max": "1.4rem",
 };
