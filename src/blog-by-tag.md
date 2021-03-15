@@ -12,6 +12,6 @@ measure: wide
 eleventyComputed:
   title: "Posts tagged with '{{ tag | capitalize }}'"
   blocks:
-    - type: blog
+    - type: posts
       tag: "{{ tag }}"
 ---

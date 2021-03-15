@@ -2,5 +2,6 @@
 title: Work
 measure: wide
 blocks:
-  - type: work
+  - type: posts
+    tag: work
 ---
