@@ -90,6 +90,10 @@
   font-size: inherit;
 }
 
+.fz-body-lg {
+  font-size: 1.2em;
+}
+
 .fw-600 {
   font-weight: 600;
 }

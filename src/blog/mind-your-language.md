@@ -8,7 +8,9 @@ tags:
   - rant
 ---
 
+{% callout %}
 I sometimes wonder how the design community — a group of people who pride themselves on their empathy and ability to communicate clearly — have been able to create a such an unapproachable profession. For outsiders, the litany of buzzwords, methodologies and rules can at best confuse newcomers, and at worst, deceive them. This article explores the latter.
+{% endcallout %}
 
 ## Giving the wrong impression
 
