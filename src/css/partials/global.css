@@ -64,6 +64,10 @@ nav a:hover {
   text-decoration-line: underline;
 }
 
+nav img {
+  width: auto;
+}
+
 textarea {
   resize: vertical;
 }
