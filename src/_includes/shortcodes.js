@@ -4,4 +4,9 @@ function callout(content) {
   return html`<p class="fz-body-lg">${content}</p>`;
 }
 
-module.exports = { callout };
+// size: "full" | "right" | "left"
+function layout(content, size) {
+  return html`<span class="layout--${size}">${content}</span>`;
+}
+
+module.exports = { callout, layout };

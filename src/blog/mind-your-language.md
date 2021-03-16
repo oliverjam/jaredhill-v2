@@ -60,7 +60,11 @@ There’s a very overused (and potentially misattributed) quote that is often us
 
 Now, I’m no time traveller (working on it), but I’m sure that there were plenty of intelligent and creative people back then, who, if asked what they wanted, would have almost certainly said ‘carriages without smelly horses that can go really fast like trains’.
 
+{% layout "full" %}
+
 ![Check out the superiority complex on this guy.](https://cdn-images-1.medium.com/max/2880/1*llscINoov8mOXmkcqayX4g.jpeg)
+
+{% endlayout %}
 
 The point is, there’s nuance here. Sometimes users *will* ask for a feature that actually *should be added to the platform,* especially when we’re dealing with mature products that no longer require radical innovation but rather incremental enhancement. That doesn’t mean you should take a user at their word — you should always look at the core problem their request stems from, make sure it’s a common problem, brainstorm different solutions, etc. Sometimes, you’ll run this process and find out that — tada! — the solution they offered is the best route. If it’s really that surprising to you that the person that uses the product regularly can come up with a smart solution to their own frustrations, then I think you need re-evaluate the way you think about users.
 
