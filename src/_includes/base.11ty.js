@@ -342,16 +342,22 @@ function work(data, { show = "all" }) {
       ${pages.reverse().map(
         ({ url, data }) => html`
           <li class="work">
-            <div class="vstack leading-sm ji-start">
-              <h3 class="font-sans fz-xxl">
-                <a href="${url}" class="block-link">${data.title}</a>
+            <div class="work__body vstack leading-sm ji-start">
+              <h3 class="font-sans fz-xl">
+                <a href="${url}" class="block-link">
+                  ${data.title}
+                  <span class="hide-above-mobile" aria-hidden="true">
+                    ${chevron()}
+                  </span>
+                </a>
               </h3>
               <p class="hide-on-mobile">${data.description}</p>
               <span
-                class="hide-on-mobile pill lg fz-lg fw-600 work__btn"
+                class="hide-on-mobile pill lg fw-600 work__btn"
                 style="--bg: hsla(0, 0%, 100%, 50%)"
               >
-                View project<span aria-hidden="true"> ›</span>
+                View project
+                <span aria-hidden="true">${chevron()}</span>
               </span>
             </div>
             <div class="work__img">
@@ -361,6 +367,18 @@ function work(data, { show = "all" }) {
         `
       )}
     </ul>
+  `;
+}
+
+function chevron() {
+  return html`
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+      <path
+        fill-rule="evenodd"
+        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+        clip-rule="evenodd"
+      />
+    </svg>
   `;
 }
 

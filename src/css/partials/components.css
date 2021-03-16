@@ -61,31 +61,38 @@ animated-carousel li {
 }
 
 .work {
+  --bg-inset: 2rem;
   position: relative;
   display: flex;
-  column-gap: clamp(1rem, 1rem + 2vw, 2rem);
-  column-gap: var(--gutter);
+  column-gap: calc(var(--gutter) / 2);
   align-items: center;
-  padding: 0 clamp(1rem, 1rem + 4vw, 4rem);
   padding: 0 var(--gutter);
   transform: translate(0, 0); /* stupid hack to fix bg z-index */
 }
 
-.work:hover .work__btn {
-  text-decoration-line: underline;
-  text-underline-offset: 2px;
+.work svg {
+  transition: transform 0.2s;
+}
+
+.work:hover svg {
+  transform: translateX(0.25rem);
 }
 
 .work:nth-child(odd)::after {
   content: "";
   position: absolute;
-  top: 2rem;
+  top: var(--bg-inset);
   right: 0;
-  bottom: 2rem;
+  bottom: var(--bg-inset);
   left: 0;
-  border-radius: 1rem;
+  border-radius: clamp(1rem, 1rem + 1vw, 2rem);
   background-color: var(--alternate);
   z-index: -10;
+}
+
+.work__body {
+  padding-top: calc(var(--bg-inset) + 1rem);
+  padding-bottom: calc(var(--bg-inset) + 1rem);
 }
 
 .work__img {

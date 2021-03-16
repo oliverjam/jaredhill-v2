@@ -101,3 +101,7 @@ form:invalid button[type="submit"] {
     scroll-padding-top: 2rem;
   }
 }
+
+svg {
+  vertical-align: middle;
+}
