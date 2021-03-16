@@ -9,15 +9,23 @@ tags:
 
 This is an intro!!!
 
-## Big fuckin heading
+## H2
 
 ck before Graphical User Interfaces (or GUIs) were invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal) was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room. rthvtrb
 
-### Smaller one
+Full width image: 
 
-Way back before Graphical User Interfaces (or GUIs) were invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal) was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room.
+{% layout "full" %}
 
-#### Even smaller one
+![Check out the superiority complex on this guy.](https://cdn-images-1.medium.com/max/2880/1*llscINoov8mOXmkcqayX4g.jpeg)
+
+{% endlayout %}
+
+### H3
+
+Way back before Graphical User Interfaces (or GUIs) were {% layout "right" %}![](https://cdn-images-1.medium.com/max/2000/1*kHgrc8FpN1G04kH37_dnLw.jpeg){% endlayout %}invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal) was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room.
+
+#### H4
 
 Way back before Graphical User Interfaces (or GUIs) were invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal) was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room.
 dfgnf
