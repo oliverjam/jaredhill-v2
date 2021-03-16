@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Thoughts on things
 measure: wide
 nav:
   order: 3
