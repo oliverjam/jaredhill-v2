@@ -70,9 +70,12 @@ animated-carousel li {
   transform: translate(0, 0); /* stupid hack to fix bg z-index */
 }
 
-.work:hover .work__btn {
-  text-decoration-line: underline;
-  text-underline-offset: 2px;
+.work svg {
+  transition: transform 0.2s;
+}
+
+.work:hover svg {
+  transform: translateX(0.25rem);
 }
 
 .work:nth-child(odd)::after {
