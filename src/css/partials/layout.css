@@ -84,6 +84,20 @@
   grid-column: full;
 }
 
+.layout--right {
+  float: right;
+  width: 50%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.layout--left {
+  float: left;
+  width: 50%;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
 .layout--inherit {
   display: grid;
   grid-template-columns: inherit;
