@@ -24,7 +24,7 @@ Reader beware: this is a big ol’ case study. Don’t have time to read the who
 
 ## Background
 
-MedicSpot is an on-demand telemedicine service that allows patients to **‘personal touch**’ for the doctors. {% layout "right" %}![](https://cdn-images-1.medium.com/max/2000/1*kHgrc8FpN1G04kH37_dnLw.jpeg){% endlayout %} have video consultations with doctors through special Clinical Stations set up in pharmacies. The real appeal of MedicSpot: they are one of the only telemedicine companies *in the world *that can remotely check temperature, blood pressure, oxygen levels and listen to a patient’s heartbeat, using special medical instruments located inside their Clinical Stations.
+MedicSpot is an on-demand telemedicine service that allows patients to have video consultations with doctors through special Clinical Stations set up in pharmacies. The real appeal of MedicSpot: they are one of the only telemedicine companies *in the world *that can remotely check temperature, blood pressure, oxygen levels and listen to a patient’s heartbeat, using special medical instruments located inside their Clinical Stations.
 
 Launched in October 2016, they are currently in over 40 locations across the UK and expanding quickly.
 

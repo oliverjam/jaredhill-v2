@@ -25,7 +25,7 @@ Full width image:
 ### H3
 
 Way back before Graphical {% layout "right" %}![](https://cdn-images-1.medium.com/max/2000/1*kHgrc8FpN1G04kH37_dnLw.jpeg){% endlayout %}invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal)User Interfaces  (or GUIs) were  was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room. Way back before Graphical User Interfaces (or GUIs) were invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal) was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room.
-dfgnf
+dfgnf 🏃‍♂️
 
 #### H4
 
