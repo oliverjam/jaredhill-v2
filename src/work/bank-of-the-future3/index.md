@@ -6,4 +6,7 @@ cover: metlife-home.png
 date: 2019-03-09
 ---
 
-Work in progress.
+Sorry, I'm still working on this case study. 
+
+*For more information about this project, contact me!*
+
