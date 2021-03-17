@@ -149,7 +149,7 @@ function Intro({ quotes = [], description }) {
                 <li style="--i: ${index}">
                   <blockquote class="vstack font-sans fw-500">
                     <div class="highlight">
-                      <p class="fz-xxl">“${quote.body}”</p>
+                      <p class="fz-xl">“${quote.body}”</p>
                     </div>
                     <div class="highlight">
                       <cite class="">- ${quote.author}</cite>
