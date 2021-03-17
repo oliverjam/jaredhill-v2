@@ -6,7 +6,9 @@ nav:
 ---
 
 {% callout %}
-I’m a product designer that enjoys taking complex problems and turning them into intuitive solutions that people just _get_.
+
+I’m a product designer that enjoys taking complex problems and turning them into intuitive solutions that people just *get*.
+
 {% endcallout %}
 
 I nerd out on simple, robust products that do what the users want and then get the hell out the way. I also strongly believe that taking the ego out of design is a necessary step to creating truly user-centric products.
