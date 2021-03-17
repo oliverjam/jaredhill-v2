@@ -6,4 +6,4 @@ cover: metlife-home.png
 date: 2019-03-09
 ---
 
-I did a nice bank.
+Work in progress.
