@@ -6,4 +6,7 @@ cover: bo-home-page.png
 date: 2020-03-09
 ---
 
-I did a nice bank.
+Sorry, I'm still working on this case study. 
+
+*For more information about this project, contact me!*
+
