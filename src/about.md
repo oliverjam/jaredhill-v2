@@ -25,7 +25,7 @@ In my spare time, I'm currently enjoying:
 - 🥟 Cooking spicy Chinese food
 - 🗺️ Looking at maps for long periods of time
 
-I’m an Instructor Associate at [General Assembly](https://generalassemb.ly/) and have given presentations at TechCircus and Founders & Coders.
+I’m an Instructor Associate at [General Assembly](https://generalassemb.ly/) and have given presentations at [TechCircus](https://www.techcircustv.com) and [Founders & Coders](https://www.foundersandcoders.com/).
 
-Like what you've heard? [Let's grab a coffee.](https://jaredhill-v2.netlify.app/contact/)
+Like what you've heard? [Let's grab a coffee.](https://jaredhill.co/contact/)
 
