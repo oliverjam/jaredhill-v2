@@ -9,11 +9,11 @@
       "icon": "/assets/icons/twitter.svg"
     },
     "linkedin": {
-      "url": "https://linkedin.com/jamchiller",
+      "url": "https://linkedin.com/in/jamchiller",
       "icon": "/assets/icons/linkedin.svg"
     },
     "medium": {
-      "url": "https://medium.com/jamchiller",
+      "url": "https://medium.com/@jamchiller",
       "icon": "/assets/icons/medium.svg"
     }
   },
