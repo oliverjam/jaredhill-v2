@@ -6,8 +6,6 @@ tags:
   - design
 ---
 
-## Why you should care about digital brutalism
-
 ![](https://cdn-images-1.medium.com/max/2400/1*q_HetbsGlHQdCK57HkFQ7g.png)
 
 *This article is adapted from a flash talk I gave at General Assembly in October 2017, and the images have been pulled straight from the presentation deck. Enjoy.*
