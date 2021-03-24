@@ -6,7 +6,9 @@ cover: bo-home-page.png
 date: 2020-03-09
 ---
 
+{% callout %} 
 A leading UK retail bank wanted to create a greenfield digital bank that could compete with the growing popularity of the likes of Monzo and Revolut. To differentiate themselves, the app was to be targeted towards those who struggled to save each month, giving them the resources to start their savings journey.
+{% endcallout %} 
 
 As part of a design team that included brand designers, UX designers and UI designers, I led the design on a number of sections of the app, including the home screen and onboarding, and oversaw the development of the information architecture and interaction model. I also led the creation of the central mechanism around which the app was based, developing a conceptual model for the product and making key product strategy decisions. Many of these decisions were iterated upon based on behavioural change research and user interviews generated during the discovery period, as well as regular tests with users during the build phase.
 
