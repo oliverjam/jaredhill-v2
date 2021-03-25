@@ -16,6 +16,6 @@ As part of a team of designers and behavioural scientists, I researched, designe
 
 The solution launched to users utilised the user’s emotional state to recommend time-based challenges that would build positive habits for users, regardless of their financial situation. The product is now in private beta.
 
-*For more information about this project, please contact me.*
+*For more information about this project, contact me!*
 
 
