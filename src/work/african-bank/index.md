@@ -14,7 +14,8 @@ We went from idea to a product in the hands of customers in 14 weeks, completely
 
 ![](https://cdn-images-1.medium.com/max/3376/1*Bh2kx6dQDbhHNzfrV2mAcQ.png)
 
-By creating a highly transparent, accessible process, the MVP was able to reduce lead times on applications from 2–3 days down to less than an hour. Thanks to extremely strong feedback from users, the product is now being iterated upon and rolled out in other markets. The project also won the Innovation in Digital Banking Award by The Banker.
+## Results
+By adding transparency and clarity to the process, the MVP was able to reduce lead times on applications from 2–3 days down to less than an hour. Thanks to extremely strong feedback from users, the product is now being iterated upon and rolled out in other markets. The project also won the Innovation in Digital Banking Award by The Banker.
 
 *For more information about this project, contact me!*
 
