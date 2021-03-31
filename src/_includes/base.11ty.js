@@ -132,7 +132,7 @@ function Title({ title, date, seconds }) {
     <header class="mh-25 cover pad-gutter text-align:center bg-primary">
       <div class="center narrow vstack ji-center">
         <h1>${title}</h1>
-        ${date && seconds && PostMeta({ date, seconds })}
+        ${date && seconds && PostMeta({ date: readableDate(date), seconds })}
       </div>
     </header>
   `;
@@ -175,11 +175,11 @@ function readableDate(date) {
 }
 
 function PostMeta({ date, seconds, className = "" }) {
-  const niceDate = readableDate(date);
+  // const niceDate = readableDate(date);
   const mins = Math.round(seconds / 60);
   return html`
     <div class="hstack gap-sm ${className}">
-      <span>${niceDate}</span>
+      <span>${date}</span>
       <span>-</span>
       <time datetime="${seconds}s"> ${mins} minute${mins > 1 && "s"} </time>
     </div>
@@ -257,7 +257,7 @@ function posts(data, { tag = "blog", limit } = {}) {
               <div class="vstack gap-sm">
                 <a href=${url} class="td-hover leading-sm">${data.title}</a>
                 ${PostMeta({
-                  date: data.date,
+                  date: relativeTime(data.date),
                   seconds: getReadingTime(data.content),
                   className: "color-text-light fz-md",
                 })}
@@ -440,4 +440,25 @@ function button(_data, { label }) {
       ${label}
     </button>
   `;
+}
+
+function relativeTime(then) {
+  const now = new Date();
+
+  const yearDiff = now.getFullYear() - then.getFullYear();
+  const monthDiff = now.getMonth() - then.getMonth();
+  const dayDiff = now.getDay() - then.getDay();
+  const dateDiff = now.getDate() - then.getDate();
+
+  const today = now.getDay();
+  const startOfLastWeek = today + 7;
+
+  if (yearDiff > 0) return "More than a year ago";
+  if (monthDiff > 1) return "This year";
+  if (monthDiff === 1) return "Last month";
+  if (dateDiff === 1) return "Yesterday";
+  if (dateDiff === 0) return "Today";
+  if (dateDiff >= startOfLastWeek) return "This month";
+  if (dateDiff < today) return "This week";
+  if (dayDiff < startOfLastWeek) return "Last week";
 }
