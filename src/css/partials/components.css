@@ -1,8 +1,8 @@
 .pill {
-  --bg: var(--bg-mid);
+  --bg: var(--bg-200);
   display: block;
   border-radius: 99rem;
-  border: 1px solid var(--bg-mid);
+  border: 1px solid var(--bg-200);
   padding: 0.5rem 1.25rem;
   font-family: var(--heading);
   background-color: var(--bg);
@@ -37,7 +37,7 @@
   box-decoration-break: clone;
   padding: 0.5rem;
   line-height: 1.9;
-  background-color: var(--bg-white);
+  background-color: var(--bg-100);
 }
 
 animated-carousel {
@@ -61,7 +61,7 @@ animated-carousel li {
 }
 
 .input {
-  border: 1px solid var(--textLight);
+  border: 1px solid var(--border-200);
   border-radius: 4px;
   line-height: 1;
 }

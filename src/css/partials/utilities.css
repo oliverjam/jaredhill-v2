@@ -156,21 +156,21 @@
   background-color: var(--primary);
 }
 
-.bg-white {
-  background-color: var(--bg-white);
+.bg-100 {
+  background-color: var(--bg-100);
 }
 
-.bg-grey {
-  background-color: var(--bg-grey);
+.bg-200 {
+  background-color: var(--bg-200);
 }
 
-.bg-mid {
-  background-color: var(--bg-mid);
+.bg-300 {
+  background-color: var(--bg-300);
 }
 
 .invert {
   background-color: var(--text);
-  color: var(--bg-white);
+  color: var(--bg-100);
 }
 
 .text-align\:left {

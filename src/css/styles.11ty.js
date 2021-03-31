@@ -19,15 +19,13 @@ exports.render = async ({ config }) => {
     files.map((name) => fs.readFile(path.join(__dirname, "partials", name)))
   );
 
-  const colors = Object.entries(config.theme.colors).map(jsonToCss);
-  const sizes = Object.entries(config.theme.sizes).map(jsonToCss);
-  const fonts = Object.entries(config.theme.fonts).map(jsonToCss);
+  const vars = Object.values(config.theme)
+    .flatMap(Object.entries)
+    .map(jsonToCss);
 
   return `
 html {
-  ${colors.join("\n")}
-  ${sizes.join("\n")}
-  ${fonts.join("\n")}
+  ${vars.join("\n")}
 }
 
 ${contents.join("\n")}
