@@ -42,11 +42,11 @@
 }
 
 .flow > * + * {
-  margin-top: var(--flow-space, 1.25rem);
+  margin-top: var(--flow-space, 1rem);
 }
 
 .flow :is(h2, h3, h4, h5, h6) {
-  --flow-space: 2.5rem;
+  --flow-space: 3rem;
 }
 
 .page {
