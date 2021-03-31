@@ -48,7 +48,7 @@ exports.render = (data) => {
               date,
               seconds: readingTime && getReadingTime(content),
             })}
-        <main class="layout ${flow && "py-gutter flow"} ${measure}">
+        <main class="layout ${flow && "py-gutter--md flow"} ${measure}">
           ${blocks ? blocks.map(renderBlock(data)) : content}
         </main>
         <footer>
@@ -269,9 +269,11 @@ function posts(data, { tag = "blog", limit } = {}) {
   `;
 }
 
-function section(_data, { bg = "white", content }) {
+function section(_data, { bg = "white", size = "md", content }) {
   return html`
-    <section class="layout--full layout--inherit py-gutter flow bg-${bg}">
+    <section
+      class="layout--full layout--inherit py-gutter--${size} flow bg-${bg}"
+    >
       ${content}
     </section>
   `;
@@ -338,7 +340,7 @@ function work(data, { show = "all" }) {
       ? allPages.filter((page) => page.data.featured)
       : allPages.slice();
   return html`
-    <ul role="list" class="vstack gap-xxl">
+    <ul role="list" class="vstack gap-gutter--sm" style="--flow-space: 3.5rem">
       ${pages.reverse().map(
         ({ url, data }) => html`
           <li class="work">

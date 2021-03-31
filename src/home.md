@@ -47,6 +47,7 @@ blocks:
         limit: 3
   - type: section
     bg: grey
+    size: lg
     content:
       - type: heading
         level: 2

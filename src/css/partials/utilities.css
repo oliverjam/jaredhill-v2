@@ -61,9 +61,18 @@
   padding: var(--gutter);
 }
 
-.py-gutter {
+.py-gutter--md {
   padding-top: calc(var(--gutter) * 0.75);
   padding-bottom: calc(var(--gutter) * 0.75);
+}
+
+.py-gutter--lg {
+  padding-top: calc(var(--gutter) * 1.25);
+  padding-bottom: calc(var(--gutter) * 1.25);
+}
+
+.gap-gutter--sm {
+  gap: calc(var(--gutter) * 0.25);
 }
 
 .fz-sm {
