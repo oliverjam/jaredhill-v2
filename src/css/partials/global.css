@@ -85,6 +85,10 @@ form:invalid button[type="submit"] {
   opacity: 0.6;
   cursor: not-allowed;
 }
+form:invalid button[type="submit"]:hover {
+  cursor: not-allowed;
+  background-color: var(--bg);
+}
 
 .header-anchor {
   opacity: 0;

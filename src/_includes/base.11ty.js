@@ -432,7 +432,11 @@ function input(_data, { label, hint, variant = "text", required = true }) {
 
 function button(_data, { label }) {
   return html`
-    <button type="submit" class="pill width:full pad-md fw-500 bg-primary">
+    <button
+      type="submit"
+      class="pill width:full pad-md fw-500"
+      style="--bg: var(--primary); --bg-hover: var(--secondary)"
+    >
       ${label}
     </button>
   `;

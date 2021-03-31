@@ -13,6 +13,11 @@
   padding: 1rem 1.75rem;
 }
 
+.pill:not(:disabled):hover {
+  cursor: pointer;
+  background-color: var(--bg-hover, var(--bg));
+}
+
 .list-separator {
   display: grid;
   grid-template-rows: auto 1fr;
