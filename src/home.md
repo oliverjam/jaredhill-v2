@@ -1,7 +1,7 @@
 ---
 title: Home
 permalink: /
-padding: false
+flow: false
 measure: wide
 nav:
   order: 1

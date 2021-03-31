@@ -10,7 +10,7 @@ exports.render = (data) => {
     intro,
     date,
     readingTime,
-    padding = true,
+    flow = true,
     measure = "narrow",
     blocks,
     content,
@@ -48,7 +48,7 @@ exports.render = (data) => {
               date,
               seconds: readingTime && getReadingTime(content),
             })}
-        <main class="layout ${padding && "py-gutter"} ${measure} flow">
+        <main class="layout ${flow && "py-gutter flow"} ${measure}">
           ${blocks ? blocks.map(renderBlock(data)) : content}
         </main>
         <footer>

@@ -62,8 +62,8 @@
 }
 
 .py-gutter {
-  padding-top: var(--gutter);
-  padding-bottom: var(--gutter);
+  padding-top: calc(var(--gutter) * 0.75);
+  padding-bottom: calc(var(--gutter) * 0.75);
 }
 
 .fz-sm {
