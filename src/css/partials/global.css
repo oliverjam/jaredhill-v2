@@ -77,7 +77,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  font-size: 1rem;
+  font: inherit;
 }
 
 button[type="submit"] {
