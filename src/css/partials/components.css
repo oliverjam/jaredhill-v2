@@ -79,6 +79,19 @@ animated-carousel li {
   transform: translateX(0.25rem);
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .work:hover svg {
+    transform: none;
+    animation: wiggle 0.5s infinite alternate ease-in-out;
+  }
+}
+
+@keyframes wiggle {
+  to {
+    transform: translateX(0.25rem);
+  }
+}
+
 .work:nth-child(odd)::after {
   content: "";
   position: absolute;
