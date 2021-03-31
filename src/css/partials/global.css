@@ -38,6 +38,7 @@ h3 {
   text-decoration-color: var(--alternate);
   text-decoration-thickness: 0.5rem;
   text-decoration-skip-ink: none;
+  text-decoration-skip: none;
   text-underline-offset: -0.6rem;
 }
 
@@ -46,12 +47,14 @@ a {
   text-underline-offset: 1px;
   text-decoration-thickness: 1px;
   text-decoration-skip-ink: auto;
+  text-decoration-skip: objects;
 }
 
 nav a {
   color: inherit;
   text-decoration-line: none;
   text-decoration-skip-ink: none;
+  text-decoration-skip: none;
   text-decoration-thickness: 2.5px;
   text-underline-offset: 4px;
 }
