@@ -210,8 +210,8 @@ function Contact({ title, body }) {
 
 function Credit({ credit }) {
   return html`
-    <div class="pad-xl tac invert fz-md">
-      <div class="center narrow">
+    <div class="pad-lg tac invert fz-md">
+      <div class="center narrow text-align:center">
         <p>${credit}</p>
       </div>
     </div>
