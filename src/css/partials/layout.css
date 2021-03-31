@@ -49,6 +49,10 @@
   --flow-space: 3rem;
 }
 
+.flow > .callout + * {
+  --flow-space: calc(var(--gutter) * 0.75);
+}
+
 .page {
   height: 100%;
   display: grid;

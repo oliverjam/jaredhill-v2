@@ -1,7 +1,7 @@
 const html = require("../html");
 
 function callout(content) {
-  return html`<div class="fz-body-lg">${content}</div>`;
+  return html`<div class="callout fz-body-lg">${content}</div>`;
 }
 
 // size: "full" | "right" | "left"
