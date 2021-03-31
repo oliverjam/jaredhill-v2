@@ -399,7 +399,7 @@ function form(_data, { id, success, content }) {
 
 function input(_data, { label, hint, variant = "text", required = true }) {
   const id = label.toLowerCase().replace(/\s/, "-");
-  const styles = "pad-sm bg-grey fz-md input";
+  const styles = "pad-md bg-grey font-body input";
   return html`
     <div class="vstack gap-sm">
       <label class="fz-md fw-500" for="${id}">

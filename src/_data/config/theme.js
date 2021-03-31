@@ -3,7 +3,7 @@ let palette = {
   darkerBlue: "#BFE3FF",
   lightOrange: "#FFDFBA",
   textGrey: "#333333",
-  textGreyLight: "hsl(0, 0%, 40%)",
+  textGreyLight: "hsl(0, 0%, 66%)",
   lighterGrey: "#F1F1F1",
   bgGrey: "#FAFAFA",
   white: "#FFFFFF",

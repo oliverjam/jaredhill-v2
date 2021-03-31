@@ -112,6 +112,10 @@
     "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 }
 
+.font-body {
+  font-family: var(--body), Georgia, "Times New Roman", Times, serif;
+}
+
 .ai-center {
   align-items: center;
 }
