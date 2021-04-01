@@ -1,8 +1,8 @@
 .pill {
-  --bg: var(--bg-200);
+  --bg: var(--bg-300);
   display: block;
   border-radius: 99rem;
-  border: 1px solid var(--bg-200);
+  border: 1px solid var(--bg-300);
   padding: 0.5rem 1.25rem;
   font-family: var(--heading);
   background-color: var(--bg);

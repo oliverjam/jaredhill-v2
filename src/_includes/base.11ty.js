@@ -269,7 +269,7 @@ function posts(data, { tag = "blog", limit } = {}) {
   `;
 }
 
-function section(_data, { bg = "white", size = "md", content }) {
+function section(_data, { bg = "100", size = "md", content }) {
   return html`
     <section
       class="layout--full layout--inherit py-gutter--${size} flow bg-${bg}"

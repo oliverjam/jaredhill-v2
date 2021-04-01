@@ -46,7 +46,7 @@ blocks:
       - type: posts
         limit: 3
   - type: section
-    bg: grey
+    bg: 200
     size: lg
     content:
       - type: heading
