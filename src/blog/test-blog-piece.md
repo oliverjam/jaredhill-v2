@@ -7,7 +7,7 @@ tags:
   - icecream
 ---
 {% callout %}
-This is an intro!!!
+This is an intro!!! ck before Graphical User Interfaces (or GUIs) were invented ack before Graphical User Interfaces (or GUIs) were invented ack before Graphical User Interfaces (or GUIs) were invented a
 {% endcallout %}
 
 ## H2
@@ -34,4 +34,11 @@ dfgnf
 dfgnf
 
 ##### Testing H5
+
+Way back before Graphical User Interfaces (or GUIs) were invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal) was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room.
+dfgnf
+
 ###### Testing H6
+
+Way back before Graphical User Interfaces (or GUIs) were invented a [terminal](https://en.wikipedia.org/wiki/Computer_terminal) was a separate piece of hardware that let an operator interact with a computer that probably filled an entire separate room.
+dfgnf
