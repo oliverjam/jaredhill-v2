@@ -7,8 +7,6 @@ tags:
   - usability
 ---
 
-## Eight totally bodacious usability testing tips expressed as 80s hit singles
-
 ![](https://cdn-images-1.medium.com/max/2388/1*uxyvKFh1s5EoDRCyHFMQ_A.jpeg)
 
 The 80s were the best of all the decades. I don’t actually remember them much, but if Stranger Things is anything to go by, it was all big hair, synthesisers, arcade games and deadly monsters from alternate dimensions (fun!). Technology had struck the perfect balance between being exciting but non-intrusive, and nobody got annoyed if you asked them to accept cookies. The future we imagined was one of flying cars and space travel, rather than of floods, reality tv presidents and hyper-targeted ads.
@@ -21,7 +19,7 @@ So sit back, plug in your walkman, and enjoy these sweet beats.
 
 ### Remember to be diverse in your recruiting
 
- <iframe src="https://medium.com/media/04fe8ce0b9796c6847825ae71695efbf" frameborder=0></iframe>
+ <iframe src="https://www.youtube.com/watch?v=CdqoNKCCt7A" frameborder=0></iframe>
 
 We all have unconscious biases. Even when we think we’re being fair and impartial, [research tells us](https://www.psychologytoday.com/gb/blog/between-the-lines/201204/studies-unconscious-bias-racism-not-always-racists) that we still subconsciously favour those that are similar to ourselves. I’ve never understood why people find this so surprising; humans love familiarity and predictability, and our monkey brains associate these things with people who are similar to us in culture, gender, ability or ethnicity. This isn’t something to be ashamed of but it *is* something that needs to be acknowledged and accounted for, now more than ever. And yet, when it comes to testing, we can often forget about this bias completely.
 
