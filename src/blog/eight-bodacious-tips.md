@@ -16,8 +16,8 @@ So, I thought I’d take a walk down memory lane, using some of my favourite 80s
 So sit back, plug in your walkman, and enjoy these sweet beats.
 
 ## 1. Don’t You (Forget About Me)
-
-### Remember to be diverse in your recruiting
+**Remember to be diverse in your recruiting
+**
 
  <iframe src="https://www.youtube.com/watch?v=CdqoNKCCt7A" frameborder=0></iframe>
 
@@ -38,9 +38,8 @@ However, we don’t live in a perfect world (and much less a perfect industry) s
 And remember, if [it’s raining men](https://www.youtube.com/watch?v=l5aZJBLAu1E), you’re probably doing it wrong.
 
 ## 2. The Magic Number
-
-### Five tests capture 85% of usability issues… or do they?
-
+**Five tests capture 85% of usability issues… or do they?
+**
  <iframe src="https://medium.com/media/ad275f4030745b90e0b0d29d54e313e8" frameborder=0></iframe>
 
 It’s one of the most famous UX rules of thumb: *5 usability tests captures 85% of usability issues*. NN Group put forward this magic number [decades ago](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) to maximise return on time investment, and it’s been a fantastic ally of UX designers. Having such an achievable number to aim has removed the perceived difficulty of the process for designers everywhere and added much-needed agility.
@@ -59,9 +58,8 @@ Also, remember that a lot has changed in the last few decades — as long as you
 In my opinion, the ‘five users’ rule is still invaluable for getting buy-in for testing from stakeholders as well as setting ourselves realistic and achievable testing goals.
 
 ## 3. Atmosphere
-
-### Make sure your users are using the product in the way they normally would
-
+**Make sure your users are using the product in the way they normally would
+**
  <iframe src="https://medium.com/media/d991164fbeb2e85cd3b223ff819586bb" frameborder=0></iframe>
 
 Once upon a time, usability tests were hard. Users were given a phone with a horrendous spidery arm attached to a camera on it, or were sat in a room with a big two-way mirror, like an interrogation scene out of a movie. Then, they were told to relax, and to use the phone like they normally would.
@@ -77,9 +75,8 @@ Armed with these new superpowers, you’ve got more opportunity than ever to cre
 Atmosphere also has to do with *where* you test: make sure you’re in a neutral zone; I’ve found great results when testing from a user’s place of work. The more you can make the user feel comfortable and unobserved, the better.
 
 ## 4. Bring the Pressure Down
-
-### Get your user relaxed, in any way possible
-
+**Get your user relaxed, in any way possible
+**
  <iframe src="https://medium.com/media/dea67881278a648037e1f1fffb37852a" frameborder=0></iframe>
 
 Try this experiment: sit next to someone using their phone or laptop, and watch them as they use it. Nod your head every now and then, and grunt disapprovingly once or twice. Note how they shift uncomfortably in their seat. Watch how them squirm.
@@ -99,9 +96,8 @@ A couple of other tips to stop users being [under too much pressure](https://www
 * I’ve noticed that it’s easy to forget to make eye contact with the user when talking to them, since you’re both focused on the device. Force yourself to!
 
 ## 5. Age of Consent
-
-### Remember to get consent when recording the user — and keep their details confidential
-
+**Remember to get consent when recording the user — and keep their details confidential
+**
  <iframe src="https://medium.com/media/1b03d60b16f37dc816e47369a5ec4032" frameborder=0></iframe>
 
 Like most ethical matters, this one is pretty simple to understand, and yet somehow can still get forgotten. If you’re recording someone’s voice or face during a usability test, you’re gonna need to get written consent from them, which stipulates how you’re going to be using the recording, and that they have the right to withdraw their consent at any time.
@@ -113,9 +109,8 @@ Another good practice is to decouple the user’s name and their test recording 
 Of all the tips listed herein, this is probably the most boring and also the most important. So make sure you [know the rules](http://facweb.cs.depaul.edu/cmiller/eval/ethics.html) and you stick to them. [It’s a sin](https://www.youtube.com/watch?v=dRHetRTOD1Q) not to.
 
 ## 6. Bigmouth Strikes Again
-
-### Keep your big mouth — and your ego — out of it
-
+**Keep your big mouth — and your ego — out of it
+**
  <iframe src="https://medium.com/media/b87d7417175f12edefb2ccc23ee916d1" frameborder=0></iframe>
 
 I’m a huge believer in the idea that to be a truly great designer, you must be able to remove your ego from the process. Ego poisons everything: it clouds judgement, it reduces empathy, and it frames problems within the context of one’s own personal goals and motivations. And yet, design and ego are naturally connected. We feel proud of the work we do, we become emotionally invested in it, and want our designs to be reflections of how we see ourselves as designers.
@@ -136,8 +131,8 @@ Here’s some ways to avoid your ego from entering the room:
 I always find it’s helpful to tell people before the test that you may not be able to answer questions during the test. This stops you looking like an asshole when they do ask questions and you refuse to answer.
 
 ## 7. Push It
-
-### Sometimes, you’ll need to challenge users
+**Sometimes, you’ll need to challenge users
+**
 
  <iframe src="https://medium.com/media/2e49d8ae37899d2a0ffae42326e2a978" frameborder=0></iframe>
 
@@ -154,9 +149,8 @@ As such, it’s important for you to remember that as the interviewer, you will 
 It may seem awkward, but knowing when to push (and when not to) can be the difference between a successful and failed test.
 
 ## 8. Wanna be Startin’ Somethin’
-
-### Get out there and start testing
-
+**Get out there and start testing
+**
  <iframe src="https://medium.com/media/cb60e3c79e6bd48476f1fb630f859879" frameborder=0></iframe>
 
 Look, there’s only so much advice I can give you (and truthfully, only so many 80s songs I can tenuously link to said advice). However, one of the most important things that I’ve learnt over the years is when it comes to testing, no one size fits all. No matter how much you plan and prepare, testing involves *people*, and the beautiful thing about people is that they are all very different. Anyone who says that there is just one ‘right’ or ‘universal’ way to approach testing is probably lying to you.
@@ -165,5 +159,6 @@ The key is to learn to be adaptable in a testing environment, to be able to roll
 
 So get out there! And as Michael Jackson (a well-known usability test lover) once said, *you got to be starting something*.
 
+---
 
 *Thanks for reading! If you’re interested in UX, remember to follow me [on Medium](https://medium.com/@jamchiller) and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content.*
