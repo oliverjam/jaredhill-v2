@@ -1,5 +1,5 @@
 ---
-title: Designers: mind your language
+title: "Designers: mind your language"
 date: 2021-03-09
 tags:
   - design
@@ -30,7 +30,7 @@ Looking at the above screenshot — which includes [an article](https://www.nngr
 
 The first thing to point out is that this doesn’t happen everywhere. My experiences with actual real-life designers is great — most have a fairly good sense of nuance, using a healthy dollop of ‘it depends’ in their day-to-day design work. Designers in podcasts, books, and talks usually don’t have much trouble communicating more balanced and pragmatic opinions.
 
-The places *where* this happens gives us a little clue as to *why* it does. In my experience, we see these kind of statements where you’d expect to see them: on Twitter and Medium, where a user is rewarded for being pithy and/or contentious. Places where the more controversial something is, the more it will be interacted with.
+The places _where_ this happens gives us a little clue as to _why_ it does. In my experience, we see these kind of statements where you’d expect to see them: on Twitter and Medium, where a user is rewarded for being pithy and/or contentious. Places where the more controversial something is, the more it will be interacted with.
 
 ![Mr Spool is particularly infamous for his controversial hot takes.](https://cdn-images-1.medium.com/max/2400/1*Yy50J2yiQcu7ddMK8dyUrA.png)
 
@@ -38,12 +38,13 @@ This doesn’t, however, fully explain the case of the NN Group — surely they 
 
 ## The easy answer: just communicate better
 
-Now, I’m not going to attempt to tackle ethics in design and whether designers should be held to a higher standard in this article. That’s a very meaty topic which others [have spent a lot of time talking about already](https://muledesign.com/2017/07/ethics-cant-be-a-side-hustle). What I would say, however, is that it is our *job* to think of the different contexts that the content we produce will appear in, and of how our users will react to our work. It shouldn’t be that hard for us to carry this same thought process over to the titles of our articles, should it?
+Now, I’m not going to attempt to tackle ethics in design and whether designers should be held to a higher standard in this article. That’s a very meaty topic which others [have spent a lot of time talking about already](https://muledesign.com/2017/07/ethics-cant-be-a-side-hustle). What I would say, however, is that it is our _job_ to think of the different contexts that the content we produce will appear in, and of how our users will react to our work. It shouldn’t be that hard for us to carry this same thought process over to the titles of our articles, should it?
 
 Which brings me to my first conclusion: people form assumptions by gleaning headlines, and if we really want to communicate well as a design community, we should design our content to fit this scenario. Meaning that we should aim to **avoid misleading or sweeping statements in article titles**.
 
 I wish that was the end of this article, and that removing clickbaity article titles would solve the communication issues in our industry. Alas, after talking to friend, I decided to read a bit more of NN Group article, to see how they applied nuance to the statement in the article title. Here’s the summary:
-> *Summary: To design the best UX, pay attention to what users do, not what they say. Self-reported claims are unreliable, as are user speculations about future behavior. Users do not know what they want.*
+
+> _Summary: To design the best UX, pay attention to what users do, not what they say. Self-reported claims are unreliable, as are user speculations about future behavior. Users do not know what they want._
 
 “Users do not know what they want.”
 
@@ -53,10 +54,11 @@ Hmm.
 
 I can forgive NN Group for a clickbaity title — after all, we all do it. My most successful article ever [makes indirect reference to my own diarrhoea](https://medium.com/@jamchiller/one-week-on-huel-one-small-step-for-man-one-giant-leap-for-my-bowels-a9026a48d94d) — I’m no angel.
 
-However, the idea that a user ‘does not know what they want’, is in my opinion not just condescending and dismissive, but just plain wrong. Sure, in many cases this *is* true, and the idea at the core of it is right: that, where possible, we should watch watch a person does, and take what what they say with a pinch of salt. The statement itself, however, is indicative of a larger problem in design.
+However, the idea that a user ‘does not know what they want’, is in my opinion not just condescending and dismissive, but just plain wrong. Sure, in many cases this _is_ true, and the idea at the core of it is right: that, where possible, we should watch watch a person does, and take what what they say with a pinch of salt. The statement itself, however, is indicative of a larger problem in design.
 
 There’s a very overused (and potentially misattributed) quote that is often used to justify this kind of thinking:
-> *“If I had asked people what they wanted, they would have said faster horses.” — Henry Ford*
+
+> _“If I had asked people what they wanted, they would have said faster horses.” — Henry Ford_
 
 Now, I’m no time traveller (working on it), but I’m sure that there were plenty of intelligent and creative people back then, who, if asked what they wanted, would have almost certainly said ‘carriages without smelly horses that can go really fast like trains’.
 
@@ -66,7 +68,7 @@ Now, I’m no time traveller (working on it), but I’m sure that there were ple
 
 {% endlayout %}
 
-The point is, there’s nuance here. Sometimes users *will* ask for a feature that actually *should be added to the platform,* especially when we’re dealing with mature products that no longer require radical innovation but rather incremental enhancement. That doesn’t mean you should take a user at their word — you should always look at the core problem their request stems from, make sure it’s a common problem, brainstorm different solutions, etc. Sometimes, you’ll run this process and find out that — tada! — the solution they offered is the best route. If it’s really that surprising to you that the person that uses the product regularly can come up with a smart solution to their own frustrations, then I think you need re-evaluate the way you think about users.
+The point is, there’s nuance here. Sometimes users _will_ ask for a feature that actually _should be added to the platform,_ especially when we’re dealing with mature products that no longer require radical innovation but rather incremental enhancement. That doesn’t mean you should take a user at their word — you should always look at the core problem their request stems from, make sure it’s a common problem, brainstorm different solutions, etc. Sometimes, you’ll run this process and find out that — tada! — the solution they offered is the best route. If it’s really that surprising to you that the person that uses the product regularly can come up with a smart solution to their own frustrations, then I think you need re-evaluate the way you think about users.
 
 Like most other humans, designers like hearing things that make them feel smart, special, or superior. The idea that users don’t know what they want certainly achieves all these things: it elevates designers above others, making us feel like we are the sole anointed ones with the exclusive power to be able to understand what people want. It’s a form of gatekeeping.
 
@@ -80,5 +82,4 @@ I realise this seems like it has turned into a bit of a hit piece against NN Gro
 
 But I think it’s incredibly important that we are aware of the effect that these over-simplifications have on junior designers and those outside the design community. And most importantly, we need to always remember to respect the user’s intelligence and creativity.
 
-*Thanks for reading! If you’re interested in UX, remember to follow me on Medium ([here](https://medium.com/@jamchiller)) and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content.*
-
+_Thanks for reading! If you’re interested in UX, remember to follow me on Medium ([here](https://medium.com/@jamchiller)) and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content._
