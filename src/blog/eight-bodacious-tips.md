@@ -16,8 +16,8 @@ So, I thought I’d take a walk down memory lane, using some of my favourite 80s
 So sit back, plug in your walkman, and enjoy these sweet beats.
 
 ## 1. Don’t You (Forget About Me)
-**Remember to be diverse in your recruiting
-**
+
+***Remember to be diverse in your recruiting***
 
  <iframe src="https://www.youtube.com/watch?v=CdqoNKCCt7A" frameborder=0></iframe>
 
