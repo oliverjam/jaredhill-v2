@@ -251,6 +251,7 @@ function posts(data, { tag = "blog", limit } = {}) {
       ${pages
         .reverse()
         .slice(0, limit)
+        .filter((page) => !page.data.draft)
         .map(
           ({ url, data }) => html`
             <li ${!limit && `class="list-separator"`}>
