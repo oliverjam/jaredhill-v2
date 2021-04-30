@@ -17,19 +17,19 @@ I currently work {% layout "right" %}![](https://cdn-images-1.medium.com/max/200
 
 Right now I’m learning more about: 
 
-  🇴 Object-oriented UX
+&nbsp;&nbsp;🇴 Object-oriented UX
 
-  🔗 Webflow
+&nbsp;&nbsp;🔗 Webflow
   
-  ⚙️ Systems thinking
+&nbsp;&nbsp;⚙️ Systems thinking
 
 In my spare time, I'm currently enjoying:
 
-  🏃 Running
+&nbsp;&nbsp;🏃 Running
   
-  🥟 Cooking spicy Chinese food
+&nbsp;&nbsp;🥟 Cooking spicy Chinese food
   
-  🗺️ Looking at maps for long periods of time
+&nbsp;&nbsp;🗺️ Looking at maps for long periods of time
 
 I also love teaching: I'm an Instructor Associate at [General Assembly](https://generalassemb.ly/) and have given presentations at [TechCircus](https://www.techcircustv.com) and [Founders & Coders](https://www.foundersandcoders.com/).
 
