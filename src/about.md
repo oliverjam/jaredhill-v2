@@ -24,6 +24,7 @@ Right now I’m learning more about:
   ⚙️ Systems thinking
 
 In my spare time, I'm currently enjoying:
+
   🏃 Running
   
   🥟 Cooking spicy Chinese food
