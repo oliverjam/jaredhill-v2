@@ -3,12 +3,13 @@ title: "Redesigning MedicSpot: a case study"
 date: 2017-10-27
 tags:
   - case study
-  - healthcare
-  - desktop
+
 ---
 {% callout %}
 Creating an intuitive video chat system that builds patient-doctor engagement — without getting in the way.
 {% endcallout %}
+
+*This case study was originally posted on Medium. If you prefer, you can [read it there](https://medium.com/sketch-app-sources/redesigning-medicspot-a-case-study-59310295bdf4) instead.*
 
 ## Summary
 
