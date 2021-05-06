@@ -25,11 +25,11 @@ Right now I’m learning more about:
 
 In my spare time, I'm currently enjoying:
 
-&nbsp;&nbsp;&nbsp;🏃&nbsp;Running
+&nbsp;&nbsp;&nbsp;🏃&nbsp;Running (training for a half marathon)
   
-&nbsp;&nbsp;&nbsp;🥟&nbsp;Cooking spicy Chinese food
+&nbsp;&nbsp;&nbsp;🥟&nbsp;Cooking (very spicy Chinese food)
   
-&nbsp;&nbsp;&nbsp;🗺️&nbsp;Looking at maps for long periods of time
+&nbsp;&nbsp;&nbsp;🗺️&nbsp;Maps (staring at them longingly)
 
 I also love teaching: I'm an Instructor Associate at [General Assembly](https://generalassemb.ly/) and have given presentations at [TechCircus](https://www.techcircustv.com) and [Founders & Coders](https://www.foundersandcoders.com/).
 
