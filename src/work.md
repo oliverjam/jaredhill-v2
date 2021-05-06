@@ -1,5 +1,5 @@
 ---
-title: Work
+title: Case studies
 measure: wide
 blocks:
   - type: posts

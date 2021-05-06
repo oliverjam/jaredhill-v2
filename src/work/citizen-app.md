@@ -11,6 +11,8 @@ Making an app that gives users a more authentic travel experience{% endcallout %
 
 ![](https://cdn-images-1.medium.com/max/6380/1*CboC4wnSvaU5B_rSMw0cmQ.png)
 
+*This case study was originally posted on Medium. If you prefer, you can [read it there](https://medium.muz.li/citizen-app-a-new-way-to-travel-3bd9c45ec580) instead.*
+
 ## Summary
 
 CitizenM is a hotel chain that focuses on being innovative, youthful, and different. As part of a mock two-week design sprint on the UX Immersive course at General Assembly, I was tasked with creating a responsive, mobile-first website for CitizenM that would allow travellers to plan and book ‘local’ experiences.

@@ -1,6 +1,6 @@
 ---
-title: Thanks for getting in touch!
+title: Thanks for getting in touch.
 footer: false
 ---
 
-I'll get back to you as soon as I can
+I'll get back to you soon. If I don't, call for help. 
