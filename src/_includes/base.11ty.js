@@ -71,7 +71,7 @@ exports.render = (data) => {
 };
 
 function googleFonts({ body, heading }) {
-  const bodyFont = `family=${body}:ital,wght@0,400;0,600;1,400;1,600`;
+  const bodyFont = `family=${body}:ital,wght@0,300;0,600;1,300;1,600`;
   const headingFont = `family=${heading}:wght@700`;
   return `https://fonts.googleapis.com/css2?${bodyFont}&${headingFont}&display=swap`;
 }
