@@ -118,3 +118,13 @@
   gap: 1rem;
   align-content: start;
 }
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5rem;
+}
+
+.cluster > * {
+  margin: 0.5rem;
+}

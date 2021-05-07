@@ -295,7 +295,7 @@ function text(_data, { align, content }) {
 function tags(data, { filter = [], limit } = {}) {
   const allTags = getTags(data, { filter, limit });
   return html`
-    <ul role="list" class="hstack wrap">
+    <ul role="list" class="cluster">
       ${allTags.map(
         ([tag, count]) => html`
           <li>
