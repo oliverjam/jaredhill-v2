@@ -1,7 +1,9 @@
 .hstack {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
   gap: 1rem;
   align-items: center;
+  justify-content: start;
 }
 
 .hstack.wrap {
@@ -116,4 +118,27 @@
   grid-template-columns: repeat(auto-fit, minmax(min(19rem, 100%), 1fr));
   gap: 1rem;
   align-content: start;
+}
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5rem;
+}
+
+.cluster > * {
+  margin: 0.5rem;
+}
+.about-columns {
+  display: grid;
+  gap: var(--gutter);
+}
+
+@media (min-width: 40em) {
+  .about-columns {
+    grid-template-columns: minmax(0, var(--measure-narrow)) minmax(14rem, 1fr);
+  }
+  .about-columns > :first-child {
+    order: 1;
+  }
 }

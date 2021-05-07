@@ -6,6 +6,8 @@ body {
     var(--font-body-max)
   );
   line-height: 1.5;
+  letter-spacing: -0.3px;
+  font-weight: 300;
   background-color: var(--bg-100);
   color: var(--text);
 }
@@ -111,4 +113,18 @@ form:invalid button[type="submit"]:hover {
 
 svg {
   vertical-align: middle;
+}
+
+.flow blockquote {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: var(--textLight);
+}
+
+.flow blockquote > :first-child::before {
+  content: "“";
+}
+
+.flow blockquote > :last-child::after {
+  content: "”";
 }

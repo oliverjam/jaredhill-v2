@@ -71,7 +71,7 @@ exports.render = (data) => {
 };
 
 function googleFonts({ body, heading }) {
-  const bodyFont = `family=${body}:ital,wght@0,400;0,600;1,400;1,600`;
+  const bodyFont = `family=${body}:ital,wght@0,300;0,600;1,300;1,600`;
   const headingFont = `family=${heading}:wght@700`;
   return `https://fonts.googleapis.com/css2?${bodyFont}&${headingFont}&display=swap`;
 }
@@ -79,16 +79,18 @@ function googleFonts({ body, heading }) {
 function SiteHeader({ page, navigation = [], socials = {} }) {
   return html`
     <header
-      class="hstack wrap gap-xl fz-md bg-primary"
+      class="hstack jc-between fz-md bg-primary"
       style="padding: 2rem var(--gutter)"
     >
-      <a href="/">
-        <img src="/assets/icons/logo.svg" alt="Home" width="32" height="32" />
-      </a>
-      <nav class="grow hstack wrap jc-between font-sans">
+      <nav class="hstack gap-xl font-sans">
+        <a href="/">
+          <img src="/assets/icons/logo.svg" alt="Home" width="32" height="32" />
+        </a>
         <ul role="list" class="hstack">
           ${navigation.map(Link(page))}
         </ul>
+      </nav>
+      <nav class="grow hstack font-sans">
         ${Socials({ socials, className: "hide-on-mobile" })}
       </nav>
     </header>
@@ -293,7 +295,7 @@ function text(_data, { align, content }) {
 function tags(data, { filter = [], limit } = {}) {
   const allTags = getTags(data, { filter, limit });
   return html`
-    <ul role="list" class="hstack wrap">
+    <ul role="list" class="cluster">
       ${allTags.map(
         ([tag, count]) => html`
           <li>
