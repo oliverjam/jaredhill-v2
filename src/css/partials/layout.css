@@ -129,3 +129,16 @@
 .cluster > * {
   margin: 0.5rem;
 }
+.about-columns {
+  display: grid;
+  gap: var(--gutter);
+}
+
+@media (min-width: 40em) {
+  .about-columns {
+    grid-template-columns: minmax(0, var(--measure-narrow)) minmax(14rem, 1fr);
+  }
+  .about-columns > :first-child {
+    order: 1;
+  }
+}

@@ -6,7 +6,9 @@ nav:
   label: About
 ---
 
-<div style="display: grid; grid-template-columns: 2fr 1fr; gap: var(--gutter)">
+<div class="about-columns">
+
+![](https://cdn-images-1.medium.com/max/2000/1*h_B5W3E2CTR7kzuUY2qvNQ.jpeg)
 
 <div class="flow">
 
@@ -39,12 +41,6 @@ In my spare time, I'm currently enjoying:
 I also love teaching: I'm an Instructor Associate at [General Assembly](https://generalassemb.ly/) and have given presentations at [TechCircus](https://www.techcircustv.com) and [Founders & Coders](https://www.foundersandcoders.com/).
 
 Like what you've heard? [Let's grab a coffee.](https://jaredhill.co/contact/)
-
-</div>
-
-<div>
-
-![](https://cdn-images-1.medium.com/max/2000/1*h_B5W3E2CTR7kzuUY2qvNQ.jpeg)
 
 </div>
 
