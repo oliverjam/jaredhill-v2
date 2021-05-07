@@ -114,3 +114,17 @@ form:invalid button[type="submit"]:hover {
 svg {
   vertical-align: middle;
 }
+
+.flow blockquote {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: var(--textLight);
+}
+
+.flow blockquote > :first-child::before {
+  content: "“";
+}
+
+.flow blockquote > :last-child::after {
+  content: "”";
+}

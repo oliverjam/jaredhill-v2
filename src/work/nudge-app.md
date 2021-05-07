@@ -4,13 +4,14 @@ date: 2017-10-26
 tags:
   - case study
 ---
+
 {% callout %}
 Developing an app to solve the age old problem of distraction
 {% endcallout %}
 
 ![](https://cdn-images-1.medium.com/max/6000/1*TBNSH9-pVWFiYm_Ur0LiGw.jpeg)
 
-*This case study was originally posted on Medium. If you prefer, you can [read it there](https://medium.muz.li/nudge-the-better-way-to-get-back-to-work-ed6e93269aae) instead.*
+_This case study was originally posted on Medium. If you prefer, you can [read it there](https://medium.muz.li/nudge-the-better-way-to-get-back-to-work-ed6e93269aae) instead._
 
 ## Summary
 
@@ -36,12 +37,13 @@ My core user was Idil, a young married Londoner working as a graphic designer at
 
 I conducted an extensive user interview to discover key aspects of Idil’s life in an attempt to identify problems that could be solved using a mobile application. It was obvious that Idil was a very motivated self-starter and so I dug down into her habits in regards to learning, and discovered:
 
-* Idil struggles to find articles relevant to her interests, and has been trying Flipboard recently without much joy
+- Idil struggles to find articles relevant to her interests, and has been trying Flipboard recently without much joy
 
-* To support her learning, she tries to get about an hour’s extra study done each night, but often gets distracted and never comes back to the work
+- To support her learning, she tries to get about an hour’s extra study done each night, but often gets distracted and never comes back to the work
 
 I explored each problem with her before deciding to try to address the latter, and formulated a **problem statement**:
-> # Idil wants to get work done at home but often gets distracted for when she sits down to do it.
+
+> Idil wants to get work done at home but often gets distracted for when she sits down to do it.
 
 It was clear that if an app could simply and effectively reduce distraction for Idil, she would happily use it to improve her learning process.
 
@@ -56,19 +58,24 @@ Now a problem had been found, it was time to explore all the potential solutions
 I sat down with Idil again to better understand her problem, and the factors that affected her study habits. I quickly realised during the second interview that distraction would be an extremely difficult problem to solve, in that a lot of its causes are psychological, rather than logistical, and unfortunately I’m not a behavioural psychologist! The rule of ‘Five Why’s’ didn’t seem to work in this context:
 
 Why do you get distracted?
->  “Because I go to make a cup of tea and I then decide to clean the kitchen for an hour.”
+
+> “Because I go to make a cup of tea and I then decide to clean the kitchen for an hour.”
 
 Why do you clean the kitchen for an hour rather than go back to work?
->  “Because it seems easier than going back to work.”
+
+> “Because it seems easier than going back to work.”
 
 Why does it seem easier than going back to work?
->  “I don’t know, because I just procrastinate for no reason…”
+
+> “I don’t know, because I just procrastinate for no reason…”
 
 Why do you procrastinate for no reason?
->  “I really don’t know, because I’m a terrible person?”
+
+> “I really don’t know, because I’m a terrible person?”
 
 Why are you a terrible person?
->  “I DON’T KNOW!”
+
+> “I DON’T KNOW!”
 
 ![Jared and his Amazing Technicolor Concept Map.](https://cdn-images-1.medium.com/max/8064/1*Q6z4U78tqCiaQhLMVAalPg.jpeg)
 
@@ -78,8 +85,9 @@ Joking aside, I did find there were ways for me to address the problem. I constr
 
 Idil said she was successful when she had a deadline, when she started work in the morning, when she was reminded to get back to work by her husband, and when she was able to get into a flow state. Her key indicators of failure included an abundance of time mentality, when she set her study goal too high for the day and it seemed insurmountable, and a number of apps that she had tried.
 
-This lead me to my final key discovery that strongly influenced design decisions. Idil had tried and failed to use productivity apps, and had strong feelings about the way that they would ‘guide’ her through her study. She was very self-motivated, and felt that they ‘babied’ her through the process, without allowing her to do her work. She also resented apps that blocked her access to social media, and found them petty since she was a mature adult and wanted to, in her words, “*believe in herself*”, and in her own ability to restrict her usage of these sites.
-> # “I don’t want to be disconnected, I just want to be regulated.”
+This lead me to my final key discovery that strongly influenced design decisions. Idil had tried and failed to use productivity apps, and had strong feelings about the way that they would ‘guide’ her through her study. She was very self-motivated, and felt that they ‘babied’ her through the process, without allowing her to do her work. She also resented apps that blocked her access to social media, and found them petty since she was a mature adult and wanted to, in her words, “_believe in herself_”, and in her own ability to restrict her usage of these sites.
+
+> “I don’t want to be disconnected, I just want to be regulated.”
 
 It was clear that she didn’t want to be restricted from being distracted, but rather be reminded at some point to go back to work, so she wouldn’t waste hours on these distractions.
 
@@ -87,9 +95,9 @@ It was clear that she didn’t want to be restricted from being distracted, but 
 
 The user interview found two main types of distractions:
 
-* **Digital**: Idil would often quickly check Facebook and end up reading a load of articles and never going back to work.
+- **Digital**: Idil would often quickly check Facebook and end up reading a load of articles and never going back to work.
 
-* **Physical**: Idil would head to the kitchen to make a snack and end up doing housework for an hour.
+- **Physical**: Idil would head to the kitchen to make a snack and end up doing housework for an hour.
 
 My app would need to solve both these problems — and with GPS technology and accelerometers, this would definitely be possible. I decided that my app would allow a user to set ‘work blocks’ of time in which they would be reminded each time they moved away from their desk or browsed on their phones. My next step was to storyboard the ideal user scenario for the app:
 
@@ -125,19 +133,19 @@ It was time to construct a paper prototype, and then open up testing to more use
 
 Most user tests received very strong positive user feedback, and also highlighted some areas that could be improved upon, which I then changed and re-tested with other users. Some of these changes included:
 
-* Making the timer show at all times, rather than be hidden. I thought that perhaps the timer would distract a user, but this did not seem the case in testing.
+- Making the timer show at all times, rather than be hidden. I thought that perhaps the timer would distract a user, but this did not seem the case in testing.
 
-* Removing the ‘screen takeover’ option, which was not deemed important enough for the MVP.
+- Removing the ‘screen takeover’ option, which was not deemed important enough for the MVP.
 
 ![Paper prototype testing with Idil.](https://cdn-images-1.medium.com/max/8064/1*KXBVOd1C5z8Uwxd9AavevQ.jpeg)
 
 ### Getting down and digital
 
-I then took the prototype to low and mid fidelity, at each stage testing the prototype with users to improve upon the designs. Users were *still* getting confused about how to set up the app on their first go, and I made many changes to resolve this:
+I then took the prototype to low and mid fidelity, at each stage testing the prototype with users to improve upon the designs. Users were _still_ getting confused about how to set up the app on their first go, and I made many changes to resolve this:
 
-* Switching around the order of some of the set-up options into a more logical order that made more sense to my users.
+- Switching around the order of some of the set-up options into a more logical order that made more sense to my users.
 
-* Adding a summary of the options that they have selected on the final screen before commencing the sprint:
+- Adding a summary of the options that they have selected on the final screen before commencing the sprint:
 
 ![](https://cdn-images-1.medium.com/max/2470/1*sOMu2RFtXPAB8sK8BMcxbA.png)
 
@@ -169,10 +177,10 @@ The project was challenging and required a tonne of problem solving skills to ge
 
 There are a number of directions in which this app could be taken, and the features that could be added are really limitless — as highlighted earlier, this is a curse as much as it is a blessing. Some of the key features that I believe would help Idil further, based on the user interviews, are:
 
-* Rewards: allowing a user to reward themselves for getting sprints done
+- Rewards: allowing a user to reward themselves for getting sprints done
 
-* Motivational messages: allowing a user to write themselves messages that they would then be sent later to remind why they should get back to work
+- Motivational messages: allowing a user to write themselves messages that they would then be sent later to remind why they should get back to work
 
-* Daily tracking of progress: logging user’s progress in a calendar to motivate them to get a sprint done every day.
+- Daily tracking of progress: logging user’s progress in a calendar to motivate them to get a sprint done every day.
 
-*Thanks for reading! If you’re interested in UX, remember to follow me on Medium and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content.*
+_Thanks for reading! If you’re interested in UX, remember to follow me on Medium and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content._

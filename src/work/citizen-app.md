@@ -11,13 +11,13 @@ Making an app that gives users a more authentic travel experience{% endcallout %
 
 ![](https://cdn-images-1.medium.com/max/6380/1*CboC4wnSvaU5B_rSMw0cmQ.png)
 
-*This case study was originally posted on Medium. If you prefer, you can [read it there](https://medium.muz.li/citizen-app-a-new-way-to-travel-3bd9c45ec580) instead.*
+_This case study was originally posted on Medium. If you prefer, you can [read it there](https://medium.muz.li/citizen-app-a-new-way-to-travel-3bd9c45ec580) instead._
 
 ## Summary
 
 CitizenM is a hotel chain that focuses on being innovative, youthful, and different. As part of a mock two-week design sprint on the UX Immersive course at General Assembly, I was tasked with creating a responsive, mobile-first website for CitizenM that would allow travellers to plan and book ‘local’ experiences.
 
-Together with a team of two other UX designers, we carried out extensive research that found that *trust* was an extremely important factor for the modern traveller when booking experiences. We designed Citizen App, which allows users to search, explore and book local experiences through actual local guides, moving the emphasis away from the experiences themselves and onto *those that know the most about them*. The app empowers any local with knowledge about their city to show tourists around, and in turn, gives tourists access to more authentic travel experiences.
+Together with a team of two other UX designers, we carried out extensive research that found that _trust_ was an extremely important factor for the modern traveller when booking experiences. We designed Citizen App, which allows users to search, explore and book local experiences through actual local guides, moving the emphasis away from the experiences themselves and onto _those that know the most about them_. The app empowers any local with knowledge about their city to show tourists around, and in turn, gives tourists access to more authentic travel experiences.
 
 If you’ve already heard enough of my yabbering, you can view the final clickable prototype [here](https://invis.io/2MDGTB1RN#/253175213_City_Picker).
 
@@ -31,7 +31,7 @@ They’re an innovative brand that look to offer ‘affordable luxury’ for a n
 
 ### The Brief
 
-Myself and two other UX designers were tasked with ****building a *responsive, mobile-first website *that would allow recreational and business travellers to plan and book ‘local’ experiences, making it easier for them to get to know a place through the eyes of those that live locally.
+Myself and two other UX designers were tasked with \**\*\*building a *responsive, mobile-first website \*that would allow recreational and business travellers to plan and book ‘local’ experiences, making it easier for them to get to know a place through the eyes of those that live locally.
 
 **Sprint length:** 2 weeks
 
@@ -49,11 +49,11 @@ CitizenM is an extremely distinctive brand, and if we were to design an app that
 
 By visiting their Shoreditch hotel, interviewing employees, and doing a deep-dive into their website, a few things were clear:
 
-* **CitizenM’s brand is their selling point:** The CitizenM brand is bold and quirky, colourful, and extremely strong across all touchpoints. They know what they represent and shout about it.
+- **CitizenM’s brand is their selling point:** The CitizenM brand is bold and quirky, colourful, and extremely strong across all touchpoints. They know what they represent and shout about it.
 
-* **CitizenM is not for everyone:** Part of having a strong brand is not being afraid to alienate some customer segments. CitizenM is loved by those it appeals to, but its aesthetics and messaging is not for everyone.
+- **CitizenM is not for everyone:** Part of having a strong brand is not being afraid to alienate some customer segments. CitizenM is loved by those it appeals to, but its aesthetics and messaging is not for everyone.
 
-* **CitizenM targets a very specific user: **CitizenM make it clear who their target customer is: the *‘new breed of traveller.’ *This seems independent of age and social group — customers in the hotel ranged from early 20s to early 50s and included business people and artsy types — and is more focussed on common interests, including travel and technology.
+- **CitizenM targets a very specific user: **CitizenM make it clear who their target customer is: the *‘new breed of traveller.’ *This seems independent of age and social group — customers in the hotel ranged from early 20s to early 50s and included business people and artsy types — and is more focussed on common interests, including travel and technology.
 
 ![Some cheeky messaging at the CitizenM hotel](https://cdn-images-1.medium.com/max/7010/1*PPTN8_txBiTpCumb4pU2Vw.jpeg)
 
@@ -81,7 +81,7 @@ Trust was hugely important for people when deciding on and enjoying local tours 
 
 ### Balance
 
-Whilst users loved authentic experiences, this didn’t mean they were not interested in touristy experiences. Travellers got the most satisfaction when there was a *balance* in their itinerary.
+Whilst users loved authentic experiences, this didn’t mean they were not interested in touristy experiences. Travellers got the most satisfaction when there was a _balance_ in their itinerary.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*2fQShObOv1lZ7yeK6Iz6uw.png)
 
@@ -102,7 +102,8 @@ Alex, a 33 year old Italian from Florence, became our primary persona because hi
 ## Alex’s challenge
 
 With Alex’s goals and frustrations in mind, we formulated a design challenge:
-> # *Enable Alex to browse and book authentic local experiences and reach out to ‘locals’ directly for insights and recommendations.*
+
+> Enable Alex to browse and book authentic local experiences and reach out to ‘locals’ directly for insights and recommendations.
 
 This challenge not only took into account our persona, but also the brief and the findings from our user interviews and competitive research.
 
@@ -114,15 +115,15 @@ It was now time to move to the Design stage, so, as our Italian stallion Alex wo
 
 Going into the Design Studio, our aim was to build something that:
 
-* was focussed upon *trust* and *authenticity*
+- was focussed upon _trust_ and _authenticity_
 
-* balanced both *local *experiences **and more *tourist-heavy* experiences
+- balanced both *local *experiences \**and more *tourist-heavy\* experiences
 
-* gave Alex the resources to be *confident* in his booking decisions.
+- gave Alex the resources to be _confident_ in his booking decisions.
 
 ![](https://cdn-images-1.medium.com/max/6522/1*-s_w5Sxfumo7_qslVNkVlA.jpeg)
 
-A common theme across many of the interviews was that quite a few users would stay in an Airbnb in order to make friends with the local renting out the house, and often the local would then take them out to ‘hidden’ spots that were off the beaten track. Through brainstorming and critique, this lead the team to a key idea: rather than focusing on the tours and experiences themselves, our app would put the focus on the *locals giving the tours*.
+A common theme across many of the interviews was that quite a few users would stay in an Airbnb in order to make friends with the local renting out the house, and often the local would then take them out to ‘hidden’ spots that were off the beaten track. Through brainstorming and critique, this lead the team to a key idea: rather than focusing on the tours and experiences themselves, our app would put the focus on the _locals giving the tours_.
 
 By allowing users to search by their interests, connect with locals that they think they’d get along with and then chat to them before booking, the app would allow users to create personalised, authentic experiences, and have 100% confidence in the booking they are making. It would also give locals a way to make money, by signing up for the app and connecting with travellers who are prepared to pay to be taken to authentic cultural experiences.
 
@@ -158,9 +159,8 @@ This was a fantastic project and I’m extremely proud of the final product, whi
 
 So much was achieved in this two week sprint but there are many other things that I’d like to explore, including:
 
-* **The booking flow:** I’d love to explore how users would book the experiences themselves, as this is an integral part of the overall user experience and is very often make or break for an app.
+- **The booking flow:** I’d love to explore how users would book the experiences themselves, as this is an integral part of the overall user experience and is very often make or break for an app.
 
-* **Desktop version of the site:** As we decided to design the experience as a responsive website, or moreover an Optimised Web App, it would be great to design the desktop version. This is especially important because many of our users said that when booking tours, they would do so on their laptops, as it’s usually a more comfortable experience and allows easier comparison between sites.
+- **Desktop version of the site:** As we decided to design the experience as a responsive website, or moreover an Optimised Web App, it would be great to design the desktop version. This is especially important because many of our users said that when booking tours, they would do so on their laptops, as it’s usually a more comfortable experience and allows easier comparison between sites.
 
-*Thanks for reading! If you’re interested in UX, remember to follow me on Medium and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content.*
-
+_Thanks for reading! If you’re interested in UX, remember to follow me on Medium and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content._
