@@ -8,7 +8,7 @@ nav:
 
 <div class="about-columns">
 
-![](/assets/images/about-1.png)
+![](/assets/images/about-1.jpg)
 
 <div class="flow">
 
