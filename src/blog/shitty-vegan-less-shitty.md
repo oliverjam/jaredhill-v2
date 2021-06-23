@@ -7,8 +7,6 @@ tags:
   - usability
 ---
 
-## Making Shitty Vegan less shitty: a personal skills test
-
 *“Am I improving as a designer?”*
 
 It’s a question that most of us ask ourselves from time to time. A single visit to Design Twitter, filled with its hustlers and lifelong learners, is enough to leave anyone with the crushing feeling of not doing enough to keep up.
@@ -167,6 +165,8 @@ Finally, let’s look at the calendar. For some reason I had marked *egg* days w
 Using colour to convey meaning isn’t accessible design, and my solution to this originally was to create a *colourblind mode*, which, whilst thoughtful, is not how I would tackle this nowadays. Accessibility shouldn’t be an optional extra. I want to make sure that my designs are accessible by default, even if it’s harder to do. So let’s add the little emojis used on the diet logging screen to each logged day.
 
 It makes the interface more visually busy but solves the problem. A worthy trade-off.
+
+I'll also add a little prompt that can appear towards the end of the day for the user, reminding them to log their diet:
 
 ![The home screen, with and without the diet log prompt.](https://cdn-images-1.medium.com/max/6672/1*OtqWS2ckNz1Eo8s1ObxEVw.png)
 
