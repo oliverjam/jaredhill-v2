@@ -13,7 +13,7 @@ tags:
 
 It’s a question that most of us ask ourselves from time to time. A single visit to Design Twitter, filled with its hustlers and lifelong learners, is enough to leave anyone with the crushing feeling of not doing enough to keep up.
 
-So, I thought I’d set myself a challenge. I’d revisit an old design and critique it, seeing if there are things that Current Jared would would do differently to Past Jared.
+So, I thought I’d set myself a challenge. I’d revisit an old design and critique it, seeing if there are things that Current Jared would do differently to Past Jared.
 
 And I’ll be honest, this exercise scares me a lot. What if I find I can’t improve on my old designs? There’s always been that lingering thought in the back of my mind that says that despite all the effort, perhaps I’m just not getting better at design. Or worse, perhaps my years spent in consulting have rotted my brain and turned me into a *terrible* designer?
 
