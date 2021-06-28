@@ -8,7 +8,7 @@ tags:
 ---
 
 {% callout %}
-*“Am I improving as a designer?”*
+“Am I improving as a designer?”
 {% endcallout %}
 
 It’s a question that most of us ask ourselves from time to time. A single visit to Design Twitter, filled with its hustlers and lifelong learners, is enough to leave anyone with the crushing feeling of not doing enough to keep up.
@@ -94,7 +94,7 @@ So, how does one improve on something so minimalistic?
 ### The bad (and the ugly)
 
 Well, fortunately, *simplicity *is not simply a matter of reducing features or making something look visually clean. The perceived simplicity of an experience also has to do with the complexity of the information being communicated, and the steepness of the learning curve required for a user to understand that information. As [John Maeda](undefined) said in *The Laws of Simplicity*:
-> # The best designers marry function with form to create intuitive experiences that users understand immediately.
+> The best designers marry function with form to create intuitive experiences that users understand immediately.
 
 In this case, I think that a lack of discipline on my part meant that, whilst I was able to create an interface that was *visually* clean, *conceptually* this thing is all over the place. The interface screams at me that the designer doesn’t exactly know what they want to create or which element will deliver true value to the user, leading them to just throw together a bunch of incongruent features. The result is a non-committal experience that lacks hierarchy and focus.
 
