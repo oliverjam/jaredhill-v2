@@ -22,7 +22,7 @@ Full width image:
 
 {% layout "full" %}
 
-![Check out the superiority complex on this guy.](https://cdn-images-1.medium.com/max/2880/1*llscINoov8mOXmkcqayX4g.jpeg)
+{% image "https://cdn-images-1.medium.com/max/2880/1*llscINoov8mOXmkcqayX4g.jpeg", "Check out the superiority complex on this guy." %}
 
 {% endlayout %}
 
