@@ -9,10 +9,17 @@ function layout(content, size) {
   return html`<span class="layout--${size}">${content}</span>`;
 }
 
-function image(src) {
+function image(src, caption, alt = "") {
   return html`
     <details data-lightbox>
-      <summary><img src="${src}" /></summary>
+      <summary>
+        <figure class="vstack">
+          <img src="${src}" alt="${alt}" />
+          <figcaption class="text-align:center fz-sm color-text-light">
+            ${caption}
+          </figcaption>
+        </figure>
+      </summary>
       <img src="${src}" />
     </details>
   `;
