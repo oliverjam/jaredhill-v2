@@ -142,3 +142,53 @@ animated-carousel li {
   bottom: 0;
   left: 0;
 }
+
+[data-lightbox] summary {
+  list-style: none;
+  max-width: max-content;
+  cursor: zoom-in;
+}
+
+/* Hide arrow on Safari */
+[data-lightbox] summary::-webkit-details-marker {
+  display: none;
+}
+
+[data-lightbox][open] summary {
+  cursor: zoom-out;
+}
+
+[data-lightbox][open] summary::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+[data-lightbox][open] summary::after {
+  content: "\00D7";
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  font-size: 4rem;
+  line-height: 1;
+  color: white;
+  z-index: 10;
+}
+
+[data-lightbox][open] summary ~ img {
+  --margin: 8rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: calc(100% - var(--margin));
+  max-height: calc(100% - var(--margin));
+  box-shadow: 0 2px 2px hsla(0, 0%, 0%, 10%), 0 6px 12px hsla(0, 0%, 0%, 25%);
+  object-fit: cover;
+}
+
+[data-lightbox] summary:focus-visible {
+  outline-color: blue;
+}

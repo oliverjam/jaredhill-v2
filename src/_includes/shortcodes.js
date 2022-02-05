@@ -9,4 +9,13 @@ function layout(content, size) {
   return html`<span class="layout--${size}">${content}</span>`;
 }
 
-module.exports = { callout, layout };
+function image(src) {
+  return html`
+    <details data-lightbox>
+      <summary><img src="${src}" /></summary>
+      <img src="${src}" />
+    </details>
+  `;
+}
+
+module.exports = { paired: { callout, layout }, single: { image } };

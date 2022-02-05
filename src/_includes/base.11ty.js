@@ -65,6 +65,7 @@ exports.render = (data) => {
             <script src="/assets/js/${name}.js" type="module"></script>
           `
         )}
+        <script src="/assets/js/lightbox.js" type="module"></script>
       </body>
     </html>
   `;
