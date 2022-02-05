@@ -7,13 +7,15 @@ tags:
 
 ## Bowel Status: Calm & Ready
 
-It was a sunny Friday afternoon when my friend excitedly sent me a link to the website for [*Huel](https://huel.com/)*, a new nutritionally-complete powdered food ala Soylent, but manufactured in the United Kingdom. Within minutes, we’d ordered about 13kg of the stuff, and decided that we’d be living off it for the next week.
+It was a sunny Friday afternoon when my friend excitedly sent me a link to the website for [Huel](https://huel.com/), a new nutritionally-complete powdered food ala Soylent, but manufactured in the United Kingdom. Within minutes, we’d ordered about 13kg of the stuff, and decided that we’d be living off it for the next week.
 
-![](https://cdn-images-1.medium.com/max/4000/1*BgBR3yk7-y1LRpfSlAJ3hw.jpeg)
+{% image "https://cdn-images-1.medium.com/max/4000/1*BgBR3yk7-y1LRpfSlAJ3hw.jpeg" %}
 
 Why all the excitement? We’d both been closely following Rob Rhinehart’s [Soylent](https://www.soylent.com/) for a good while, and had become increasingly frustrated waiting for it to become available in the UK. So impatient were we that about a year before, we had followed an online recipe (Soylent is open source) and bought the constituent parts to create our own Franken-Soylent. Imagine the world’s thickest milkshake, made by the world’s most sadistic milkshake-maker. Did you ever play that game as a kid where you’d mix different sauces from your fridge into one deadly concoction that you’d dare each other to drink? Well, it didn’t taste like that, but my body categorically rejected the liquid in the exact same way. It didn’t taste like a food and didn’t taste like a drink; it was stuck in the uncanny valley of edible materials.
 
 ![Franken-Soylent: the official drink of the Four Horsemen of the Apocalypse.](https://cdn-images-1.medium.com/max/2178/1*QD4rxbZVkcCcasgTuhwldA.jpeg)
+
+{% image "https://cdn-images-1.medium.com/max/2178/1*QD4rxbZVkcCcasgTuhwldA.jpeg", "Franken-Soylent: the official drink of the Four Horsemen of the Apocalypse." %}
 
 So you can imagine our joy when someone with some actual culinary skill had taken it upon themselves to mass-produce a Soylent-type drink in the UK. Plus, Huel was *even better *than Soylent for my dietary needs — it’s higher in protein ([30%](https://huel.com/pages/nutritional-information-and-ingredients#macro) compared to [Soylent’s 20%](https://faq.soylent.com/hc/en-us/articles/203798419-Macronutrient-Energy-Ratio)) and pretty much perfectly resembled the carb/fat/protein split that I already consumed on a daily basis.
 
