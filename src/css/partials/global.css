@@ -33,14 +33,12 @@ h6 {
   line-height: 1.2;
 }
 
-h2,
-h3 {
+h2 {
   text-decoration-style: solid;
   text-decoration-line: underline;
   text-decoration-color: var(--alternate);
   text-decoration-thickness: 0.5rem;
   text-decoration-skip-ink: none;
-  text-decoration-skip: none;
   text-underline-offset: -0.6rem;
 }
 

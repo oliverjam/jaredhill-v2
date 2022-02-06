@@ -48,7 +48,10 @@ exports.render = (data) => {
               date,
               seconds: readingTime && getReadingTime(content),
             })}
-        <main class="layout ${flow && "py-gutter--md flow"} ${measure}">
+        <main
+          class="layout ${flow && "py-gutter--md flow"} ${measure}"
+          style="--flow-space: 1.5rem"
+        >
           ${blocks ? blocks.map(renderBlock(data)) : content}
         </main>
         <footer>
@@ -104,7 +107,7 @@ function Socials({ socials, className, size = 24 }) {
       ${Object.entries(socials).map(
         ([name, { url, icon }]) => html`
           <li>
-            <a href=${url}>
+            <a href=${url} target="_blank" rel="noopener">
               <img src=${icon} alt="${name}" width="${size}" height="${size}" />
             </a>
           </li>
