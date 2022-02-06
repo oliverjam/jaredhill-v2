@@ -4,15 +4,16 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev": "eleventy build --serve --quiet",
-    "build": "ELEVENTY_ENV=production eleventy build"
+    "dev": "eleventy --serve --quiet",
+    "build": "ELEVENTY_ENV=production eleventy"
   },
   "keywords": [],
   "author": "Oliver Phillips <hello@oliverjam.es> (https://oliverjam.es)",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^1.0.0",
     "@sindresorhus/slugify": "^1.1.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^7.1.0"
   },
   "devDependencies": {
