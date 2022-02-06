@@ -48,7 +48,10 @@ exports.render = (data) => {
               date,
               seconds: readingTime && getReadingTime(content),
             })}
-        <main class="layout ${flow && "py-gutter--md flow"} ${measure}">
+        <main
+          class="layout ${flow && "py-gutter--md flow"} ${measure}"
+          style="--flow-space: 1.5rem"
+        >
           ${blocks ? blocks.map(renderBlock(data)) : content}
         </main>
         <footer>
