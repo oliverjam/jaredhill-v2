@@ -39,7 +39,6 @@ h2 {
   text-decoration-color: var(--alternate);
   text-decoration-thickness: 0.5rem;
   text-decoration-skip-ink: none;
-  text-decoration-skip: none;
   text-underline-offset: -0.6rem;
 }
 
