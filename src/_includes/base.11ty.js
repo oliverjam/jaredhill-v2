@@ -107,7 +107,7 @@ function Socials({ socials, className, size = 24 }) {
       ${Object.entries(socials).map(
         ([name, { url, icon }]) => html`
           <li>
-            <a href=${url}>
+            <a href=${url} target="_blank" rel="noopener">
               <img src=${icon} alt="${name}" width="${size}" height="${size}" />
             </a>
           </li>
