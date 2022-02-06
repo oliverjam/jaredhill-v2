@@ -1,5 +1,6 @@
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownLinks = require("markdown-it-link-attributes");
 const slugify = require("@sindresorhus/slugify");
 const { paired, single } = require("./src/_includes/shortcodes");
 
@@ -26,6 +27,17 @@ module.exports = (config) => {
     permalink: true, // show link to headings
     permalinkSymbol, // nice svg link icon
     permalinkAttrs: (slug) => ({ "aria-label": `link to ${slug} section` }),
+  });
+
+  md.use(markdownLinks, {
+    matcher(href) {
+      // match any links starting with http or https
+      return href.match(/^https?:/);
+    },
+    attrs: {
+      target: "_blank",
+      rel: "noopener",
+    },
   });
 
   config.setLibrary("md", md);
