@@ -25,7 +25,7 @@ This is an intro! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
 
 This is paragraph text after that H2. Now we should look at this again but only with paragraph text straight after an intro. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-% callout %}
+{% callout %}
 
 This is another intro to test what having body text straight after looks like! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
 
