@@ -25,4 +25,22 @@ function image(src, caption, alt = "") {
   `;
 }
 
-module.exports = { paired: { callout, layout }, single: { image } };
+function youtube(id) {
+  return html`
+    <lite-youtube
+      videoid="${id}"
+      params="modestbranding=2"
+      style="background-image: url('https://i.ytimg.com/vi/${id}/hqdefault.jpg');"
+    >
+      <noscript>
+        <a
+          href="https://youtube.com/watch?v=${id}"
+          class="lty-playbtn"
+          title="Play Video"
+        ></a>
+      </noscript>
+    </lite-youtube>
+  `;
+}
+
+module.exports = { paired: { callout, layout }, single: { image, youtube } };

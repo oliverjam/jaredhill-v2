@@ -11,6 +11,7 @@ const files = [
   "global.css",
   "layout.css",
   "components.css",
+  "lite-youtube-embed.css",
   "utilities.css",
 ];
 
