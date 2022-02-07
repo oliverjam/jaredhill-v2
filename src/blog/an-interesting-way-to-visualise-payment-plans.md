@@ -1,6 +1,7 @@
 ---
 title: An interesting way to visualise payments plans
 date: 2018-07-13
+draft: true
 tags:
   - digital
   - design
