@@ -19,7 +19,7 @@ So sit back, plug in your walkman, and enjoy these sweet beats.
 
 **_Remember to be diverse in your recruiting_**
 
- {% youtube "https://www.youtube.com/watch?v=CdqoNKCCt7A" %}
+ {% youtube "CdqoNKCCt7A" %}
 
 We all have unconscious biases. Even when we think we’re being fair and impartial, [research tells us](https://www.psychologytoday.com/gb/blog/between-the-lines/201204/studies-unconscious-bias-racism-not-always-racists) that we still subconsciously favour those that are similar to ourselves. I’ve never understood why people find this so surprising; humans love familiarity and predictability, and our monkey brains associate these things with people who are similar to us in culture, gender, ability or ethnicity. This isn’t something to be ashamed of but it _is_ something that needs to be acknowledged and accounted for, now more than ever. And yet, when it comes to testing, we can often forget about this bias completely.
 
@@ -41,7 +41,7 @@ And remember, if [it’s raining men](https://www.youtube.com/watch?v=l5aZJBLAu1
 
 **_Five tests capture 85% of usability issues… or do they?_**
 
- {% youtube "https://medium.com/media/ad275f4030745b90e0b0d29d54e313e8" %}
+ {% youtube "CdqoNKCCt7A" %}
 
 It’s one of the most famous UX rules of thumb: _5 usability tests captures 85% of usability issues_. NN Group put forward this magic number [decades ago](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) to maximise return on time investment, and it’s been a fantastic ally of UX designers. Having such an achievable number to aim has removed the perceived difficulty of the process for designers everywhere and added much-needed agility.
 
@@ -63,7 +63,7 @@ In my opinion, the ‘five users’ rule is still invaluable for getting buy-in 
 
 **_Make sure your users are using the product in the way they normally would_**
 
- {% youtube "https://medium.com/media/d991164fbeb2e85cd3b223ff819586bb" %}
+ {% youtube "1EdUjlawLJM" %}
 
 Once upon a time, usability tests were hard. Users were given a phone with a horrendous spidery arm attached to a camera on it, or were sat in a room with a big two-way mirror, like an interrogation scene out of a movie. Then, they were told to relax, and to use the phone like they normally would.
 
@@ -81,7 +81,7 @@ Atmosphere also has to do with _where_ you test: make sure you’re in a neutral
 
 **_Get your user relaxed, in any way possible_**
 
- {% youtube "https://medium.com/media/dea67881278a648037e1f1fffb37852a" %}
+ {% youtube "Emutat3_IP0" %}
 
 Try this experiment: sit next to someone using their phone or laptop, and watch them as they use it. Nod your head every now and then, and grunt disapprovingly once or twice. Note how they shift uncomfortably in their seat. Watch how them squirm.
 
@@ -103,7 +103,7 @@ A couple of other tips to stop users being [under too much pressure](https://www
 
 **_Remember to get consent when recording the user — and keep their details confidential_**
 
- {% youtube "https://medium.com/media/1b03d60b16f37dc816e47369a5ec4032" %}
+ {% youtube "8ahU-x-4Gxw" %}
 
 Like most ethical matters, this one is pretty simple to understand, and yet somehow can still get forgotten. If you’re recording someone’s voice or face during a usability test, you’re gonna need to get written consent from them, which stipulates how you’re going to be using the recording, and that they have the right to withdraw their consent at any time.
 
@@ -117,7 +117,7 @@ Of all the tips listed herein, this is probably the most boring and also the mos
 
 **_Keep your big mouth — and your ego — out of it_**
 
- {% youtube "https://medium.com/media/b87d7417175f12edefb2ccc23ee916d1" %}
+ {% youtube "PtzhvJh9NRY" %}
 
 I’m a huge believer in the idea that to be a truly great designer, you must be able to remove your ego from the process. Ego poisons everything: it clouds judgement, it reduces empathy, and it frames problems within the context of one’s own personal goals and motivations. And yet, design and ego are naturally connected. We feel proud of the work we do, we become emotionally invested in it, and want our designs to be reflections of how we see ourselves as designers.
 
@@ -141,7 +141,7 @@ I always find it’s helpful to tell people before the test that you may not be 
 
 **_Sometimes, you’ll need to challenge users_**
 
- {% youtube "https://medium.com/media/2e49d8ae37899d2a0ffae42326e2a978" %}
+ {% youtube "vCadcBR95oU" %}
 
 Challenging users seems a direct contradiction to the last tip, but the fact is that no two tests are the same, and depending on the user vastly different approaches are often needed. Differences in personality, cultural background, and perceived psychological safety are just some of the factors that can affect a test. For example, I found that users I tested with in Uganda needed a lot more encouragement to feel comfortable talking about the product than users in the US and UK, who are usually more happy to volunteer their thoughts on the interface.
 
@@ -159,7 +159,7 @@ It may seem awkward, but knowing when to push (and when not to) can be the diffe
 
 **_Get out there and start testing_**
 
- {% youtube "https://medium.com/media/cb60e3c79e6bd48476f1fb630f859879" %}
+ {% youtube "1XMvPTFzgVU" %}
 
 Look, there’s only so much advice I can give you (and truthfully, only so many 80s songs I can tenuously link to said advice). However, one of the most important things that I’ve learnt over the years is when it comes to testing, no one size fits all. No matter how much you plan and prepare, testing involves _people_, and the beautiful thing about people is that they are all very different. Anyone who says that there is just one ‘right’ or ‘universal’ way to approach testing is probably lying to you.
 
