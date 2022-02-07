@@ -47,7 +47,7 @@ It’s one of the most famous UX rules of thumb: _5 usability tests captures 85%
 
 But, of course, it’s never that easy. [Debate](https://uxfactor.wordpress.com/2012/11/12/five-users-will-find-85-of-the-usability-problems-wrong/) has [raged](https://www.nngroup.com/articles/how-many-test-users/) in recent years over the claim, lead by top dogs such as Jared Spool:
 
- <iframe src="https://medium.com/media/efe79d4dc35ba3b27156822b3fb15129" frameborder=0></iframe>
+ <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Disappointed when I hear there are still people touting the “you’ll find 85% of all design problems by testing 5 users” myth.<a href="https://twitter.com/hashtag/ThatsSo1995?src=hash&amp;ref_src=twsrc%5Etfw">#ThatsSo1995</a></p>&mdash; Jared Spool (@jmspool) <a href="https://twitter.com/jmspool/status/891382414643269633?ref_src=twsrc%5Etfw">July 29, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Now, I’ve followed Jared on Twitter for long enough to know better than getting in an argument with him. Thankfully, I don’t think that’s necessary here. What Jared (and others) seem to reject to is the *85% *part of the adage, which they see not only as false, but more importantly as an excuse for designers to be lazy with their testing.
 
