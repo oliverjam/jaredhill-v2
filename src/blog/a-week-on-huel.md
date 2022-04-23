@@ -13,8 +13,6 @@ It was a sunny Friday afternoon when my friend excitedly sent me a link to the w
 
 Why all the excitement? We’d both been closely following Rob Rhinehart’s [Soylent](https://www.soylent.com/) for a good while, and had become increasingly frustrated waiting for it to become available in the UK. So impatient were we that about a year before, we had followed an online recipe (Soylent is open source) and bought the constituent parts to create our own Franken-Soylent. Imagine the world’s thickest milkshake, made by the world’s most sadistic milkshake-maker. Did you ever play that game as a kid where you’d mix different sauces from your fridge into one deadly concoction that you’d dare each other to drink? Well, it didn’t taste like that, but my body categorically rejected the liquid in the exact same way. It didn’t taste like a food and didn’t taste like a drink; it was stuck in the uncanny valley of edible materials.
 
-![Franken-Soylent: the official drink of the Four Horsemen of the Apocalypse.](https://cdn-images-1.medium.com/max/2178/1*QD4rxbZVkcCcasgTuhwldA.jpeg)
-
 {% image "https://cdn-images-1.medium.com/max/2178/1*QD4rxbZVkcCcasgTuhwldA.jpeg", "Franken-Soylent: the official drink of the Four Horsemen of the Apocalypse." %}
 
 So you can imagine our joy when someone with some actual culinary skill had taken it upon themselves to mass-produce a Soylent-type drink in the UK. Plus, Huel was *even better *than Soylent for my dietary needs — it’s higher in protein ([30%](https://huel.com/pages/nutritional-information-and-ingredients#macro) compared to [Soylent’s 20%](https://faq.soylent.com/hc/en-us/articles/203798419-Macronutrient-Energy-Ratio)) and pretty much perfectly resembled the carb/fat/protein split that I already consumed on a daily basis.
@@ -30,7 +28,7 @@ Challenge accepted.
 
 The Huel arrived the following Monday in a big box, with a free branded t-shirt and shaker (nice!). In an effort to stop it resembling my recent concoction and setting off my Post-Traumatic Soylent Disorder, I blended it well, and added some ice to get it to a nice chilled temperature.
 
-![](https://cdn-images-1.medium.com/max/4000/1*sCccRR49StV3Ho5wMljtUA.jpeg)
+{% image "https://cdn-images-1.medium.com/max/4000/1*sCccRR49StV3Ho5wMljtUA.jpeg" %}
 
 First thoughts — not bad at all! It definitely still had that weird oat-type flavour/smell that I associate with these types of drinks, but the vanilla flavour was convincing, and if I tried hard enough, I could pretend the little brown specks in the drink were chocolate bits. The first 122g slid down quite easily, although it was a little thick (I took a mental note to use more water next time).
 
@@ -48,7 +46,7 @@ Over the next couple of days, I experienced a mixture of feelings.
 
 **Relief**: The Huel was not nearly as hard to drink as I thought it would be, as long as you didn’t expect to finish it quickly (I’d usually sip it at my desk over at least an hour). It was about 100 times tastier than a whey protein shake. I realised quickly that one of the biggest challenges would be finishing four portions in a day — each drink felt like a big undertaking.
 
-![](https://cdn-images-1.medium.com/max/3200/1*i23Ojrsp-durmSVJYlhOKA.jpeg)
+{% image "https://cdn-images-1.medium.com/max/3200/1*i23Ojrsp-durmSVJYlhOKA.jpeg" %}
 
 **Superiority**: Fully vegan and sustainable, Huel made me better than everybody else, and I let them know it regularly. Calling my friends ‘mindless food-eaters’ and reminding them that their archaic eating traditions were dying out brought me great joy in this period.
 
@@ -62,7 +60,7 @@ On days 4, 5, and 6, I really hit a wall. A big, off-yellow, vanilla-flavoured w
 
 Everything in me seemed to yearn for something, anything, more than the vanilla soup that I glugged down four times a day. It wasn’t a problem with my stomach, because I felt fairly satiated. It was my brain. 26 years of daily habit-building were fighting against this new liquid diet. I craved the act of chewing, the feeling of having solids in my stomach. In my spare time I would flip through food photos on Instagram and at night I’d lie in bed watching military ration reviews on Youtube (these are [surprisingly fun to watch](https://www.youtube.com/watch?v=lgICbOwP7NQ)). I flirted with the thought of eating a bit of celery, just to feel alive again, and it took all of my mental power to avoid it.
 
-![Staring into the abyss.](https://cdn-images-1.medium.com/max/4000/1*FUS88Sgf_FXeczgzgUzLxA.jpeg)
+{% image "https://cdn-images-1.medium.com/max/4000/1*FUS88Sgf_FXeczgzgUzLxA.jpeg", "Staring into the abyss." %}
 
 On the plus side, my bowels were starting to steady up. They’d put up a noble fight, but had clearly realised that resistance was futile. My entire body felt lighter, mainly because it *was* lighter: I had lost about 1.5kgs in water weight, probably because the Huel was so low in sodium compared to my normal diet.
 
@@ -74,7 +72,7 @@ On Sunday, somehow, everything changed. The food cravings were gone, my stomach 
 
 Had the Huel finally broken me? Or had I achieved some sort of futuristic post-foodstuff nirvana? I don’t know, but all I can say is that when it came to the celebratory meal on Sunday night, I felt at peace. Happy to indulge, but not dependant. I had finally freed myself from the shackles of food consumption, and let me tell you, it felt amazing.
 
-![My drought-breaking Sunday night feast.](https://cdn-images-1.medium.com/max/4000/1*bSwq3Yl5FNuZuIgLPJsPAQ.jpeg)
+{% image "https://cdn-images-1.medium.com/max/4000/1*bSwq3Yl5FNuZuIgLPJsPAQ.jpeg", "My drought-breaking Sunday night feast." %}
 
 That was 6 weeks ago. I’m happy to say that since then, I’ve been in a steady relationship with Huel. I’ve scaled back my use, but still drink two portions per day, replacing breakfast and lunch, and then have real-person food for dinner, which I’ve found is more than enough to fulfil my food cravings.
 
@@ -82,12 +80,14 @@ All the while, I’ve become more and more reliant on the stuff, to the point wh
 
 My one complaint is that in order to split the Huel into separate bags for transport every month, I end up having to turn my kitchen into something resembling a heroin lab. This takes time and uses so many plastic bags that I most probably cancel out any environmental good I’m doing by drinking it. Selling it in separate bags or premixed bottles like Soylent offer would be a great next step for the company.
 
-![“I’m not in the Huel business… I’m in the *empire* business.”](https://cdn-images-1.medium.com/max/2000/1*y5GwCpW2_3hHwRtLboHyGA.jpeg)
+{% image "https://cdn-images-1.medium.com/max/2000/1*y5GwCpW2_3hHwRtLboHyGA.jpeg", ""I’m not in the Huel business… I’m in the empire business."" %}
 
 So there you have it, my transformation from normal human to Huel addict. Recently, I’ve even become somewhat of an evangelist. I often wear my Huel shirt to the gym, and have had a lot of people approach me asking me what I think of the stuff. If anyone from Huel is reading, please do let me know if there is some way I can make some cash out of this.
 
 Love them or hate them, nutritionally-complete powdered drinks are here to stay. They’re changing the way people think about food, and although most people I talk to wretch at the thought, we might be in for a vanilla-flavoured future if we end up going and [melting those polar ice-caps](https://www.theguardian.com/environment/2014/jul/21/giving-up-beef-reduce-carbon-footprint-more-than-cars).
 
 On a personal level, it feels like my Huel journey is just beginning. Onwards and upwards.
+
+---
 
 *If you enjoyed this article, follow me on Medium or on Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content.*
