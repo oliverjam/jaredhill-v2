@@ -65,7 +65,7 @@ And here's a load of text. Lorem ipsum dolor sit amet, consectetur adipiscing el
 
 ## H2
 
-Okay here's how to [link something] (https://en.wikipedia.org/wiki/Computer_terminal) and this is [how you make it open as another tab](https://en.wikipedia.org/wiki/Computer_terminal).
+Okay here's how to [link something](https://en.wikipedia.org/wiki/Computer_terminal) and this is [how you make it open as another tab](https://en.wikipedia.org/wiki/Computer_terminal).
 
 Now let's look at how some text styles look at with the text.
 

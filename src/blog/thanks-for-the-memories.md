@@ -22,7 +22,7 @@ For the rest of the match, my stomach remained in a tightly bound knot. North fo
 
 Finally, with four minutes left to play in the last quarter, Petrie gathered the ball at ground level. Time slowed down, the knot in my stomach tightened, and my heart stopped beating. With a quick snap, he made North history.
 
-![](https://cdn-images-1.medium.com/max/2000/1*Ga85ynaY563exPAXBJLzfw.jpeg)
+{% image "https://cdn-images-1.medium.com/max/2000/1*Ga85ynaY563exPAXBJLzfw.jpeg" %}
 
 That was two years ago. The memory is still almost as clear now as it was at the time, and I can’t help but smile when I think about it. Today, it was a different story. North tumbled out the finals, just as everyone expected them to do. The feeling for me was bittersweet, even before the game. Since the club announced that it would not be renewing the contracts of four veterans, Brent Harvey, Drew Petrie, Michael Firrito and Nick Dal Santo, the last few weeks have felt very weird indeed. Like we’re in some sort of transition period, a changing of the guard, the end of an era - and this final was simply a backdrop for that much larger story.
 
@@ -34,7 +34,7 @@ I’m sure many people will be quick to point out that this is just cognitive di
 
 This is true for any fan. Replace ‘North’ with ‘Fremantle’ or ‘Richmond’ or ‘Perth Glory’ or ‘West Ham’, and you have the same thing. The successes these players have achieved can’t be counted in medals and trophies. Sport, from a supporter’s point of view, is simply a series of moments that evoke a range of intangible emotions.
 
-![](https://cdn-images-1.medium.com/max/2000/1*t4TV8hdkni41ECsxJCOhmw.jpeg)
+{% image "https://cdn-images-1.medium.com/max/2000/1*t4TV8hdkni41ECsxJCOhmw.jpeg" %}
 
 The final whistle blew. Standing there in that random bar in the middle of New York, arm in arm with some stranger who happened to support the same team as me, I was in shock. The Essendon supporters smiled at us, shook our hands, and wished us best luck in the rest of the finals.
 
@@ -46,6 +46,6 @@ Take out all the reporting and scandals and betting, the injuries and the rebuil
 
 Farewell, champions. It’s been a blast, and you’ve done us proud. Thanks for the memories.
 
-![](https://cdn-images-1.medium.com/max/2000/1*vo5Yg9wRBVaPkfhTiupDZA.jpeg)
+{% image "https://cdn-images-1.medium.com/max/2000/1*vo5Yg9wRBVaPkfhTiupDZA.jpeg" %}
 
 *Images courtesy of AFL.com.au*
