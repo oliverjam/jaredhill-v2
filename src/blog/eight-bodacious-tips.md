@@ -7,7 +7,7 @@ tags:
   - usability
 ---
 
-![](https://cdn-images-1.medium.com/max/2388/1*uxyvKFh1s5EoDRCyHFMQ_A.jpeg)
+{% image "https://cdn-images-1.medium.com/max/2388/1*uxyvKFh1s5EoDRCyHFMQ_A.jpeg" %}
 
 The 80s were the best of all the decades. I don’t actually remember them much, but if Stranger Things is anything to go by, it was all big hair, synthesisers, arcade games and deadly monsters from alternate dimensions (fun!). Technology had struck the perfect balance between being exciting but non-intrusive, and nobody got annoyed if you asked them to accept cookies. The future we imagined was one of flying cars and space travel, rather than of floods, reality tv presidents and hyper-targeted ads.
 
@@ -41,7 +41,7 @@ And remember, if [it’s raining men](https://www.youtube.com/watch?v=l5aZJBLAu1
 
 **_Five tests capture 85% of usability issues… or do they?_**
 
- {% youtube "CdqoNKCCt7A" %}
+ {% youtube "np0YIaHv6LQ" %}
 
 It’s one of the most famous UX rules of thumb: _5 usability tests captures 85% of usability issues_. NN Group put forward this magic number [decades ago](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) to maximise return on time investment, and it’s been a fantastic ally of UX designers. Having such an achievable number to aim has removed the perceived difficulty of the process for designers everywhere and added much-needed agility.
 
@@ -69,7 +69,7 @@ Once upon a time, usability tests were hard. Users were given a phone with a hor
 
 I still remember reading Steve Krug’s Don’t Make Me Think and thinking what an absolute endeavour it sounded to set up a usability test — thousands of dollars worth of equipment and planning.
 
-![“Don’t worry, we’re not testing you.”](https://cdn-images-1.medium.com/max/2024/1*oRf0Gd1WjPrShwyczE2r3w.png)
+{% image "https://cdn-images-1.medium.com/max/2024/1*oRf0Gd1WjPrShwyczE2r3w.png", "\"Don’t worry, we’re not testing you.\"" %}
 
 Thankfully, modern tools have allowed for the democratisation of usability testing. Laptops and phones are portable, so testing can be conducted anywhere, not just in a usability lab. Screen, face and voice recording programs allow us to record tests without having to strap a restrictive apparatus to the phone.
 
@@ -123,7 +123,7 @@ I’m a huge believer in the idea that to be a truly great designer, you must be
 
 I particularly like Stuart Butterfield’s quote on the subject:
 
-> “This is the greatest software development methodology: Don’t think about what you’re doing, have no ego. There’s no speculation.”
+> This is the greatest software development methodology: Don’t think about what you’re doing, have no ego. There’s no speculation.
 
 The connection between ego and design is no more pronounced than in a test scenario. If you’re testing designs that you’ve made, your natural tendency is going to be to seek positive feedback, and to avoid, ignore, and explain away negative feedback.
 
