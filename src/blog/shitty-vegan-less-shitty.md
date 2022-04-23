@@ -55,7 +55,7 @@ My objectives were:
 
 Time to have a look at what I had come up with.
 
-{% image "hhttps://cdn-images-1.medium.com/max/7528/1*DGAYoHVFRvxsGCitGPG_lA.png", "The Shitty Vegan Figma file." %}
+{% image "https://cdn-images-1.medium.com/max/7528/1*DGAYoHVFRvxsGCitGPG_lA.png", "The Shitty Vegan Figma file." %}
 
 First of all, well done Jared, it’s a surprisingly well ordered file! The flows and screens are named and numbered, and all the various states and edge cases are designed. I can be pretty lazy with file organisation on personal projects, but at the time I was working with my developer friend [Oli](http://oliverjam.es) to turn the concept into a PWA, so I was more focussed on making the file easily navigable for newcomers. Great start.
 

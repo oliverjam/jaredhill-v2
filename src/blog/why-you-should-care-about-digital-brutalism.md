@@ -6,7 +6,7 @@ tags:
   - design
 ---
 
-![](https://cdn-images-1.medium.com/max/2400/1*q_HetbsGlHQdCK57HkFQ7g.png)
+{% image "https://cdn-images-1.medium.com/max/2400/1*q_HetbsGlHQdCK57HkFQ7g.png" %}
 
 *This article is adapted from a flash talk I gave at General Assembly in October 2017, and the images have been pulled straight from the presentation deck. Enjoy.*
 
@@ -14,7 +14,7 @@ You may have heard about digital brutalism. It’s so hot right now. Let’s hav
 
 I can hear you asking: what is digital brutalism?
 
-![](https://cdn-images-1.medium.com/max/2000/1*wDGYmVnK6Bw5PbVw8ZUtfQ.png)
+{% image "https://cdn-images-1.medium.com/max/2000/1*wDGYmVnK6Bw5PbVw8ZUtfQ.png" %}
 
 Woah there, cowboy! To answer this, we must first ask another question:
 
@@ -22,7 +22,7 @@ Woah there, cowboy! To answer this, we must first ask another question:
 
 We’ve all been there: you’re walking through a picturesque town, having a great day, and then you’re metaphorically punched in the face when you see something like this:
 
-![](https://cdn-images-1.medium.com/max/2000/1*x31SCzADcuqg2M8t_6rHaA.png)
+{% image "https://cdn-images-1.medium.com/max/2000/1*x31SCzADcuqg2M8t_6rHaA.png" %}
 
 Depending on your artistic leanings, you either gasp with joy or vomit a little in your mouth and move on.
 
@@ -42,25 +42,25 @@ Sure.
 
 One of the most well-known brutalist pioneers, [Bloomberg](https://www.bloomberg.com) are awesome — check out [this article](https://www.bloomberg.com/features/2016-yahoo/) for some sweet sweet design.
 
-![](https://cdn-images-1.medium.com/max/2000/1*bMt8az97yXZ7QVvTYYv27A.png)
+{% image "https://cdn-images-1.medium.com/max/2000/1*bMt8az97yXZ7QVvTYYv27A.png" %}
 
 ### Balenciaga.
 
 One of my personal favourites, [Balenciaga](http://www.balenciaga.com/) simply does not give a shit.
 
-![](https://cdn-images-1.medium.com/max/2000/1*iubKOe2GRRRjPS-KuBKIhA.png)
+{% image "https://cdn-images-1.medium.com/max/2000/1*iubKOe2GRRRjPS-KuBKIhA.png" %}
 
 ### **The Outline.**
 
 New-ish publication [The Outline](https://theoutline.com) embraces brutalism as part of its core identity, and strikes a good balance between usability and bad-ass aesthetics.
 
-![](https://cdn-images-1.medium.com/max/2000/1*igANvY-CNRrSi7ucOPHSHA.png)
+{% image "https://cdn-images-1.medium.com/max/2000/1*igANvY-CNRrSi7ucOPHSHA.png" %}
 
 ### **Loads of others.**
 
 There are lots out there, and [BrutalistWebsites.com](http://brutalistwebsites.com/) does a good job of compiling them. The sheer range of different designs shows just how hard it is to put a singular definition on ‘brutalism’. It’s many things to many people.
 
-![](https://cdn-images-1.medium.com/max/2000/1*shzQJ3kUZjv3_D0j-8osHg.png)
+{% image "https://cdn-images-1.medium.com/max/2000/1*shzQJ3kUZjv3_D0j-8osHg.png" %}
 
 ## So why should I care?
 
@@ -76,7 +76,7 @@ Look at [Craigslist](http://craiglist.com/), a site which hasn’t *really* upda
 
 Furthermore, the out-of-date design may even contribute a little to its success: the ‘thrown together’ nature of the site perfectly matches the hasty ‘bargain sale’ quality of the site itself.
 
-![They even have a ‘casual encounters’ category which I assume is for meeting new friends for coffee.](https://cdn-images-1.medium.com/max/2000/1*lTAK7DI2EAZRWbNrl9BEMQ.png)
+{% image "ttps://cdn-images-1.medium.com/max/2000/1*lTAK7DI2EAZRWbNrl9BEMQ.png", "They even have a ‘casual encounters’ category which I assume is for meeting new friends for coffee." %}
 
 ### 2. It can be a statement
 
@@ -101,7 +101,7 @@ This brings me to what is, for me, the most important reason why brutalism appea
 
 ### 5. It’s really bloody nostalgic
 
-![](https://cdn-images-1.medium.com/max/2000/1*VNtek-owq07vGc3IVSXq5g.png)
+{% image "https://cdn-images-1.medium.com/max/2000/1*VNtek-owq07vGc3IVSXq5g.png" %}
 
 My generation, that much loved (read: loathed) ‘millennial’ generation, spent our childhoods in the wild wild west of the internet. Hastily thrown together pages, bad UX, unintuitive controls, confusing workarounds. Websites broke as a *rule*, not an exception.
 
@@ -109,7 +109,7 @@ We are the generation of crappy gifs, customisable MySpace pages, Microsoft Pain
 
 The internet was our playground, and whilst it wasn’t a perfect playground, it was all that we had. We often forget that the internet is not just a utility, it’s a world of its own, and lots of us spent hours and hours of our childhoods lost in that world. This digital world has changed so much over our lives, like a small town becoming a big, bustling, futuristic city in front of eyes. Is it crazy to think that we would yearn for some of that brutal, basic ruggedness that we were once so accustomed to?
 
-![](https://cdn-images-1.medium.com/max/2000/1*ZDCTrmrCZphw_mI1bYf6uQ.png)
+{% image "https://cdn-images-1.medium.com/max/2000/1*ZDCTrmrCZphw_mI1bYf6uQ.png" %}
 
 ## But what about UX?
 
@@ -119,7 +119,7 @@ I agree. Brutalist websites are (for the most part) a novelty. I don’t advocat
 
 But it does beg the question: if a brutalist website could fulfil all the pieces of the UX Honeycomb, whilst still retaining its rough, brutalist aesthetic (like websites such as Bloomberg try to do) — then could it become a legitimate digital design aesthetic? Or does it then, by definition, cease to be brutalist?
 
-![Honey, yum.](https://cdn-images-1.medium.com/max/2000/1*SGCQmZAp_Qss97KiKtAd5Q.png)
+{% image "https://cdn-images-1.medium.com/max/2000/1*SGCQmZAp_Qss97KiKtAd5Q.png", "Honey, yum." %}
 
 ## Soppy conclusion
 
@@ -127,23 +127,20 @@ For me, there’ll always be something endlessly comforting in a really badly co
 
 Is Brutalism good or bad for the internet? Maybe that’s not the question we should be asking. How does brutalism make you *feel*? It makes me, and a lot of other people, feel good. And maybe that’s enough reason to say that brutalism still has its place in today’s digital world.
 
-![](https://cdn-images-1.medium.com/max/2000/1*iizO9-N2WD6cP9zz_agIig.png)
+{% image "https://cdn-images-1.medium.com/max/2000/1*iizO9-N2WD6cP9zz_agIig.png" %}
 
 Interested in more? Here some more cool articles that expand on the trend:
-[**The Curious Case of Web Brutalism - Usabilla Blog**
-*When it comes to web design, we've certainly seen our fair share of one-page scrolls, with their minimalist icons and…*blog.usabilla.com](http://blog.usabilla.com/ux-trend-curious-case-web-brutalism/)
-[**The hottest trend in Web design is making intentionally ugly, difficult sites**
-*There's an interesting trend in Web design these days: Making websites that look, well ... bad. Look at Hacker News…*www.washingtonpost.com](https://www.washingtonpost.com/news/the-intersect/wp/2016/05/09/the-hottest-trend-in-web-design-is-intentionally-ugly-unusable-sites/)
-[**This is what a brutalist world would look like on your phone**
-*Designer Pierre Buttin has taken brutalism to a new extreme with a series of redesigned mobile apps. In his latest…*www.theverge.com](https://www.theverge.com/2017/5/31/15717534/brutalist-web-design-app-facebook-google-pierre-buttin)
+- [The Curious Case of Web Brutalism - Usabilla Blog](http://blog.usabilla.com/ux-trend-curious-case-web-brutalism/)
+- [The hottest trend in Web design is making intentionally ugly, difficult sites](https://www.washingtonpost.com/news/the-intersect/wp/2016/05/09/the-hottest-trend-in-web-design-is-intentionally-ugly-unusable-sites/)
+- [This is what a brutalist world would look like on your phone](https://www.theverge.com/2017/5/31/15717534/brutalist-web-design-app-facebook-google-pierre-buttin)
 
 The good people at [uxdesign.cc](http://uxdesign.cc) did a pretty hilarious parody of brutalism, applying the framework to the entire UX design process:
-[**UX brutalism**
-*A brutalist framework for every step of your UX design process.*www.uxbrutalism.com](https://www.uxbrutalism.com/)
+- [UX brutalism](https://www.uxbrutalism.com/)
 
 Speaking of nostalgia, if you haven’t visited Cameron’s World yet, you should. Right now. It’s pure art.
-[**Cameron's World**
-*🌍 A web-collage of text and images excavated from the buried neighbourhoods of GeoCities.*www.cameronsworld.net](http://www.cameronsworld.net/)
+[Cameron's World](http://www.cameronsworld.net/)
+
+---
 
 *If you liked this article, remember to follow me on Medium and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content.*
 
