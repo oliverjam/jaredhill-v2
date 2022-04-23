@@ -90,4 +90,4 @@ On a personal level, it feels like my Huel journey is just beginning. Onwards an
 
 ---
 
-*If you enjoyed this article, follow me on Medium or on Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content.*
+*If you enjoyed this article, follow me [on Medium](https://medium.com/@jamchiller) or on Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content.*
