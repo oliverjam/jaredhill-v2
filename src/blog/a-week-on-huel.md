@@ -80,7 +80,7 @@ All the while, I’ve become more and more reliant on the stuff, to the point wh
 
 My one complaint is that in order to split the Huel into separate bags for transport every month, I end up having to turn my kitchen into something resembling a heroin lab. This takes time and uses so many plastic bags that I most probably cancel out any environmental good I’m doing by drinking it. Selling it in separate bags or premixed bottles like Soylent offer would be a great next step for the company.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*y5GwCpW2_3hHwRtLboHyGA.jpeg", "\"I’m not in the Huel business… I’m in the empire business."/" %}
+{% image "https://cdn-images-1.medium.com/max/2000/1*y5GwCpW2_3hHwRtLboHyGA.jpeg", "\"I’m not in the Huel business… I’m in the empire business."\" %}
 
 So there you have it, my transformation from normal human to Huel addict. Recently, I’ve even become somewhat of an evangelist. I often wear my Huel shirt to the gym, and have had a lot of people approach me asking me what I think of the stuff. If anyone from Huel is reading, please do let me know if there is some way I can make some cash out of this.
 
