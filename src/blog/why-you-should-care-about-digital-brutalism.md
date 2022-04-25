@@ -127,6 +127,8 @@ For me, there’ll always be something endlessly comforting in a really badly co
 
 Is Brutalism good or bad for the internet? Maybe that’s not the question we should be asking. How does brutalism make you *feel*? It makes me, and a lot of other people, feel good. And maybe that’s enough reason to say that brutalism still has its place in today’s digital world.
 
+---
+
 {% image "https://cdn-images-1.medium.com/max/2000/1*iizO9-N2WD6cP9zz_agIig.png" %}
 
 Interested in more? Here some more cool articles that expand on the trend:
@@ -138,7 +140,7 @@ The good people at [uxdesign.cc](http://uxdesign.cc) did a pretty hilarious paro
 - [UX brutalism](https://www.uxbrutalism.com/)
 
 Speaking of nostalgia, if you haven’t visited Cameron’s World yet, you should. Right now. It’s pure art.
-[Cameron's World](http://www.cameronsworld.net/)
+- [Cameron's World](http://www.cameronsworld.net/)
 
 ---
 
