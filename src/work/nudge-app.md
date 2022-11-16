@@ -3,6 +3,11 @@ title: "Nudge: the better way to get back to work"
 date: 2017-10-26
 tags:
   - case study
+info:
+  date: Mid 2018
+  timeline: 6 months - 2 weeks workshops, 2 weeks discovery, 1 month discovery, 5 months execution
+  company: Medicspot
+  role: Senior Product Designer
 ---
 
 {% callout %}
