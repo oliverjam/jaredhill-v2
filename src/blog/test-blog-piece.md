@@ -6,6 +6,11 @@ tags:
   - chocolate
   - cake
   - icecream
+info:
+  date: Mid 2018
+  timeline: 6 months - 2 weeks workshops, 2 weeks discovery, 1 month discovery, 5 months execution
+  company: Medicspot
+  role: Senior Product Designer
 ---
 
 # H1
@@ -88,3 +93,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ###### Testing H6
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Here's a separator
+
+---
+
+how does it look?
+
