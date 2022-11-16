@@ -6,9 +6,9 @@ tags:
   - design
 ---
 
-{% image "https://cdn-images-1.medium.com/max/2400/1*q_HetbsGlHQdCK57HkFQ7g.png" %}
-
 *This article is adapted from a flash talk I gave at General Assembly in October 2017, and the images have been pulled straight from the presentation deck. Enjoy.*
+
+{% image "https://cdn-images-1.medium.com/max/2400/1*q_HetbsGlHQdCK57HkFQ7g.png" %}
 
 You may have heard about digital brutalism. It’s so hot right now. Let’s have a look at what it is, and why you should care about it.
 
@@ -76,7 +76,7 @@ Look at [Craigslist](http://craiglist.com/), a site which hasn’t *really* upda
 
 Furthermore, the out-of-date design may even contribute a little to its success: the ‘thrown together’ nature of the site perfectly matches the hasty ‘bargain sale’ quality of the site itself.
 
-{% image "ttps://cdn-images-1.medium.com/max/2000/1*lTAK7DI2EAZRWbNrl9BEMQ.png", "They even have a ‘casual encounters’ category which I assume is for meeting new friends for coffee." %}
+{% image "https://cdn-images-1.medium.com/max/2000/1*lTAK7DI2EAZRWbNrl9BEMQ.png", "They even have a ‘casual encounters’ category which I assume is for meeting new friends for coffee." %}
 
 ### 2. It can be a statement
 
@@ -119,7 +119,7 @@ I agree. Brutalist websites are (for the most part) a novelty. I don’t advocat
 
 But it does beg the question: if a brutalist website could fulfil all the pieces of the UX Honeycomb, whilst still retaining its rough, brutalist aesthetic (like websites such as Bloomberg try to do) — then could it become a legitimate digital design aesthetic? Or does it then, by definition, cease to be brutalist?
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*SGCQmZAp_Qss97KiKtAd5Q.png", "Honey, yum." %}
+{% image "https://cdn-images-1.medium.com/max/2000/1*pQaZ3oM35sRug8GGYIuxLw.png", "Honey, yum." %}
 
 ## Soppy conclusion
 

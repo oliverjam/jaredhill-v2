@@ -24,6 +24,8 @@ Finally, with four minutes left to play in the last quarter, Petrie gathered the
 
 {% image "https://cdn-images-1.medium.com/max/2000/1*Ga85ynaY563exPAXBJLzfw.jpeg" %}
 
+---
+
 That was two years ago. The memory is still almost as clear now as it was at the time, and I can’t help but smile when I think about it. Today, it was a different story. North tumbled out the finals, just as everyone expected them to do. The feeling for me was bittersweet, even before the game. Since the club announced that it would not be renewing the contracts of four veterans, Brent Harvey, Drew Petrie, Michael Firrito and Nick Dal Santo, the last few weeks have felt very weird indeed. Like we’re in some sort of transition period, a changing of the guard, the end of an era - and this final was simply a backdrop for that much larger story.
 
 Perhaps I’m writing this article as a way to make sense of it all, to allow myself some sort of catharsis. For any North fan, the retirement of premiership champion Brent Harvey (especially due to the way it played out) doesn’t feel quite right. He was always there, was always going to be there. I only started supporting the club in the 2000s, so I have never known a North without Boomer. On top of that, I’ve spent so much time longing for that elusive premiership, the perfect sign-off for our champions who’ve worked so hard. The dream of them retiring at the MCG, holding up the cup as confetti falls down on their heads. And now, I have to come to terms with the fact that this will never happen, and I will never know that feeling.
@@ -35,6 +37,8 @@ I’m sure many people will be quick to point out that this is just cognitive di
 This is true for any fan. Replace ‘North’ with ‘Fremantle’ or ‘Richmond’ or ‘Perth Glory’ or ‘West Ham’, and you have the same thing. The successes these players have achieved can’t be counted in medals and trophies. Sport, from a supporter’s point of view, is simply a series of moments that evoke a range of intangible emotions.
 
 {% image "https://cdn-images-1.medium.com/max/2000/1*t4TV8hdkni41ECsxJCOhmw.jpeg" %}
+
+---
 
 The final whistle blew. Standing there in that random bar in the middle of New York, arm in arm with some stranger who happened to support the same team as me, I was in shock. The Essendon supporters smiled at us, shook our hands, and wished us best luck in the rest of the finals.
 
