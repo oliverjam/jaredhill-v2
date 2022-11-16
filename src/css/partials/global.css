@@ -126,3 +126,17 @@ svg {
 .flow blockquote > :last-child::after {
   content: "”";
 }
+
+hr {
+  --n: 3;
+  margin: var(--flow-space) auto;
+  border: 0;
+  width: 8rem;
+  height: 0.25rem;
+  background-image: radial-gradient(
+    circle closest-side,
+    var(--text) 98%,
+    transparent
+  );
+  background-size: calc(100% / var(--n)) 100%;
+}
