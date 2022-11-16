@@ -1,4 +1,5 @@
 {
+  "layout": "work.11ty.js",
   "tags": "work",
   "js": ["lite-youtube-embed"]
 }

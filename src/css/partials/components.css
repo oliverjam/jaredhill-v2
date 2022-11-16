@@ -192,3 +192,11 @@ animated-carousel li {
 [data-lightbox] summary:focus-visible {
   outline-color: blue;
 }
+
+.WorkInfo {
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: baseline;
+}
