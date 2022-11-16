@@ -14,13 +14,13 @@ nav:
 
 {% callout %}
 
-I’m a freelance product designer that loves complex problems and beautifully simple solutions.
+I’m a product designer that loves complex problems and beautifully simple solutions.
 
 {% endcallout %}
 
 I nerd out on products that do what users want and then get the hell out the way. I also strongly believe that taking the ego out of design is a necessary step to creating truly user-centric products.
 
-I've worked with Booking.com [Booking.com](https://www.booking.com) as a Senior Product Designer. Previously, I worked in consulting, where I created products for Ugandan businesspeople, thrifty Londoners, and German energy traders, for companies such as Barclays, RBS, Metlife and Omorovicza.
+I've created products for a range of users including thrifty Londoners, Ugandan businesspeople, and German energy traders, for companies such as Barclays, RBS, Metlife and Omorovicza. Most recently, I was Senior Product Designer at [Booking.com](https://www.booking.com). 
 
 Right now I’m learning more about:
 
@@ -40,7 +40,7 @@ In my spare time, I'm currently enjoying:
 
 I also love teaching: I've been an Instructor Associate at [General Assembly](https://generalassemb.ly/) and have given presentations at [TechCircus](https://www.techcircustv.com) and [Founders & Coders](https://www.foundersandcoders.com/).
 
-Like what you've heard? [Let's grab a coffee.](https://jaredhill.co/contact/)
+Like what you've heard? [Let's talk.](https://jaredhill.co/contact/)
 
 </div>
 

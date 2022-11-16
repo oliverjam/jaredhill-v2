@@ -34,7 +34,7 @@ intro:
       author: Han Craig
 
   description: |
-    👋 Hi, I’m Jared, a product designer based in London. The above quotes are real: in the name of transparency, I asked the people closest to me to describe my worst qualities.
+    👋 Hi, I’m Jared, an Australian product designer currently based in Mexico City. The above quotes are real: in the name of transparency, I asked the people closest to me to describe my worst qualities.
 
     If you <em>still</em> want to work with me, read on.
 blocks:
