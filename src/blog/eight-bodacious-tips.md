@@ -7,13 +7,13 @@ tags:
   - usability
 ---
 
-{% image "https://cdn-images-1.medium.com/max/2388/1*uxyvKFh1s5EoDRCyHFMQ_A.jpeg" %}
-
 The 80s were the best of all the decades. I don’t actually remember them much, but if Stranger Things is anything to go by, it was all big hair, synthesisers, arcade games and deadly monsters from alternate dimensions (fun!). Technology had struck the perfect balance between being exciting but non-intrusive, and nobody got annoyed if you asked them to accept cookies. The future we imagined was one of flying cars and space travel, rather than of floods, reality tv presidents and hyper-targeted ads.
 
 So, I thought I’d take a walk down memory lane, using some of my favourite 80s songs to explain the most important things I’ve learned in my time running usability tests.
 
 So sit back, plug in your walkman, and enjoy these sweet beats.
+
+{% image "https://cdn-images-1.medium.com/max/2388/1*uxyvKFh1s5EoDRCyHFMQ_A.jpeg" %}
 
 ## 1. Don’t You (Forget About Me)
 
@@ -103,7 +103,7 @@ A couple of other tips to stop users being [under too much pressure](https://www
 
 **_Remember to get consent when recording the user — and keep their details confidential_**
 
- {% youtube "8ahU-x-4Gxw" %}
+{% youtube "hZXxmhok1AU" %}
 
 Like most ethical matters, this one is pretty simple to understand, and yet somehow can still get forgotten. If you’re recording someone’s voice or face during a usability test, you’re gonna need to get written consent from them, which stipulates how you’re going to be using the recording, and that they have the right to withdraw their consent at any time.
 

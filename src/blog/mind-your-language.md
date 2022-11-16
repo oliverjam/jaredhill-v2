@@ -62,8 +62,11 @@ There’s a very overused (and potentially misattributed) quote that is often us
 
 Now, I’m no time traveller (working on it), but I’m sure that there were plenty of intelligent and creative people back then, who, if asked what they wanted, would have almost certainly said ‘carriages without smelly horses that can go really fast like trains’.
 
+{% layout "full" %}
+
 {% image "https://cdn-images-1.medium.com/max/2880/1*llscINoov8mOXmkcqayX4g.jpeg", "Check out the superiority complex on this guy." %}
 
+{% endlayout %}
 
 The point is, there’s nuance here. Sometimes users _will_ ask for a feature that actually _should be added to the platform,_ especially when we’re dealing with mature products that no longer require radical innovation but rather incremental enhancement. That doesn’t mean you should take a user at their word — you should always look at the core problem their request stems from, make sure it’s a common problem, brainstorm different solutions, etc. Sometimes, you’ll run this process and find out that — tada! — the solution they offered is the best route. If it’s really that surprising to you that the person that uses the product regularly can come up with a smart solution to their own frustrations, then I think you need re-evaluate the way you think about users.
 
@@ -74,8 +77,6 @@ But worst of all, it’s just not empathetic. We need to have the empathy to res
 ## A conclusion of sorts
 
 I realise this seems like it has turned into a bit of a hit piece against NN Group and the author of that article, who I’ve just realised is Jakob Nielsen himself (gulp). It is not intended to be. We all use flippant, absolutist phrases to teach, to excite, to memorise… I often do the same. That Henry Ford quote is a go-to for me when trying to convince clients to conduct further testing.
-
-![Only a lazy designer deals in absolutes.](https://cdn-images-1.medium.com/max/2560/1*Xf046CN2a2dcdG4zcxLqyQ.jpeg)
 
 {% image "https://cdn-images-1.medium.com/max/2560/1*Xf046CN2a2dcdG4zcxLqyQ.jpeg", "Only a lazy designer deals in absolutes." %}
 

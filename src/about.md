@@ -20,7 +20,7 @@ I’m a product designer that loves complex problems and beautifully simple solu
 
 I nerd out on products that do what users want and then get the hell out the way. I also strongly believe that taking the ego out of design is a necessary step to creating truly user-centric products.
 
-I've created products for a range of users including thrifty Londoners, Ugandan businesspeople, and German energy traders, for companies such as Barclays, RBS, Metlife and Omorovicza. Most recently, I was Senior Product Designer at [Booking.com](https://www.booking.com). 
+I've created products for a range of users including thrifty Londoners, Ugandan businesspeople, and German energy traders, for companies such as Barclays, RBS, Metlife and Omorovicza. Most recently, I was a Senior Product Designer at [Booking.com](https://www.booking.com). 
 
 Right now I’m learning more about:
 

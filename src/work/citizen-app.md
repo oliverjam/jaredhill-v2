@@ -3,15 +3,18 @@ title: "Citizen App: A new way to travel
 "
 date: 2017-10-25
 tags:
-  - case study
+  - case 
+info:
+  date: Mid 2018
+  timeline: 6 months - 2 weeks workshops, 2 weeks discovery, 1 month discovery, 5 months execution
+  company: Medicspot
+  role: Senior Product Designer
 ---
 
 {% callout %}
 Making an app that gives users a more authentic travel experience{% endcallout %}
 
 ![](https://cdn-images-1.medium.com/max/6380/1*CboC4wnSvaU5B_rSMw0cmQ.png)
-
-_This case study was originally posted on Medium. If you prefer, you can [read it there](https://medium.muz.li/citizen-app-a-new-way-to-travel-3bd9c45ec580) instead._
 
 ## Summary
 
