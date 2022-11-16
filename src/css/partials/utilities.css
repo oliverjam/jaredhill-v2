@@ -61,6 +61,10 @@
   padding: var(--gutter);
 }
 
+.px-gutter {
+  padding-inline: var(--gutter);
+}
+
 .py-gutter--md {
   padding-top: calc(var(--gutter) * 0.75);
   padding-bottom: calc(var(--gutter) * 0.75);
