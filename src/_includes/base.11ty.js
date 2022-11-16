@@ -86,15 +86,15 @@ function SiteHeader({ page, navigation = [], socials = {} }) {
       class="hstack jc-between fz-md bg-primary"
       style="padding: 2rem var(--gutter)"
     >
-      <nav class="hstack gap-xl font-sans">
+      <nav class="hstack wrap gap-xl font-sans">
         <a href="/">
-          <img src="/assets/icons/logo.svg" alt="Home" width="32" height="32" />
+          <img src="/assets/icons/logo.svg" alt="Home" width="30" height="30" />
         </a>
         <ul role="list" class="hstack">
           ${navigation.map(Link(page))}
         </ul>
       </nav>
-      <nav class="grow hstack font-sans">
+      <nav class="hstack font-sans">
         ${Socials({ socials, className: "hide-on-mobile" })}
       </nav>
     </header>
@@ -216,9 +216,22 @@ function Contact({ title, body }) {
 
 function Credit({ credit }) {
   return html`
-    <div class="pad-lg tac invert fz-md">
-      <div class="center narrow text-align:center">
+    <div class="pad-lg px-gutter tac invert fz-sm">
+      <div class="hstack gap-md jc-between">
         <p>${credit}</p>
+        <svg
+          class="hide-on-mobile"
+          viewBox="0 0 4 4"
+          width="24"
+          height="24"
+          fill="currentcolor"
+          aria-hidden="true"
+        >
+          <rect x="0" y="0" width="3" height="1"></rect>
+          <rect x="1" y="0" width="1" height="4"></rect>
+          <rect x="0" y="3" width="2" height="1"></rect>
+          <rect x="3" y="3" width="1" height="1"></rect>
+        </svg>
       </div>
     </div>
   `;

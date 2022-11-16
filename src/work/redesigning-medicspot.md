@@ -1,10 +1,15 @@
 ---
 title: "Redesigning MedicSpot: a case study"
-date: 2017-10-27
 tags:
   - case study
-
+date: 2017-10-27
+info:
+  date: Mid 2018
+  timeline: 6 months - 2 weeks workshops, 2 weeks discovery, 1 month discovery, 5 months execution
+  company: Medicspot
+  role: Senior Product Designer
 ---
+
 {% callout %}
 Creating an intuitive video chat system that builds patient-doctor engagement — without getting in the way.
 {% endcallout %}

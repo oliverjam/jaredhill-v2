@@ -39,7 +39,7 @@ h2 {
   text-decoration-color: var(--alternate);
   text-decoration-thickness: 0.5rem;
   text-decoration-skip-ink: none;
-  text-underline-offset: -0.6rem;
+  text-underline-offset: -0.4rem;
 }
 
 a {
@@ -125,4 +125,18 @@ svg {
 
 .flow blockquote > :last-child::after {
   content: "”";
+}
+
+hr {
+  --n: 3;
+  margin: var(--flow-space) auto;
+  border: 0;
+  width: 8rem;
+  height: 0.25rem;
+  background-image: radial-gradient(
+    circle closest-side,
+    var(--text) 98%,
+    transparent
+  );
+  background-size: calc(100% / var(--n)) 100%;
 }
