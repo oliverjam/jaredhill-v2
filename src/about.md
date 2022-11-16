@@ -14,7 +14,7 @@ nav:
 
 {% callout %}
 
-I’m a freelance product designer that loves complex problems and beautifully simple solutions.
+I’m a freelance  product designer that loves complex problems and beautifully simple solutions.
 
 {% endcallout %}
 
