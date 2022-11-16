@@ -16,8 +16,6 @@ Developing an app to solve the age old problem of distraction
 
 ![](https://cdn-images-1.medium.com/max/6000/1*TBNSH9-pVWFiYm_Ur0LiGw.jpeg)
 
-_This case study was originally posted on Medium. If you prefer, you can [read it there](https://medium.muz.li/nudge-the-better-way-to-get-back-to-work-ed6e93269aae) instead._
-
 ## Summary
 
 Briefed to create an app to solve a specific user problem, I developed a productivity app that would help my user overcome distractions with gentle ‘nudges’ reminding them to get back to work.

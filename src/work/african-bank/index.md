@@ -18,5 +18,5 @@ Going from idea to a product in the hands of customers in 14 weeks, I completely
 ## Results
 By adding transparency and clarity to the process, the MVP was able to reduce lead times on applications from 2–3 days down to less than an hour. Thanks to extremely strong feedback from users, the product was iterated upon and rolled out in other markets - I spent a total of 18 months building out the platform. In 2019, the product won the Innovation in Digital Banking Award by The Banker.
 
-*For more information about this project, contact me!*
+*For the full case study, [contact me](https://jaredhill.co/contact/)!*
 

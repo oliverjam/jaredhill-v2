@@ -19,4 +19,4 @@ As part of a team of designers and behavioural scientists, I researched, designe
 
 The MVP release used the user's emotional state to recommended short, achieveable challenges that built positive habits for users, regardless of their financial situation. The product is now in private beta.
 
-*For more information about this project, contact me!*
+*For more information about this project, [contact me](https://jaredhill.co/contact/)!*

@@ -14,8 +14,6 @@ info:
 Creating an intuitive video chat system that builds patient-doctor engagement — without getting in the way.
 {% endcallout %}
 
-*This case study was originally posted on Medium. If you prefer, you can [read it there](https://medium.com/sketch-app-sources/redesigning-medicspot-a-case-study-59310295bdf4) instead.*
-
 ## Summary
 
 Fast-growing telemedicine startup MedicSpot required a complete redesign of the interface used by their doctors during video calls.

@@ -18,5 +18,5 @@ As part of a design team that included brand designers, UX designers and UI desi
 ## Result
 After rounds of testing and iteration, users responded well to the central saving metaphor and were able to intuitively use it to put away extra money each week. The simple interface combined with familiar patterns meant that users could pick up the app and intuitively understand how it worked. The project grew from 30 to 120 team members in the time I was on it, and a beta version of the bank was released to the users 12 months after the initial discovery period. After further iteration, the app was successfully launched on the App Store after 8 months of beta testing.
 
-*For more information about this project, contact me!*
+*For more information about this project, [contact me](https://jaredhill.co/contact/)!*
 
