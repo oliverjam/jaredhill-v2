@@ -4,15 +4,13 @@ title: "Citizen App: A new way to travel
 date: 2017-10-25
 tags:
   - case 
+callout: Making an app that gives users a more authentic travel experience
 info:
   date: Sep 2017
   timeline: 2 week design sprint
   company: Mock case study for General Assembly
   role: UX Designer
 ---
-
-{% callout %}
-Making an app that gives users a more authentic travel experience{% endcallout %}
 
 {% image "https://cdn-images-1.medium.com/max/6380/1*CboC4wnSvaU5B_rSMw0cmQ.png" %}
 
@@ -44,7 +42,7 @@ Myself and two other UX designers were tasked with _building a responsive, mobil
 
 Whilst each team member played a role in every step of the process, I was particularly involved in the competitive analysis, design strategy, and mid to high fidelity prototyping.
 
-## Discovery 
+## Discovery
 
 ### Brand review & site visit
 
@@ -56,7 +54,7 @@ By visiting their Shoreditch hotel, interviewing employees, and doing a deep-div
 
 - **CitizenM is not for everyone:** Part of having a strong brand is not being afraid to alienate some customer segments. CitizenM is loved by those it appeals to, but its aesthetics and messaging is not for everyone.
 
-- **CitizenM targets a very specific user:** CitizenM make it clear who their target customer is: the *‘new breed of traveller.’* This seems independent of age and social group — customers in the hotel ranged from early 20s to early 50s and included business people and artsy types — and is more focussed on common interests, including travel and technology.
+- **CitizenM targets a very specific user:** CitizenM make it clear who their target customer is: the _‘new breed of traveller.’_ This seems independent of age and social group — customers in the hotel ranged from early 20s to early 50s and included business people and artsy types — and is more focussed on common interests, including travel and technology.
 
 {% image "https://cdn-images-1.medium.com/max/7010/1*PPTN8_txBiTpCumb4pU2Vw.jpeg", "Some cheeky messaging at the CitizenM hotel" %}
 
@@ -120,7 +118,7 @@ Going into the Design Studio, our aim was to build something that:
 
 - was focussed upon _trust_ and _authenticity_
 
-- balanced both *local* experiences *and more *tourist-heavy* experiences
+- balanced both _local_ experiences *and more *tourist-heavy\* experiences
 
 - gave Alex the resources to be _confident_ in his booking decisions.
 

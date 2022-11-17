@@ -5,11 +5,8 @@ featured: true
 draft: true
 cover: metlife-home.png
 date: 2019-03-09
+callout: An insurance company in the US wanted to find a way to help their clients’ employees to better understand their finances and improve their decision-making. The product needed to provide employers important information about their employees’ financial wellness, and give them the ability to recommend insurance products based upon user needs.
 ---
-
-{% callout %} 
-An insurance company in the US wanted to find a way to help their clients’ employees to better understand their finances and improve their decision-making. The product needed to provide employers important information about their employees’ financial wellness, and give them the ability to recommend insurance products based upon user needs.
-{% endcallout %} 
 
 {% image "https://cdn-images-1.medium.com/max/2000/1*UlKhjaBjWPm8vY7w8K93QQ.png" %}
 
@@ -19,4 +16,4 @@ As part of a team of designers and behavioural scientists, I researched, designe
 
 The MVP release used the user's emotional state to recommended short, achieveable challenges that built positive habits for users, regardless of their financial situation. The product is now in private beta.
 
-*For more information about this project, [contact me](https://jaredhill.co/contact/)!*
+_For more information about this project, [contact me](https://jaredhill.co/contact/)!_

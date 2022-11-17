@@ -3,16 +3,13 @@ title: "Nudge: the better way to get back to work"
 date: 2017-10-26
 tags:
   - case study
+callout: Developing an app to solve the age old problem of distraction
 info:
   date: Oct 2017
   timeline: 2 week design sprint
   type: Mock case study for General Assembly
   role: UX Designer
 ---
-
-{% callout %}
-Developing an app to solve the age old problem of distraction
-{% endcallout %}
 
 {% image "https://cdn-images-1.medium.com/max/6000/1*TBNSH9-pVWFiYm_Ur0LiGw.jpeg" %}
 

@@ -4,9 +4,11 @@ exports.data = {
   layout: "base.11ty.js",
 };
 
-exports.render = ({ info, content }) => {
-  if (info) {
-    const box = html`
+exports.render = ({ callout, info, content }) => {
+  return html`
+    ${callout && html`<div class="callout fz-body-lg">${callout}</div>`}
+    ${info &&
+    html`
       <dl class="WorkInfo pad-lg bg-200 leading-sm">
         ${Object.entries(info).map(
           ([key, val]) => html`
@@ -15,8 +17,7 @@ exports.render = ({ info, content }) => {
           `
         )}
       </dl>
-    `;
-    return box + content;
-  }
-  return content;
+    `}
+    ${content}
+  `;
 };
