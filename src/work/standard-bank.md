@@ -5,8 +5,8 @@ tags:
 date: 2017-10-27
 callout: A greenfield, ground-up digital rebuild of a corporate banking platform for Africa's largest bank, giving businesspeople a faster, easier and more transparent way to access banking services.
 info:
-  date: 2019-2020
-  timeline: 2 week design sprint
+  date: May 2019 - Jun 2020
+  timeline: Fully operational MVP in 14 weeks; iteration and feature build-out for the subsequent 9 months.
   client: Standard Bank
   role: Lead Product Designer
 ---
@@ -87,8 +87,6 @@ Whilst I didn’t feel we had collected enough primary research to be certain ab
 
 Research suggested that the bank’s clients had higher expectations of products due to advancements in personal banking, and so the wireframes aimed to take cues from popular personal banking apps in order to simplify the experience. There was no reason why corporate banking couldn’t be as simple and intuitive as personal banking had become.
 
-![Mid-fidelity wireframes for testing.](https://cdn-images-1.medium.com/max/6394/1*redXY1JogKcauJI3Ce2HRA.png)
-
 {% image "https://cdn-images-1.medium.com/max/6394/1*redXY1JogKcauJI3Ce2HRA.png", "Mid-fidelity wireframes for testing." %}
 
 In preparation for interviews with users, I lead the design of a mid-fidelity prototype in order to test some of the key assumptions made in the discovery stage. The prototype would allow a user to log on, make an application through a personalised application form, and watch the application move through the process. We wanted to find out whether the users understood the process, whether some of the IA decisions matched the users’ mental models, and added some colour to the wireframes to see how we could use the information hierarchy to emphasise areas of the interface and therefore make the process clearer to the users.
@@ -157,7 +155,7 @@ In this way, the colleagues would benefit from the same levels of transparency a
 
 ## Further Testing
 
-Having iterated on the designs, high fidelity prototypes were built out and two more rounds of usability testing were carried out (an example of one of the iterated prototypes can be seen [here](<https://www.figma.com/proto/JhZjQ8jdLqXgA94kPkakhd/Trade-Core---Flow-Graveyard-V1-(Copy)?page-id=86%3A7032&node-id=87%3A7508&viewport=2357%2C1548%2C0.13&scaling=scale-down-width&starting-point-node-id=87%3A11694&hide-ui=1]>). We learnt lots and lots of things — a few of the key findings are below.
+Having iterated on the designs, high fidelity prototypes were built out and two more rounds of usability testing were carried out (an example of one of the iterated prototypes can be seen [here](<https://www.figma.com/proto/JhZjQ8jdLqXgA94kPkakhd/Trade-Core---Flow-Graveyard-V1-(Copy)?page-id=86%3A7032&node-id=87%3A7508&viewport=2357%2C1548%2C0.13&scaling=scale-down-width&starting-point-node-id=87%3A11694&hide-ui=1]>)). We learnt lots and lots of things — a few of the key findings are below.
 
 {% image "https://cdn-images-1.medium.com/max/8064/1*UCzN2lpYDXL4m7nPB9FbPA.jpeg", "We drove around Kampala, running tests in clients’ offices using this setup." %}
 
