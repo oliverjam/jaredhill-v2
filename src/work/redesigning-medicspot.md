@@ -6,7 +6,7 @@ date: 2017-10-27
 info:
   date: November 2017
   timeline: 2 week design sprint
-  company: Medicspot - a healthcare startup
+  client: Medicspot - a healthcare startup
   role: Freelance Product Designer
 ---
 

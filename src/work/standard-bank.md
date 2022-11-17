@@ -10,6 +10,12 @@ info:
   role: Lead Product Designer
 ---
 
+{% callout %}
+
+A greenfield, ground-up digital rebuild of a corporate banking platform for Africa's largest bank, giving businesspeople a faster, easier and more transparent way to access banking services.
+
+{% endcallout %}
+
 ## Project Summary
 
 Standard Bank, the largest bank in Africa with a presence in 17 African countries, had been losing corporate clients rapidly, with feedback that their systems and processes were falling behind their competitors’. Myself and my team from Oliver Wyman were asked to help build a greenfield corporate banking platform that gave businesspeople faster, easier and more transparent way to access banking services.
@@ -20,7 +26,7 @@ I led a design team of four as we undertook user interviews on the ground in Uga
 
 {% image "https://cdn-images-1.medium.com/max/2560/1*bZEth0hJ7Junh8rzEo1R_A.jpeg", "Interviewing users in Uganda." %}
 
-By creating a highly transparent, accessible process, the new platform greatly increased user satisfaction, and was able to reduce lead times on applications from 2–3 days down to less than an hour. Thanks to the strong feedback from users, the product is now being iterated upon and rolled out in other markets. The project also won the *[*Innovation in Digital Banking Award](https://www.iol.co.za/business-report/companies/standard-bank-wins-innovation-in-digital-banking-africa-award-2aea5d1e-8589-4eb3-a6b3-d68ac620a94b) from The Banker.
+By creating a highly transparent, accessible process, the new platform greatly increased user satisfaction, and was able to reduce lead times on applications from 2–3 days down to less than an hour. Thanks to the strong feedback from users, the product is now being iterated upon and rolled out in other markets. The project also won the [Innovation in Digital Banking Award](https://www.iol.co.za/business-report/companies/standard-bank-wins-innovation-in-digital-banking-africa-award-2aea5d1e-8589-4eb3-a6b3-d68ac620a94b) from The Banker.
 
 {% image "https://cdn-images-1.medium.com/max/3376/0*szBphppLDhM9GSKo.png" %}
 
@@ -44,7 +50,7 @@ The discovery phase started with a number of workshops held in London and Joburg
 
 As expected based on customer churn, user feedback (as relayed by the stakeholders) was overwhelmingly negative:
 
-* Users felt the the process was convoluted and confusing, and still overly relied on phone calls, paper, and antiquated digital products. For example, to get approval from signatories, the bank would often have to send the documents via *boda boda *(motorcycle) across Kampala to the various signatories.
+* Users felt the the process was convoluted and confusing, and still overly relied on phone calls, paper, and antiquated digital products. For example, to get approval from signatories, the bank would often have to send the documents via *boda boda* (motorcycle) across Kampala to the various signatories.
 
 * Users felt it took too long to go from application to issuance - up to 3 days.
 
@@ -94,7 +100,7 @@ In preparation for interviews with users, I lead the design of a mid-fidelity pr
 
 ## On the ground user interviews and tests
 
-Armed with the proto-personas, design principles, and various assumptions around user problems, I spent a week in Uganda with a couple of client stakeholders, talking to clients as well as colleagues who were typically involved in the process from the Standard Bank side. The conversations with users started with interview questions which aimed to validate some of the secondary research, and then a usability test of the current prototype (link [here](https://www.figma.com/proto/RNCDu8Meas2WZy10idkSHp/Trade-Core-Flow-Graveyard-V1-Copy?page-id=1%3A2213&node-id=7%3A3408&viewport=19312%2C4718%2C1&scaling=min-zoom)).
+Armed with the proto-personas, design principles, and various assumptions around user problems, I spent a week in Uganda with a couple of client stakeholders, talking to clients as well as colleagues who were typically involved in the process from the Standard Bank side. The conversations with users started with interview questions which aimed to validate some of the secondary research, and then a usability test of the current prototype (link [here](https://www.figma.com/proto/JhZjQ8jdLqXgA94kPkakhd/Trade-Core---Flow-Graveyard-V1-(Copy)?page-id=1%3A2213&node-id=7%3A3408&viewport=4979%2C1413%2C0.25&scaling=scale-down-width&starting-point-node-id=7%3A3408&hide-ui=1)).
 
 {% image "https://cdn-images-1.medium.com/max/2560/1*yLkd-J2kNiE63P3dVmd77Q.jpeg" %}
 
@@ -102,7 +108,7 @@ We learned a huge amount through this first round of testing, which countered a 
 
 * We assumed that users wanted the *fastest possible process*, but this was wrong. Users didn’t really mind if the process took one hour or day. They complained about how unpredictable it was: sometimes it would take one hour, but sometimes it would take one week.
 
-* In addition to the *consistency *theme, users said that sometimes an application would get ‘stuck’ in the process and they would not know for days. Colleagues said that this was a problem too; sometimes a colleague would be assigned a task and then forget to do it, and the application would become ‘lost in the process.
+* In addition to the *consistency* theme, users said that sometimes an application would get ‘stuck’ in the process and they would not know for days. Colleagues said that this was a problem too; sometimes a colleague would be assigned a task and then forget to do it, and the application would become ‘lost in the process.
 
 * We were surprised to learn that colleagues themselves had a very confused understanding of the application process too. They were aware of what they had to do, but very few had a wholistic understanding of everything that needed to happen to have an application granted.
 
@@ -156,7 +162,7 @@ In this way, the colleagues would benefit from the same levels of transparency a
 
 ## Further Testing
 
-Having iterated on the designs, high fidelity prototypes were built out and two more rounds of usability testing were carried out (some examples of iterated prototypes can be seen [here](https://www.figma.com/proto/RNCDu8Meas2WZy10idkSHp/Trade-Core-Flow-Graveyard-V1-Copy?page-id=9%3A12824&node-id=9%3A12830&viewport=17219%2C5841%2C1&scaling=min-zoom) and [here](https://www.figma.com/proto/WbNvmbAC17klnswBZLgfC3jL/Trade-Core-Flow-Graveyard-V1?page-id=333%3A64285&node-id=334%3A1924&viewport=1205%2C3073%2C0.07156255096197128&scaling=min-zoom)). We learnt lots and lots of things — a few of the key findings are below.
+Having iterated on the designs, high fidelity prototypes were built out and two more rounds of usability testing were carried out (an example of one of the iterated prototypes can be seen [here](https://www.figma.com/proto/JhZjQ8jdLqXgA94kPkakhd/Trade-Core---Flow-Graveyard-V1-(Copy)?page-id=86%3A7032&node-id=87%3A7508&viewport=2357%2C1548%2C0.13&scaling=scale-down-width&starting-point-node-id=87%3A11694&hide-ui=1]). We learnt lots and lots of things — a few of the key findings are below.
 
 {% image "https://cdn-images-1.medium.com/max/8064/1*UCzN2lpYDXL4m7nPB9FbPA.jpeg", "We drove around Kampala, running tests in clients’ offices using this setup." %}
 
@@ -219,7 +225,7 @@ After 14 weeks, we onboarding 10 Ugandan clients onto the Quantum Leap platform,
 > You mean I don’t have to submit my application 2 weeks in advance!!! We used to start our bid application process 2 weeks prior to the submission date just to ensure we get our bids in time. But with this new innovation from Stanbic, we can do it within a day or two.
 > The system is too simple.
 
-The project was expanded and I spent almost a year in total building out the MVP, testing, iterating and adding new features. As part of this, I lead the development of a design team in Johannesburg, building out the design system, and implementing a culture of design thinking. The Quantum Leap program won the *[*Innovation in Digital Banking Award](https://www.iol.co.za/business-report/companies/standard-bank-wins-innovation-in-digital-banking-africa-award-2aea5d1e-8589-4eb3-a6b3-d68ac620a94b) for Africa from The Banker.
+The project was expanded and I spent almost a year in total building out the MVP, testing, iterating and adding new features. As part of this, I lead the development of a design team in Johannesburg, building out the design system, and implementing a culture of design thinking. The Quantum Leap program won the [Innovation in Digital Banking Award](https://www.iol.co.za/business-report/companies/standard-bank-wins-innovation-in-digital-banking-africa-award-2aea5d1e-8589-4eb3-a6b3-d68ac620a94b) for Africa from The Banker.
 
 {% image "https://cdn-images-1.medium.com/max/2560/1*dY5neiGZkobC_xJ4Nw58Rg.jpeg", "Senior bank stakeholders and the first client to issue an transaction online." %}
 
@@ -249,7 +255,7 @@ In this way, perhaps utilising current practices was something worth doing.
 
 ### Focusing on outcomes rather than features
 
-There are enough problems that consulting companies experience as a result of their business model to fill a very hefty book, and a lot of this comes back to the requirement to *sell. *To explain for those lucky enough to have avoided consulting, part of the planning of a project happens during the pitch process, and therefore a team is often beholden to the promises made during a pitch.
+There are enough problems that consulting companies experience as a result of their business model to fill a very hefty book, and a lot of this comes back to the requirement to *sell*. To explain for those lucky enough to have avoided consulting, part of the planning of a project happens during the pitch process, and therefore a team is often beholden to the promises made during a pitch.
 
 For a digital project, these promises are often made by people who are not going to be closely involved in the process, and can often included lists of ‘expected features’, for example, an onboarding, a home page, etc. This hobbles a product before it has even had a chance to get started, by prescribing features before any design thinking has taken place.
 
