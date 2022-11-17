@@ -4,10 +4,10 @@ tags:
   - case study
 date: 2017-10-27
 info:
-  date: Mid 2018
-  timeline: 6 months - 2 weeks workshops, 2 weeks discovery, 1 month discovery, 5 months execution
+  date: November 2017
+  timeline: 2 week design sprint
   company: Medicspot
-  role: Senior Product Designer
+  role: Freelance Product Designer
 ---
 
 {% callout %}
@@ -73,7 +73,7 @@ As part of our user-centred approach, we conducted sixteen in-depth interviews w
 
 #### **Engaged**
 
-Doctors wanted to feel *engaged. *One of my interviewees, GP Dr Craig Thompson, said:
+Doctors wanted to feel *engaged.* One of my interviewees, GP Dr Craig Thompson, said:
 
 > _My main job satisfaction comes from interacting with patients and building a rapport._
 
@@ -101,7 +101,7 @@ Through user research, however, we found that doctors did not so much care about
 
 > _“A good consultation is one that flows easily, when you’re not distracted by the system, and have the time and tools to make an accurate diagnosis.”_
 
-We realised that providing **convenient and efficient access to all the tools **necessary to the doctors would be of tantamount importance to the design, as well as providing an accurate diagnosis for the doctors.
+We realised that providing **convenient and efficient access to all the tools** necessary to the doctors would be of tantamount importance to the design, as well as providing an accurate diagnosis for the doctors.
 
 ### Personas: meet Sanjeev & Julie
 
@@ -159,7 +159,7 @@ Refining the ideas turned out to be difficult, but the most popular solutions we
 
 #### 1. Tabs
 
-The amount of information and text fields that a doctor needs access to is vast and ever-changing. Hence, tabs were agreed to be a simple, scalable way to organise content and provide all-in-one access \***\*to information without having to scroll. Giving the doctor quick access to all this information would hopefully increase the **engagement\*\* the doctor has with their patient.
+The amount of information and text fields that a doctor needs access to is vast and ever-changing. Hence, tabs were agreed to be a simple, scalable way to organise content and provide all-in-one access to information without having to scroll. Giving the doctor quick access to all this information would hopefully increase the **engagement** the doctor has with their patient.
 
 #### 2. Prompts
 

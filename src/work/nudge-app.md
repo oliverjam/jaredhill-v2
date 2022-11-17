@@ -14,7 +14,7 @@ info:
 Developing an app to solve the age old problem of distraction
 {% endcallout %}
 
-![](https://cdn-images-1.medium.com/max/6000/1*TBNSH9-pVWFiYm_Ur0LiGw.jpeg)
+{% image "https://cdn-images-1.medium.com/max/6000/1*TBNSH9-pVWFiYm_Ur0LiGw.jpeg" %}
 
 ## Summary
 
@@ -52,7 +52,7 @@ It was clear that if an app could simply and effectively reduce distraction for 
 
 Now a problem had been found, it was time to explore all the potential solutions for it.
 
-![Idil was even getting distracted during our interview.](https://cdn-images-1.medium.com/max/8064/1*zUzukkwITmgZCRgZcktPFg.jpeg)
+{% image "https://cdn-images-1.medium.com/max/8064/1*zUzukkwITmgZCRgZcktPFg.jpeg", "Idil was even getting distracted during our interview." %}
 
 ## Process
 
@@ -80,11 +80,11 @@ Why are you a terrible person?
 
 > “I DON’T KNOW!”
 
-![Jared and his Amazing Technicolor Concept Map.](https://cdn-images-1.medium.com/max/8064/1*Q6z4U78tqCiaQhLMVAalPg.jpeg)
+{% image "https://cdn-images-1.medium.com/max/8064/1*Q6z4U78tqCiaQhLMVAalPg.jpeg", "Jared and his Amazing Technicolor Concept Map." %}
 
 Joking aside, I did find there were ways for me to address the problem. I constructed a detailed concept map that allowed me to visually understand the problem. Most importantly, I learnt a lot by digging down into the ‘indicators of success’ and ‘indicators of failure’: that is, what environmental factors were conducive to her having a successful study session, and what factors were present when she got distracted.
 
-![The final concept map, with indicators of success and failure in the bottom left corner.](https://cdn-images-1.medium.com/max/2472/1*cX2rUX6xQ0S4uicOUV_FgQ.png)
+{% image "https://cdn-images-1.medium.com/max/2472/1*cX2rUX6xQ0S4uicOUV_FgQ.png", "The final concept map, with indicators of success and failure in the bottom left corner." %}
 
 Idil said she was successful when she had a deadline, when she started work in the morning, when she was reminded to get back to work by her husband, and when she was able to get into a flow state. Her key indicators of failure included an abundance of time mentality, when she set her study goal too high for the day and it seemed insurmountable, and a number of apps that she had tried.
 
@@ -104,7 +104,7 @@ The user interview found two main types of distractions:
 
 My app would need to solve both these problems — and with GPS technology and accelerometers, this would definitely be possible. I decided that my app would allow a user to set ‘work blocks’ of time in which they would be reminded each time they moved away from their desk or browsed on their phones. My next step was to storyboard the ideal user scenario for the app:
 
-![1: Situation - 2 & 3: Problem - 4: Solution - 5: Outcome](https://cdn-images-1.medium.com/max/5082/1*Q52X6kLbDu0mYOawjE8eXQ.jpeg)
+{% image "https://cdn-images-1.medium.com/max/5082/1*Q52X6kLbDu0mYOawjE8eXQ.jpeg", "1: Situation - 2 & 3: Problem - 4: Solution - 5: Outcome" %}
 
 ## Solution
 
@@ -114,23 +114,23 @@ It was time to start building the app that would solve Idil’s problem, so I gr
 
 Building on all the information gathered from Idil as well as the storyboard, I constructed a user flow that accurately represented the screens required to set up a work block (called a ‘sprint’), the distraction notification settings, and then start the sprint. My user flow assumed that the user would be distracted once, to demonstrate the key functionality of the app. Whilst this wasn’t the ideal route, which would be not getting distracted at all (wouldn’t that be wonderful!) it did allow us to understand better how the app would work in a real-world scenario.
 
-![](https://cdn-images-1.medium.com/max/5136/1*GELT4YrCJCA5LGbYxLGT0Q.jpeg)
+{% image "https://cdn-images-1.medium.com/max/5136/1*GELT4YrCJCA5LGbYxLGT0Q.jpeg" %}
 
 ### Sketches, wireflows and paper prototypes
 
 My next step was to start sketching up preliminary screens, and did some quick sketches to get user feedback on:
 
-![](https://cdn-images-1.medium.com/max/5544/1*4MMsOIQad_tFFCJkhFqjAw.jpeg)
+{% image "https://cdn-images-1.medium.com/max/5544/1*4MMsOIQad_tFFCJkhFqjAw.jpeg" %}
 
 My user Idil immediately gave me some valuable points: she found the ‘sprint set-up’ screen confusing and thought there were too many options on the ‘sprint’ screen. I realised that one of the biggest potential problems with the app would be learnability: it was important for a user to be able to pick it up and understand it immediately, but the concept itself was quite hard to communicate. I decided to strip back my app to an MVP bare essentials experience, removing quite a few features (motivational messages and notification blocker), and built a more simple wireflow:
 
-![](https://cdn-images-1.medium.com/max/5168/1*nnYZq6tscYSba8CFfOALJw.jpeg)
+{% image "https://cdn-images-1.medium.com/max/5168/1*nnYZq6tscYSba8CFfOALJw.jpeg" %}
 
 The wireflow tested very well and I found that the step-by-step set-up screens had a dual role, both giving the user control over the settings but also orienting them about how the app worked.
 
 At this time, I also decided upon a right-to-left swipe action to navigate from one screen to the next, as well as a button in the bottom right corner in case the user preferred to use this. This not only provided an easy navigation system, but gave the user a simple conceptual model about where they were situated in terms of the app at all times.
 
-![](https://cdn-images-1.medium.com/max/2000/1*bYHUFBwTXoYUKqPhcbFKOA.jpeg)
+{% image "https://cdn-images-1.medium.com/max/2000/1*bYHUFBwTXoYUKqPhcbFKOA.jpeg" %}
 
 It was time to construct a paper prototype, and then open up testing to more users than simply my core user. The above image shows six of the eight final screens that made up the paper prototype, simplified to the most important elements in helping the user resolve their problem.
 
@@ -140,7 +140,7 @@ Most user tests received very strong positive user feedback, and also highlighte
 
 - Removing the ‘screen takeover’ option, which was not deemed important enough for the MVP.
 
-![Paper prototype testing with Idil.](https://cdn-images-1.medium.com/max/8064/1*KXBVOd1C5z8Uwxd9AavevQ.jpeg)
+{% image "https://cdn-images-1.medium.com/max/8064/1*KXBVOd1C5z8Uwxd9AavevQ.jpeg", "Paper prototype testing with Idil." %}
 
 ### Getting down and digital
 
@@ -150,15 +150,15 @@ I then took the prototype to low and mid fidelity, at each stage testing the pro
 
 - Adding a summary of the options that they have selected on the final screen before commencing the sprint:
 
-![](https://cdn-images-1.medium.com/max/2470/1*sOMu2RFtXPAB8sK8BMcxbA.png)
+{% image "https://cdn-images-1.medium.com/max/2470/1*sOMu2RFtXPAB8sK8BMcxbA.png" %}
 
 Once all this testing was completed (phew!), I needed to make some design decisions before taking the prototype to high-fidelity. I wanted to create a feeling of ‘softness’ with the app, a feeling of bliss and simplicity that would create a space in which users could get work done. The mood board I created reflected these feelings:
 
-![](https://cdn-images-1.medium.com/max/2456/1*yumO5fGvduVgAoAFL65mjg.png)
+{% image "https://cdn-images-1.medium.com/max/2456/1*yumO5fGvduVgAoAFL65mjg.png" %}
 
 A strong theme in the mood board was multicoloured gradients, and I decided to use these gradients not only as a aesthetic choice but across screens as a paradigm for the navigation of the app: that is, as the user swipes through screens during the set up and move towards their goal (the ‘Completed’ screen), the gradient turns from red to green.
 
-![](https://cdn-images-1.medium.com/max/2422/1*r4Wi7i9kZqCPgWbY9ybq8Q.png)
+{% image "https://cdn-images-1.medium.com/max/2422/1*r4Wi7i9kZqCPgWbY9ybq8Q.png" %}
 
 This tested extremely well with users and added a lot of personality to the app without overwhelming the interface.
 
@@ -168,13 +168,13 @@ The transition into Invision made a huge difference to the aforementioned naviga
 
 The final clickable prototype can be viewed [here](https://invis.io/3GD9R47Y4#/251066851_Home).
 
-![](https://cdn-images-1.medium.com/max/2000/1*ze1Q4ufbxeRicP-fc6uYxg.jpeg)
+{% image "https://cdn-images-1.medium.com/max/2000/1*ze1Q4ufbxeRicP-fc6uYxg.jpeg" %}
 
 ## Results
 
 The project was challenging and required a tonne of problem solving skills to get to a solution. The feedback from the users I tested was very positive and I had a lot of suggestions for more features, which I took as an indicator of interest! I really learnt a lot about having a user-centred focus and making sure that at every step you get feedback to make sure you continue in the right direction.
 
-![](https://cdn-images-1.medium.com/max/8064/1*Xywmpc_TILW8mNpzRiTAIA.jpeg)
+{% image "https://cdn-images-1.medium.com/max/8064/1*Xywmpc_TILW8mNpzRiTAIA.jpeg" %}
 
 ### Next Steps
 
