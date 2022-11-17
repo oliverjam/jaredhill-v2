@@ -3,16 +3,13 @@ title: "Redesigning MedicSpot: a case study"
 tags:
   - case study
 date: 2017-10-27
+callout: Creating an intuitive video chat system that builds patient-doctor engagement — without getting in the way.
 info:
   date: November 2017
   timeline: 2 week design sprint
   client: Medicspot - a healthcare startup
   role: Freelance Product Designer
 ---
-
-{% callout %}
-Creating an intuitive video chat system that builds patient-doctor engagement — without getting in the way.
-{% endcallout %}
 
 ## Summary
 
@@ -28,10 +25,9 @@ Reader beware: this is a big ol’ case study. Don’t have time to read the who
 
 ## Background
 
-MedicSpot is an on-demand telemedicine service that allows patients to have video consultations with doctors through special Clinical Stations set up in pharmacies. The real appeal of MedicSpot: they are one of the only telemedicine companies *in the world* that can remotely check temperature, blood pressure, oxygen levels and listen to a patient’s heartbeat, using special medical instruments located inside their Clinical Stations.
+MedicSpot is an on-demand telemedicine service that allows patients to have video consultations with doctors through special Clinical Stations set up in pharmacies. The real appeal of MedicSpot: they are one of the only telemedicine companies _in the world_ that can remotely check temperature, blood pressure, oxygen levels and listen to a patient’s heartbeat, using special medical instruments located inside their Clinical Stations.
 
 Launched in October 2016, they are currently in over 40 locations across the UK and expanding quickly.
-
 
 ### The Brief
 
@@ -73,7 +69,7 @@ As part of our user-centred approach, we conducted sixteen in-depth interviews w
 
 #### **Engaged**
 
-Doctors wanted to feel *engaged.* One of my interviewees, GP Dr Craig Thompson, said:
+Doctors wanted to feel _engaged._ One of my interviewees, GP Dr Craig Thompson, said:
 
 > _My main job satisfaction comes from interacting with patients and building a rapport._
 
@@ -265,7 +261,6 @@ MedicSpot were extremely happy with the new designs and features, and are curren
 > Their designs make it a lot easier for doctors to interact our patients, and we’re in the process of implementing them now.
 
 ![](https://cdn-images-1.medium.com/max/10944/1*7MzrBp2wfebgFmDS0_IkDw.jpeg)
-
 
 {% image "https://cdn-images-1.medium.com/max/2362/1*n0rMVBrTxVCIU5A5i6kzhg.png", "Mid-fidelity (left) was designed to 1024px width, before we moved to 1440px on the high fidelity (right)." %}
 
