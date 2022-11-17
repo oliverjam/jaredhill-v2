@@ -16,7 +16,6 @@ exports.render = ({ info, content }) => {
         )}
       </dl>
     `;
-    console.log({ box });
     return box + content;
   }
   return content;
