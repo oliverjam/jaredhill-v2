@@ -4,10 +4,10 @@ date: 2017-10-26
 tags:
   - case study
 info:
-  date: Mid 2018
-  timeline: 6 months - 2 weeks workshops, 2 weeks discovery, 1 month discovery, 5 months execution
-  company: Medicspot
-  role: Senior Product Designer
+  date: Oct 2017
+  timeline: 2 week design sprint
+  type: Mock case study for General Assembly
+  role: UX Designer
 ---
 
 {% callout %}
@@ -30,7 +30,7 @@ For this individual project at General Assembly, we interviewed a specific user 
 
 **Sprint length:** 2 weeks.
 
-**Skills required: **User interviews, Participatory Design, Sketching, Rapid Prototyping, Product/Visual Design.
+**Skills required:** User interviews, Participatory Design, Sketching, Rapid Prototyping, Product/Visual Design.
 
 ## Background
 
@@ -62,23 +62,23 @@ I sat down with Idil again to better understand her problem, and the factors tha
 
 Why do you get distracted?
 
-> “Because I go to make a cup of tea and I then decide to clean the kitchen for an hour.”
+> Because I go to make a cup of tea and I then decide to clean the kitchen for an hour.
 
 Why do you clean the kitchen for an hour rather than go back to work?
 
-> “Because it seems easier than going back to work.”
+> Because it seems easier than going back to work.
 
 Why does it seem easier than going back to work?
 
-> “I don’t know, because I just procrastinate for no reason…”
+> I don’t know, because I just procrastinate for no reason…
 
 Why do you procrastinate for no reason?
 
-> “I really don’t know, because I’m a terrible person?”
+> I really don’t know, because I’m a terrible person?
 
 Why are you a terrible person?
 
-> “I DON’T KNOW!”
+> I DON’T KNOW!
 
 {% image "https://cdn-images-1.medium.com/max/8064/1*Q6z4U78tqCiaQhLMVAalPg.jpeg", "Jared and his Amazing Technicolor Concept Map." %}
 
@@ -90,7 +90,7 @@ Idil said she was successful when she had a deadline, when she started work in t
 
 This lead me to my final key discovery that strongly influenced design decisions. Idil had tried and failed to use productivity apps, and had strong feelings about the way that they would ‘guide’ her through her study. She was very self-motivated, and felt that they ‘babied’ her through the process, without allowing her to do her work. She also resented apps that blocked her access to social media, and found them petty since she was a mature adult and wanted to, in her words, “_believe in herself_”, and in her own ability to restrict her usage of these sites.
 
-> “I don’t want to be disconnected, I just want to be regulated.”
+> I don’t want to be disconnected, I just want to be regulated.
 
 It was clear that she didn’t want to be restricted from being distracted, but rather be reminded at some point to go back to work, so she wouldn’t waste hours on these distractions.
 
@@ -139,6 +139,8 @@ Most user tests received very strong positive user feedback, and also highlighte
 - Making the timer show at all times, rather than be hidden. I thought that perhaps the timer would distract a user, but this did not seem the case in testing.
 
 - Removing the ‘screen takeover’ option, which was not deemed important enough for the MVP.
+
+
 
 {% image "https://cdn-images-1.medium.com/max/8064/1*KXBVOd1C5z8Uwxd9AavevQ.jpeg", "Paper prototype testing with Idil." %}
 
