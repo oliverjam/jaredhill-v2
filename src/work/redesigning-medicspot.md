@@ -28,7 +28,7 @@ Reader beware: this is a big ol’ case study. Don’t have time to read the who
 
 ## Background
 
-MedicSpot is an on-demand telemedicine service that allows patients to have video consultations with doctors through special Clinical Stations set up in pharmacies. The real appeal of MedicSpot: they are one of the only telemedicine companies *in the world *that can remotely check temperature, blood pressure, oxygen levels and listen to a patient’s heartbeat, using special medical instruments located inside their Clinical Stations.
+MedicSpot is an on-demand telemedicine service that allows patients to have video consultations with doctors through special Clinical Stations set up in pharmacies. The real appeal of MedicSpot: they are one of the only telemedicine companies *in the world* that can remotely check temperature, blood pressure, oxygen levels and listen to a patient’s heartbeat, using special medical instruments located inside their Clinical Stations.
 
 Launched in October 2016, they are currently in over 40 locations across the UK and expanding quickly.
 
@@ -129,7 +129,7 @@ Understanding these key frustrations is what led us to come up with a specific *
 
 > Redesign the interface to be more **engaging**, intuitive and convenient.
 
-By tackling this, we would allow doctors to conduct **quality consultations, **which importantly would not only improve the doctor’s satisfaction, but the _patient’s_ satisfaction as well.
+By tackling this, we would allow doctors to conduct **quality consultations,** which importantly would not only improve the doctor’s satisfaction, but the _patient’s_ satisfaction as well.
 
 ### The third ingredient: design principles
 

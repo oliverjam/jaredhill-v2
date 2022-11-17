@@ -140,8 +140,6 @@ Most user tests received very strong positive user feedback, and also highlighte
 
 - Removing the ‘screen takeover’ option, which was not deemed important enough for the MVP.
 
-
-
 {% image "https://cdn-images-1.medium.com/max/8064/1*KXBVOd1C5z8Uwxd9AavevQ.jpeg", "Paper prototype testing with Idil." %}
 
 ### Getting down and digital
@@ -187,5 +185,7 @@ There are a number of directions in which this app could be taken, and the featu
 - Motivational messages: allowing a user to write themselves messages that they would then be sent later to remind why they should get back to work
 
 - Daily tracking of progress: logging user’s progress in a calendar to motivate them to get a sprint done every day.
+
+---
 
 _Thanks for reading! If you’re interested in UX, remember to follow me on Medium and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content._

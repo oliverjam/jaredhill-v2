@@ -75,7 +75,7 @@ Finally, to the right, I added some data that I hoped would gamify the process a
 
 * A *level* which would improve the more the person used the app (I don’t really remember how this was supposed to work, and I’m not sure I even knew at the time)
 
-* A *streak tracker *to show how many days in a row they had been vegan
+* A *streak tracker* to show how many days in a row they had been vegan
 
 {% image "https://cdn-images-1.medium.com/max/7528/1*cuX3OwWcy9MRBwL9laTKCg.png" %}
 
@@ -93,7 +93,7 @@ So, how does one improve on something so minimalistic?
 
 ### The bad (and the ugly)
 
-Well, fortunately, *simplicity *is not simply a matter of reducing features or making something look visually clean. The perceived simplicity of an experience also has to do with the complexity of the information being communicated, and the steepness of the learning curve required for a user to understand that information. As [John Maeda](undefined) said in *The Laws of Simplicity*:
+Well, fortunately, *simplicity* is not simply a matter of reducing features or making something look visually clean. The perceived simplicity of an experience also has to do with the complexity of the information being communicated, and the steepness of the learning curve required for a user to understand that information. As [John Maeda](undefined) said in *The Laws of Simplicity*:
 > The best designers marry function with form to create intuitive experiences that users understand immediately.
 
 In this case, I think that a lack of discipline on my part meant that, whilst I was able to create an interface that was *visually* clean, *conceptually* this thing is all over the place. The interface screams at me that the designer doesn’t exactly know what they want to create or which element will deliver true value to the user, leading them to just throw together a bunch of incongruent features. The result is a non-committal experience that lacks hierarchy and focus.
@@ -138,7 +138,7 @@ Alas, *lose it*.
 
 {% image "https://cdn-images-1.medium.com/max/6672/1*onXvg7zd7rLq9vYCh3V6mQ.png" %}
 
-Next, the *streak *data. This element actually supports the core concept of the app really well — after all, streaks are also depicted on the calendar — and therefore their presence could actually help test the core assumption that I’m making with the calendar. The *longest streak* is especially great data: it helps give the user something to aim for even after using the app for a long time (which is what I was trying to achieve with the *level* data).
+Next, the *streak* data. This element actually supports the core concept of the app really well — after all, streaks are also depicted on the calendar — and therefore their presence could actually help test the core assumption that I’m making with the calendar. The *longest streak* is especially great data: it helps give the user something to aim for even after using the app for a long time (which is what I was trying to achieve with the *level* data).
 
 A very firm *use it*.
 

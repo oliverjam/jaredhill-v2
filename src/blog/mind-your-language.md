@@ -82,4 +82,6 @@ I realise this seems like it has turned into a bit of a hit piece against NN Gro
 
 But I think it’s incredibly important that we are aware of the effect that these over-simplifications have on junior designers and those outside the design community. And most importantly, we need to always remember to respect the user’s intelligence and creativity.
 
+---
+
 _Thanks for reading! If you’re interested in UX, remember to follow me on Medium ([here](https://medium.com/@jamchiller)) and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content._

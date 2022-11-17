@@ -15,7 +15,7 @@ Why all the excitement? We’d both been closely following Rob Rhinehart’s [So
 
 {% image "https://cdn-images-1.medium.com/max/2178/1*QD4rxbZVkcCcasgTuhwldA.jpeg", "Franken-Soylent: the official drink of the Four Horsemen of the Apocalypse." %}
  
-So you can imagine our joy when someone with some actual culinary skill had taken it upon themselves to mass-produce a Soylent-type drink in the UK. Plus, Huel was *even better *than Soylent for my dietary needs — it’s higher in protein ([30%](https://huel.com/pages/nutritional-information-and-ingredients#macro) compared to [Soylent’s 20%](https://faq.soylent.com/hc/en-us/articles/203798419-Macronutrient-Energy-Ratio)) and pretty much perfectly resembled the carb/fat/protein split that I already consumed on a daily basis.
+So you can imagine our joy when someone with some actual culinary skill had taken it upon themselves to mass-produce a Soylent-type drink in the UK. Plus, Huel was *even better* than Soylent for my dietary needs — it’s higher in protein ([30%](https://huel.com/pages/nutritional-information-and-ingredients#macro) compared to [Soylent’s 20%](https://faq.soylent.com/hc/en-us/articles/203798419-Macronutrient-Energy-Ratio)) and pretty much perfectly resembled the carb/fat/protein split that I already consumed on a daily basis.
 
 The plan for the week was to consume Huel and only Huel: each and every bit of energy (apart from incidental chewing gum calories) would come from this off-yellow powder. What would it be like to live off a futuristic superfood? Would I make it through? Would I use the free time gained to finally start that multi-billion pound business I keep putting off? All questions would soon be answered.
 

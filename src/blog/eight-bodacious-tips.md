@@ -49,7 +49,7 @@ But, of course, it’s never that easy. [Debate](https://uxfactor.wordpress.com/
 
  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Disappointed when I hear there are still people touting the “you’ll find 85% of all design problems by testing 5 users” myth.<a href="https://twitter.com/hashtag/ThatsSo1995?src=hash&amp;ref_src=twsrc%5Etfw">#ThatsSo1995</a></p>&mdash; Jared Spool (@jmspool) <a href="https://twitter.com/jmspool/status/891382414643269633?ref_src=twsrc%5Etfw">July 29, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Now, I’ve followed Jared on Twitter for long enough to know better than getting in an argument with him. Thankfully, I don’t think that’s necessary here. What Jared (and others) seem to reject to is the *85% *part of the adage, which they see not only as false, but more importantly as an excuse for designers to be lazy with their testing.
+Now, I’ve followed Jared on Twitter for long enough to know better than getting in an argument with him. Thankfully, I don’t think that’s necessary here. What Jared (and others) seem to reject to is the *85%* part of the adage, which they see not only as false, but more importantly as an excuse for designers to be lazy with their testing.
 
 By all means, test five users, but realise that you _may_ capture more usability issues if you test more users. The amount of tests you need will be very dependant on what you’re testing, as Ellie Martin sums up well in [this article](https://www.invisionapp.com/inside-design/ux-usability-research-testing/):
 
@@ -89,7 +89,7 @@ Watching someone use their phone is akin to watching them whilst they’re getti
 
 And yet, when we test users, we expect them to use the device naturally, just as they would on their own, whilst we stare them down and furiously scribble notes. No amount of ‘we’re testing the product, not you’ can reduce the plain suckiness of someone watching you use a device over your shoulder.
 
-There’s no simple solution for this problem, until we develop the technology to shrink ourselves down to the size of cockroaches and hide in users’ clothes (which will sadly bring up a whole other set of problems). However, a great weapon to fight this is to make sure the first 5–10 minutes of your test are spent *building rapport with the user *and trying to reduce the implicit pressure that comes with the testing environment. These crucial first minutes will dictate how the next 40 will go — if you can master them, you’ll see vastly better results.
+There’s no simple solution for this problem, until we develop the technology to shrink ourselves down to the size of cockroaches and hide in users’ clothes (which will sadly bring up a whole other set of problems). However, a great weapon to fight this is to make sure the first 5–10 minutes of your test are spent *building rapport with the user* and trying to reduce the implicit pressure that comes with the testing environment. These crucial first minutes will dictate how the next 40 will go — if you can master them, you’ll see vastly better results.
 
 If you can, I find throwing in a couple of bad jokes works wonders in getting your user comfortable. And, if you don’t get a laugh, you can iterate on them and try again with the next user. With any luck, by your final test you’ll be the design equivalent of Robin Williams.
 

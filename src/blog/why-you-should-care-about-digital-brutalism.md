@@ -26,7 +26,7 @@ We’ve all been there: you’re walking through a picturesque town, having a gr
 
 Depending on your artistic leanings, you either gasp with joy or vomit a little in your mouth and move on.
 
-**Brutalism **was an architectural movement from the 1950s all the way through to the 1980s which had a strong focus on *raw, unpolished aesthetics*. According to the good people at Wikipedia, it was seen as a reaction by a younger generation to the lightness, optimism, and frivolity of 1930s and 1940s architecture. Unlike that architecture, it had a lack of concern to look *comfortable* or *easy*.
+**Brutalism** was an architectural movement from the 1950s all the way through to the 1980s which had a strong focus on *raw, unpolished aesthetics*. According to the good people at Wikipedia, it was seen as a reaction by a younger generation to the lightness, optimism, and frivolity of 1930s and 1940s architecture. Unlike that architecture, it had a lack of concern to look *comfortable* or *easy*.
 
 ## Got it. But what is digital brutalism?
 
