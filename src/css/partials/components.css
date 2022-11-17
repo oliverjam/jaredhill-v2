@@ -177,14 +177,17 @@ animated-carousel li {
   z-index: 10;
 }
 
+[data-lightbox] summary ~ img {
+  width: auto;
+}
+
 [data-lightbox][open] summary ~ img {
-  --margin: 8rem;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: calc(100% - var(--margin));
-  max-height: calc(100% - var(--margin));
+  max-width: calc(100% - var(--gutter));
+  max-height: calc(100% - var(--gutter));
   box-shadow: 0 2px 2px hsla(0, 0%, 0%, 10%), 0 6px 12px hsla(0, 0%, 0%, 25%);
   object-fit: cover;
 }
