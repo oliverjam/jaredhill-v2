@@ -1,22 +1,22 @@
 <style webc:scoped>
-  :host {
-    display: grid;
-    grid-template-columns: [toc] 26rem [article] minmax(0, 1fr);
-    max-inline-size: var(--measure-wide);
-    margin-inline: auto;
-  }
   :host table-contents {
     display: none;
   }
   @media (min-width: 66rem) {
-    :host table-contents {
+    :host[toc] {
+      display: grid;
+      grid-template-columns: [toc] 26rem [article] minmax(0, 1fr);
+      max-inline-size: var(--measure-wide);
+      margin-inline: auto;
+    }
+    :host[toc] table-contents {
       display: block;
       grid-area: toc;
       padding: var(--gutter);
       padding-inline-end: 0;
     }
   }
-  :host article {
+  :host[toc] article {
     grid-area: article;
   }
   :host article > * + * {

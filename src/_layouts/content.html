@@ -12,7 +12,7 @@ layout: base
       @html="inMinutes(readingTime(content))"
     ></time>
   </div>
-  <post-content>
+  <post-content :toc="showToc">
     <table-contents
       slot="toc"
       webc:if="showToc"
