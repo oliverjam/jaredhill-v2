@@ -1,12 +1,16 @@
 <style webc:scoped>
   :host .toc {
     position: sticky;
-    top: 2rem;
+    top: var(--gutter);
     background-color: var(--bg-100);
   }
   :host ol {
     margin: 0;
     padding-inline-start: 1em;
+    display: grid;
+    gap: 1rem;
+    font-family: var(--heading-font);
+    font-size: 1.25rem;
   }
   :host a {
     text-decoration-line: none;
