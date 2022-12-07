@@ -92,7 +92,7 @@
 <ul role="list">
   <slot></slot>
 </ul>
-<button>
+<button aria-label="Pause">
   <use-icon id="pause-btn" @name="pause" @size="32"></use-icon>
   <use-icon id="play-btn" @name="play" @size="32"></use-icon>
 </button>
@@ -143,6 +143,7 @@
     }
 
     play() {
+      this.button.setAttribute("aria-label", "Pause");
       this.interval = setInterval(() => {
         const { scrollLeft, scrollWidth, clientWidth } = this.scroller;
         // force the element to scroll one column along
@@ -155,6 +156,7 @@
     }
 
     pause() {
+      this.button.setAttribute("aria-label", "Play");
       clearInterval(this.interval);
     }
 
