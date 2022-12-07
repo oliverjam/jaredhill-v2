@@ -21,7 +21,7 @@ The redesigns received extremely strong feedback from the startup, and they are 
 
 Reader beware: this is a big ol’ case study. Don’t have time to read the whole thing? You can skip straight to the final prototype [here](https://invis.io/8ADVRPKP5#/257589082_1-_Navigates_To_Website).
 
-{% image "https://cdn-images-1.medium.com/max/10368/1*BVlp9trTPkqwqBcNIE6bnw.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/10368/1*BVlp9trTPkqwqBcNIE6bnw.jpeg"></light-box>
 
 ## Background
 
@@ -61,7 +61,7 @@ To get a full understanding of the current MedicSpot process, we observed one of
 
 Essentially, we noticed there was a lot of **multitasking** involved during the consultation, and the system hadn’t been designed to allow for this.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*iVDdLHIa85yMtyam-n3NGA.png", "The current MedicSpot interface." %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*iVDdLHIa85yMtyam-n3NGA.png">The current MedicSpot interface.</light-box>
 
 ### Digging deeper with user interviews
 
@@ -77,7 +77,7 @@ This sentiment was overwhelmingly shared by the cohort of doctors interviewed. T
 
 We realised that the new system needed to add a **‘personal touch**’ for the doctors. It also needed to allow the doctors to engage with the patient at all times without being distracted by the system. It just needed to get out of their way.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*kHgrc8FpN1G04kH37_dnLw.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*kHgrc8FpN1G04kH37_dnLw.jpeg"></light-box>
 
 #### Intuitive
 
@@ -103,11 +103,11 @@ We realised that providing **convenient and efficient access to all the tools** 
 
 Our two user personas, Sanjeev and Julie, are both are in their mid-late 30s, married and have children, which reflected the majority of the GPs that we interviewed.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*13bLTAg8JhKiNmG8FQPXFg.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*13bLTAg8JhKiNmG8FQPXFg.png"></light-box>
 
 **Dr Julie Wong** lives in Glasgow and has been on maternity leave for the last 6 months, after having her first child. Previously, she worked for the NHS 4 days a week, and has never heard of MedicSpot before.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*gFOn6ZV0VA-8PTFBYhgJZA.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*gFOn6ZV0VA-8PTFBYhgJZA.png"></light-box>
 
 **Dr Sanjeev Patel** lives in Amersham, and currently works for MedicSpot one day per week. We chose Dr Patel as our primary persona as his paint points most depict the problems that we were trying to solve.
 
@@ -117,7 +117,7 @@ As such, his main goal is to feel like he has provided quality care for his pati
 
 To understand this, we built an experience map depicting Dr Patel’s current journey from receiving a call from MedicSpot to answering it, diagnosing the illness, and then fulfilling a prescription and sick note for the patient. As can be seen below, for a large part of the experience, Dr Patel is not a happy chappy:
 
-{% image "https://cdn-images-1.medium.com/max/8612/1*OpUCExqv1I5DQgsPJ74CRw.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/8612/1*OpUCExqv1I5DQgsPJ74CRw.jpeg"></light-box>
 
 Of note is the dip in mood when the doctor begins the consultation and is met by a number of challenges, including the patient _not following instructions_, the _inability to fill a prescription during the call_, and a _difficulty in filling in clinical notes whilst talking to the patient_.
 
@@ -147,11 +147,11 @@ They say an apple a day keeps the doctor away, but nobody ever told us what food
 
 Armed with our design challenges, personas, and design principles, the stage was set to design solutions that would make up the new interface. We ran three Design Studios with the founders of MedicSpot, and were amazed by the amount of innovative ideas came out in such a short period of time.
 
-{% image "https://cdn-images-1.medium.com/max/8064/1*Sy5MiN7oXoo9YKkFtC2nfw.jpeg", "The team in deep concentration." %}
+<light-box @src="https://cdn-images-1.medium.com/max/8064/1*Sy5MiN7oXoo9YKkFtC2nfw.jpeg">The team in deep concentration.</light-box>
 
 Refining the ideas turned out to be difficult, but the most popular solutions were:
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*CNn-Y_bpuoL_LxkRGZ8HMQ.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*CNn-Y_bpuoL_LxkRGZ8HMQ.png"></light-box>
 
 #### 1. Tabs
 
@@ -175,13 +175,13 @@ Clinical notes, past appointments, two video streams of the patient, medical ins
 
 Therefore, we asked GPs to rate these elements in terms of their importance during the call. Below are the results:
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*DWwME-4qKZih6d5zh9XcaQ.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*DWwME-4qKZih6d5zh9XcaQ.png"></light-box>
 
 This early data hugely influenced our designs. We were sure to never, ever obstruct the doctor’s access to the Clinical Notes tabbed box, as users said that they always needed to be able to input something in here at a moment’s notice.
 
 There were a number of other elements that would need to be overlayed over some part of the screen, for example, instrument instructions, and prompts. We decided that they would have to cover the bottom left half where Instruments, Patient Information, and the Chat box were located.
 
-{% image "https://cdn-images-1.medium.com/max/2410/1*h1IJFNQRBtGKzmsudRHiBw.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2410/1*h1IJFNQRBtGKzmsudRHiBw.png"></light-box>
 
 In the paper prototype (above left), you can see the decision to place the overlay window over a section of the patient video and the other less important elements. On testing, users didn’t want any obstruction to the patient video, so the overlay was moved further down.
 
@@ -193,13 +193,13 @@ Why maximise the engagement for the patient when the primary user is the doctor?
 
 To explore this issue, I set up and ran a small study. I sat participants in front of a laptop connected by video call to a another laptop. They were asked to rate how engaged they felt on a scale from 1–10 as the person on the other laptop spoke whilst looking at different places on their screen.
 
-{% image "https://cdn-images-1.medium.com/max/8064/1*YIe8ye9AztJvx5rO9RpGIQ.jpeg", "User rating their engagement levels." %}
+<light-box @src="https://cdn-images-1.medium.com/max/8064/1*YIe8ye9AztJvx5rO9RpGIQ.jpeg">User rating their engagement levels.</light-box>
 
-{% image "https://cdn-images-1.medium.com/max/8064/1*zYb3Lvf1YUF6Opr6YTDhuQ.jpeg", "Hello from the other side." %}
+<light-box @src="https://cdn-images-1.medium.com/max/8064/1*zYb3Lvf1YUF6Opr6YTDhuQ.jpeg">Hello from the other side.</light-box>
 
 The results of this study showed that the level of engagement the patient felt was, in fact, _very much affected_ by where the doctor was looking on the screen when talking to them. As the below graph indicates, patients felt extremely engaged when the doctor looked down the laptop camera at them (unfortunately, this is not viable for large portions of the consultation), with diminishing engagement as the gaze moved farther away from the camera.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*yXDPSLjUIH1cg6uzMuLiWA.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*yXDPSLjUIH1cg6uzMuLiWA.png"></light-box>
 
 We took this through to our interface designs, ensuring that we avoided placing anything used regularly by the doctors on the far left, far right, and bottom of the screen.
 
@@ -207,7 +207,7 @@ We took this through to our interface designs, ensuring that we avoided placing 
 
 Initially, we designed the ideal interface to a standard 1024 pixel width, but on testing, doctors again and again gave feedback that they felt cramped. Due to the very specific usage scenario of the interface (at home, on a 13"-15" laptop), we made the decision to design to a widescreen 1440 pixels. Although the site would still function at 1024px, we worked with the founders of MedicSpot to ensure that it would be possible to recommend usage at this screen width for the best user experience.
 
-{% image "https://cdn-images-1.medium.com/max/2362/1*n0rMVBrTxVCIU5A5i6kzhg.png", "Mid-fidelity (left) was designed to 1024px width, before we moved to 1440px on the high fidelity (right)." %}
+<light-box @src="https://cdn-images-1.medium.com/max/2362/1*n0rMVBrTxVCIU5A5i6kzhg.png">Mid-fidelity (left) was designed to 1024px width, before we moved to 1440px on the high fidelity (right).</light-box>
 
 ### Prompts
 
@@ -219,11 +219,11 @@ There are three questions that need to be asked to every patient during a consul
 
 In the next round of design (below right), the prompts were placed at the bottom of the screen, but testing showed that doctors wanted a visual reminder at the start of the call to ask the questions.
 
-{% image "https://cdn-images-1.medium.com/max/2434/1*90ktOEPu1EzBXKezkejCng.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2434/1*90ktOEPu1EzBXKezkejCng.png"></light-box>
 
 Finally, in high fidelity we introduced a sidebar with a ‘Reminders’ tab, which would automatically open when a patient call is answered. The doctor has the choice of ticking the boxes immediately, or minimising the box until later in the call:
 
-{% image "https://cdn-images-1.medium.com/max/2026/1*RSPH1q3Y-fjlalcFT_ERbQ.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2026/1*RSPH1q3Y-fjlalcFT_ERbQ.png"></light-box>
 
 #### Prescription Prompts
 
@@ -231,13 +231,13 @@ A similar process was followed with prescription-related prompts. Initial design
 
 Once the boxes have been ticked, at which point, the border around the prescription turns green, and the prescription can be filled:
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*4KE5CcqCSndcas4Pinr-OA.gif" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*4KE5CcqCSndcas4Pinr-OA.gif"></light-box>
 
 ### Tasks
 
 During one of our interviews to one of the MedicSpot GPs, I noticed that the doctor had a number of bits of paper around, with scribbles on them. When asked, he told me that there were often things that came up during the consultation, related to the patient, that he needed to remind himself to do later in the day, so he would scribble them down. He told me that there was no place in the MedicSpot interface (or any other consultation system, for that matter) to input information that was not part of the official Clinical Notes.
 
-{% image "https://cdn-images-1.medium.com/max/5990/1*cgdZVbFdTJ6xD4giwuCZgw.jpeg", "Before the Tasks feature: there’s a prize for whoever can decipher what’s written." %}
+<light-box @src="https://cdn-images-1.medium.com/max/5990/1*cgdZVbFdTJ6xD4giwuCZgw.jpeg">Before the Tasks feature: there’s a prize for whoever can decipher what’s written.</light-box>
 
 Talking to other GPs, this was a common problem, and one that we solved using the **Tasks** feature.
 
@@ -245,7 +245,7 @@ At any point during a consultation or post-consultation, a doctor can click the 
 
 In testing, our users absolutely loved this feature.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*1VRzoNXF85v27NjGpdtJ0Q.gif", "Adding items to the ‘Tasks’ tab." %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*1VRzoNXF85v27NjGpdtJ0Q.gif">Adding items to the ‘Tasks’ tab.</light-box>
 
 ### Clickable prototype
 
@@ -262,7 +262,7 @@ MedicSpot were extremely happy with the new designs and features, and are curren
 
 ![](https://cdn-images-1.medium.com/max/10944/1*7MzrBp2wfebgFmDS0_IkDw.jpeg)
 
-{% image "https://cdn-images-1.medium.com/max/2362/1*n0rMVBrTxVCIU5A5i6kzhg.png", "Mid-fidelity (left) was designed to 1024px width, before we moved to 1440px on the high fidelity (right)." %}
+<light-box @src="https://cdn-images-1.medium.com/max/2362/1*n0rMVBrTxVCIU5A5i6kzhg.png">Mid-fidelity (left) was designed to 1024px width, before we moved to 1440px on the high fidelity (right).</light-box>
 
 ## Next Steps
 

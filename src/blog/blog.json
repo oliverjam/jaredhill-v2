@@ -1,5 +1,5 @@
 {
+  "layout": "blog.html",
   "tags": "blog",
-  "readingTime": true,
-  "js": ["lite-youtube-embed"]
+  "showReadingTime": true
 }

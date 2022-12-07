@@ -1,0 +1,26 @@
+<script webc:type="js" webc:is="template">
+  let collection = collections.work;
+  let items = [];
+  for (let i = collection.length - 1; i >= 0; i--) {
+    let { data, inputPath, url } = collection[i];
+    if (featured && !data.featured) {
+      continue;
+    }
+    helpers.assert(data.title, `No title set for '${inputPath}'`);
+    helpers.assert(data.description, `No description set for '${inputPath}'`);
+    helpers.assert(data.cover, `No cover set for '${inputPath}'`);
+    items.push(`
+      <work-link
+        @url="${url}"
+        @work_title="${data.title}"
+        @description="${data.description}"
+        @cover="${data.cover}"
+      ></work-link>
+    `);
+    if (limit && items.length === +limit) {
+      break;
+    }
+  }
+
+  `<ul role="list">${items.join("")}</ul>`;
+</script>

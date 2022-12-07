@@ -4,17 +4,14 @@ date: 2016-09-10
 tags:
   - sport
   - AFL
+callout: My alarm rung at 5am. I jumped down from the top bunk and shook awake my best friend, who grunted and rolled away from me to show his enthusiasm for the early wake-up call. A symphony of six snoring men filled the dark room.
 ---
-
-{% callout %}
-My alarm rung at 5am. I jumped down from the top bunk and shook awake my best friend, who grunted and rolled away from me to show his enthusiasm for the early wake-up call. A symphony of six snoring men filled the dark room.
-{% endcallout %}
 
 We left the hostel and flagged a cab — it was a chilly morning in New York and I was still feeling extremely hesitant that the ‘Australian bar’ we had found would actually be showing the game. The streets were completely bare. New York — the ‘city that never sleeps’ — was sleeping. Or, at the very least, snoozing. To my delight, the bar was open when we arrived, and we gravitated towards the back, where we could hear a few TVs and quite a few excited Australian accents. The game was about to start.
 
-Within one hour, my delight had turned to heart-wrenching despair. At half time, Essendon were beating North Melbourne by 27 points, and I was getting horrific flashbacks to our 100-point thrashing by West Coast in 2012. We’d waited two years — *two long years*— to get back into this position, an elimination final, and I had really thought we might be able to make up for the embarrassment of that day. We’d brought in big-game players, won big games, improved so much. And yet, North were doing a North, and giving it all up so easily.
+Within one hour, my delight had turned to heart-wrenching despair. At half time, Essendon were beating North Melbourne by 27 points, and I was getting horrific flashbacks to our 100-point thrashing by West Coast in 2012. We’d waited two years — _two long years_— to get back into this position, an elimination final, and I had really thought we might be able to make up for the embarrassment of that day. We’d brought in big-game players, won big games, improved so much. And yet, North were doing a North, and giving it all up so easily.
 
-The Essendon fans, who made up most of the crowd, were justly excited. My friend, neither an Essendon nor a North supporter (according to him he supported *‘good football,’* whatever that means) was quiet in the chair next to me. The second half commenced, and I started to mentally prepare myself for the loss. I didn’t want it to affect my holiday too much — I have a tendency to get too emotionally involved in North Melbourne from time to time. I reminded myself that this was a *football team*, and the amount I was invested in it was fairly unhealthy. It didn’t help.
+The Essendon fans, who made up most of the crowd, were justly excited. My friend, neither an Essendon nor a North supporter (according to him he supported _‘good football,’_ whatever that means) was quiet in the chair next to me. The second half commenced, and I started to mentally prepare myself for the loss. I didn’t want it to affect my holiday too much — I have a tendency to get too emotionally involved in North Melbourne from time to time. I reminded myself that this was a _football team_, and the amount I was invested in it was fairly unhealthy. It didn’t help.
 
 All of a sudden, good things started to happen. Sam Wright took a mark in the back half. Ben Brown scored a goal. Firrito won a one-on-one and suddenly we had two goals. And a third. I was out of my seat. And a fourth! Oh my god! Could we do this?
 
@@ -22,7 +19,7 @@ For the rest of the match, my stomach remained in a tightly bound knot. North fo
 
 Finally, with four minutes left to play in the last quarter, Petrie gathered the ball at ground level. Time slowed down, the knot in my stomach tightened, and my heart stopped beating. With a quick snap, he made North history.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*Ga85ynaY563exPAXBJLzfw.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*Ga85ynaY563exPAXBJLzfw.jpeg"></light-box>
 
 ---
 
@@ -36,7 +33,7 @@ I’m sure many people will be quick to point out that this is just cognitive di
 
 This is true for any fan. Replace ‘North’ with ‘Fremantle’ or ‘Richmond’ or ‘Perth Glory’ or ‘West Ham’, and you have the same thing. The successes these players have achieved can’t be counted in medals and trophies. Sport, from a supporter’s point of view, is simply a series of moments that evoke a range of intangible emotions.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*t4TV8hdkni41ECsxJCOhmw.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*t4TV8hdkni41ECsxJCOhmw.jpeg"></light-box>
 
 ---
 
@@ -50,6 +47,6 @@ Take out all the reporting and scandals and betting, the injuries and the rebuil
 
 Farewell, champions. It’s been a blast, and you’ve done us proud. Thanks for the memories.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*vo5Yg9wRBVaPkfhTiupDZA.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*vo5Yg9wRBVaPkfhTiupDZA.jpeg"></light-box>
 
-*Images courtesy of AFL.com.au*
+_Images courtesy of AFL.com.au_

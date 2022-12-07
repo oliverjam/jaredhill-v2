@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" />
+    <title @text="title + ' | Jared Hill'"></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      webc:keep
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,600;1,300;1,600&amp;family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Hello, I’m Jared and I'm a product designer based in London"
+    />
+    <meta property="og:title" :content="title + ' | Jared Hill'" />
+    <meta
+      property="og:description"
+      content="Hello, I’m Jared and I'm a product designer based in London"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="jamchiller" />
+    <meta name="keywords" content="blog, tech, design, ux, ui" />
+    <style webc:keep @raw="getCss(page.url)"></style>
+  </head>
+  <body>
+    <template webc:nokeep @raw="content"></template>
+    <style webc:keep @raw="getCss(page.url, 'defer')"></style>
+    <script webc:keep @raw="getJs(page.url)" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+---
+title: Get in touch
+nav:
+  order: 4
+  label: Contact
+footer: false
+blocks:
+  - type: text
+    content: Whether you want to hire me, collaborate, send me a love letter or just get something off your chest, I’d love to hear from you. Use the form below and I’ll get back to you as soon as I can.
+  - type: form
+    id: contact
+    success: /contact/success/
+    content:
+      - type: input
+        label: Name
+        hint: Your name here
+      - type: input
+        label: Email
+        hint: Your email here
+        variant: email
+      - type: input
+        label: Message
+        hint: Your message here
+        variant: long
+      - type: button
+        label: Send now
+  - type: text
+    content: Alternatively, you can just email me at hi@jaredhill.co
+    align: center
+---
+
+<style webc:scoped>
+  :host:is(div) {
+    gap: 2rem;
+  }
+  :host button {
+    inline-size: 100%;
+    border: 0;
+  }
+  :host:is(form):invalid button {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+</style>
+
+<div class="Center Stack gutter">
+  <p>
+    Whether you want to hire me, collaborate, send me a love letter or just get
+    something off your chest, I’d love to hear from you. Use the form below and
+    I’ll get back to you as soon as I can.
+  </p>
+
+  <form
+    class="Stack"
+    name="contact"
+    action="/contact/success/"
+    data-netlify="true"
+  >
+    <form-input @label="name" @hint="Your name here"></form-input>
+    <form-input @label="email" @hint="Your email here"></form-input>
+    <form-input
+      @label="message"
+      @hint="Your message here"
+      @type="long"
+    ></form-input>
+    <button class="Pill bg-primary">Send now</button>
+    <p class="tac">Alternatively, you can just email me at hi@jaredhill.co</p>
+  </form>
+</div>

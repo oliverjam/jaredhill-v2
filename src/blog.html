@@ -1,0 +1,30 @@
+---
+title: Thoughts on things
+---
+
+<style webc:scoped>
+  :host ul {
+    max-inline-size: var(--measure-wide);
+    margin-inline: auto;
+    padding: calc(var(--gutter) * 0.75);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(19rem, 100%), 1fr));
+    gap: 2rem;
+    align-content: start;
+  }
+  :host ul li {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    row-gap: 1rem;
+    height: 100%;
+  }
+  :host ul li::after {
+    content: "";
+    width: 6rem;
+    align-self: end;
+    border-bottom: 0.125rem solid var(--alternate);
+  }
+</style>
+<section>
+  <post-list @tag="blog"></post-list>
+</section>

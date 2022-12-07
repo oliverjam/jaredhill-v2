@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="../_css/reset.css" />
+<link rel="stylesheet" href="../_css/global.css" />
+<link rel="stylesheet" href="../_css/utils.css" />
+
+<style webc:scoped>
+  :host .Header {
+    min-height: 25vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+  }
+  :host .Wrapper {
+    justify-items: center;
+  }
+</style>
+
+<global-header></global-header>
+<header class="Header bg-primary gutter" webc:if="header != false">
+  <div class="Center">
+    <div class="Stack Wrapper">
+      <slot name="header"></slot>
+      <slot name="meta"></slot>
+    </div>
+  </div>
+</header>
+<slot></slot>
+<global-footer></global-footer>

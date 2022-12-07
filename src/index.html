@@ -1,0 +1,82 @@
+---
+title: Home
+header: false
+---
+
+<style webc:scoped>
+  :host h2 {
+    font-size: inherit;
+  }
+  :host:is(.Work) {
+    background-color: var(--bg-200);
+  }
+  :host work-list {
+    margin-top: 2.5rem;
+  }
+</style>
+
+<header class="gutter-y bg-primary gutter-x">
+  <div class="Center Stack gap-lg">
+    <carousel-list>
+      <carousel-quote @author="Antoni Buccini">
+        Not as smart or funny as he thinks he is.
+      </carousel-quote>
+      <carousel-quote @author="Mark Tureck">
+        Wears an inappropriately short dressing gown.
+      </carousel-quote>
+      <carousel-quote @author="Phoebe Chandler">
+        Jared ‘you owe me for that coffee five months ago’ Hill
+      </carousel-quote>
+      <carousel-quote @author="Tilly Hill">
+        Allergic to the sun.
+      </carousel-quote>
+      <carousel-quote @author="Oliver Phillips">
+        I beat him at table tennis and he’s still bitter about it.
+      </carousel-quote>
+      <carousel-quote @author="Rosie Hill">
+        Could be really pretty if he made an effort.
+      </carousel-quote>
+      <carousel-quote @author="Bella Pinto">
+        Don't laugh at his dad jokes. It only encourages him.
+      </carousel-quote>
+      <carousel-quote @author="Oscar Dell’Anna">
+        Alcohol just makes him even more irritating.
+      </carousel-quote>
+      <carousel-quote @author="Kimberly Broom">
+        Jared Hill. No volume control.
+      </carousel-quote>
+      <carousel-quote @author="Hannah Phillips">
+        He watches really weird videos on Youtube.
+      </carousel-quote>
+      <carousel-quote @author="Ruby Stevenson">
+        His mum still buys his underpants.
+      </carousel-quote>
+      <carousel-quote @author="Joel McCluskey">
+        He once made me laugh. Just the one time.
+      </carousel-quote>
+      <carousel-quote @author="Han Craig">
+        He drinks Huel all in one go, like a pelican. It’s gross.
+      </carousel-quote>
+    </carousel-list>
+    <p>
+      👋 Hi, I’m Jared, an Australian product designer. The above quotes are
+      real: in the name of transparency, I asked the people closest to me to
+      describe my worst qualities.
+    </p>
+    <p>If you <em>still</em> want to work with me, read on.</p>
+  </div>
+</header>
+<section class="CenterWide Stack gutter">
+  <h2>Latest posts</h2>
+  <post-list @tag="blog" @limit="3" class="Switcher"></post-list>
+</section>
+<section class="Work">
+  <div class="Stack CenterWide gutter">
+    <h2>My work</h2>
+    <p>
+      A lot of my stuff is under wraps, but here’s a little whitelabelled look
+      at what I’ve worked on.
+    </p>
+    <work-list @limit="3" @featured="true" webc:keep></work-list>
+  </div>
+</section>

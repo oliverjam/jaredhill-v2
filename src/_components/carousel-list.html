@@ -1,0 +1,167 @@
+<style webc:scoped>
+  :host {
+    display: grid;
+    position: relative;
+  }
+  :host ul {
+    /* puts every child into a full-width column */
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    column-gap: 0.5rem;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-color: var(--bg-100) var(--primary);
+    scrollbar-width: thin;
+  }
+
+  :host ul::-webkit-scrollbar {
+    height: 0.25rem;
+  }
+
+  :host ul::-webkit-scrollbar-thumb {
+    background: var(--bg-100);
+    border-radius: 1rem;
+  }
+
+  :host ul::-webkit-scrollbar-track {
+    background: var(--primary);
+  }
+
+  :host button {
+    --size: 2rem;
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: var(--size);
+    height: var(--size);
+    padding: 0;
+    background-color: var(--primary);
+    border: 0.25rem solid transparent;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    color: var(--textLight);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  :host button:focus:not(:focus-visible) {
+    outline: 0;
+  }
+
+  :host button:focus-visible {
+    outline: 0;
+    border: 0.25rem solid var(--alternate);
+  }
+
+  /* button stays visible when hovered, paused or focused */
+  :host:hover button,
+  :host[state="paused"] button,
+  :host button:focus-visible {
+    opacity: 1;
+  }
+
+  /* Don't allow manual scrolling whilst autoplaying */
+  :host[state="playing"] ul {
+    overflow: hidden !important;
+  }
+
+  /* show/hide right icon based on play state */
+  :host[state="playing"] #pause-btn {
+    display: block;
+  }
+
+  :host[state="playing"] #play-btn {
+    display: none;
+  }
+
+  :host[state="paused"] #pause-btn {
+    display: none;
+  }
+
+  :host[state="paused"] #play-btn {
+    display: block;
+  }
+</style>
+
+<ul role="list">
+  <slot></slot>
+</ul>
+<button>
+  <use-icon id="pause-btn" @name="pause" @size="32"></use-icon>
+  <use-icon id="play-btn" @name="play" @size="32"></use-icon>
+</button>
+
+<script>
+  class CarouselList extends HTMLElement {
+    constructor() {
+      super();
+    }
+
+    connectedCallback() {
+      const motionQuery = window.matchMedia("(prefers-reduced-motion)");
+      this.scroller = this.querySelector("ul");
+      this.button = this.querySelector("button");
+
+      const checkMotion = () => {
+        this.state = motionQuery.matches ? "paused" : "playing";
+      };
+      checkMotion();
+      motionQuery.addEventListener("change", checkMotion);
+
+      this.button.addEventListener("click", () => {
+        this.state = this.state === "playing" ? "paused" : "playing";
+      });
+    }
+
+    static get observedAttributes() {
+      return ["state"];
+    }
+
+    set state(value) {
+      this.setAttribute("state", value);
+    }
+
+    get state() {
+      return this.getAttribute("state");
+    }
+
+    attributeChangedCallback(name, _oldValue, newValue) {
+      if (name === "state") {
+        switch (newValue) {
+          case "playing":
+            return this.play();
+          case "paused":
+            return this.pause();
+        }
+      }
+    }
+
+    play() {
+      this.interval = setInterval(() => {
+        const { scrollLeft, scrollWidth, clientWidth } = this.scroller;
+        // force the element to scroll one column along
+        // (clientWidth is 100% of the visible container)
+        // the modulus forces it back to start after the last slide
+        // the +1 is because browsers round these values
+        // so at certain viewports we end up 1 pixel short on the last slide
+        this.scroller.scrollLeft = (scrollLeft + clientWidth + 1) % scrollWidth;
+      }, 4000);
+    }
+
+    pause() {
+      clearInterval(this.interval);
+    }
+
+    disconnectedCallback() {
+      this.pause();
+    }
+  }
+
+  customElements.define("carousel-list", CarouselList);
+</script>
