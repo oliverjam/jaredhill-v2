@@ -1,0 +1,24 @@
+<style webc:scoped>
+  :host a {
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  :host a:hover {
+    text-decoration-line: underline;
+  }
+  :host .Meta {
+    font-size: 1rem;
+    color: var(--textLight);
+  }
+</style>
+
+<li webc:root webc:keep>
+  <div class="Stack gap-sm">
+    <a :href="url" @html="post_title"></a>
+    <div class="Meta Row gap-sm">
+      <span @html="date"></span>
+      <span>-</span>
+      <time :datetime="seconds + 's'" @html="inMinutes(seconds)"></time>
+    </div>
+  </div>
+</li>

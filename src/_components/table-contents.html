@@ -1,0 +1,52 @@
+<style webc:scoped>
+  :host .toc {
+    position: sticky;
+    top: var(--gutter);
+    background-color: var(--bg-100);
+  }
+  :host ol {
+    margin: 0;
+    padding-inline-start: 1em;
+    display: grid;
+    gap: 0.75rem;
+    font-family: var(--ff-heading);
+    font-size: 1rem;
+  }
+  :host a {
+    text-decoration-line: none;
+  }
+</style>
+
+<slot></slot>
+
+<script>
+  const observer = new IntersectionObserver(update, {
+    threshold: 0,
+    root: document.rootElement,
+    rootMargin: "-5% 0px -33% 0px",
+    /**
+     * Considered visible once 5% in from the top or 33% from bottom.
+     * Means it doesn't change as soon as a heading hits the bottom;
+     * will wait until 33% of the section is visible
+     */
+  });
+
+  const tocLinks = [...document.querySelectorAll(`.toc a`)];
+
+  function update([entry]) {
+    requestAnimationFrame(() => {
+      const hash = "#" + entry.target.id;
+      if (entry.isIntersecting) {
+        tocLinks.forEach((link) => {
+          link.classList.remove("underline");
+          if (link.hash === hash) {
+            link.classList.add("underline");
+          }
+        });
+      }
+    });
+  }
+
+  const headings = document.querySelectorAll("h2");
+  headings.forEach((h) => observer.observe(h));
+</script>

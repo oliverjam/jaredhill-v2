@@ -1,0 +1,13 @@
+diff --git a/node_modules/@11ty/webc/src/ast.js b/node_modules/@11ty/webc/src/ast.js
+index 218af76..61e090c 100644
+--- a/node_modules/@11ty/webc/src/ast.js
++++ b/node_modules/@11ty/webc/src/ast.js
+@@ -1226,7 +1226,7 @@ class AstSerializer {
+ 				return { html: unescaped };
+ 			} else {
+ 				// via https://github.com/inikulin/parse5/blob/159ef28fb287665b118c71e1c5c65aba58979e40/packages/parse5-html-rewriting-stream/lib/index.ts
+-				return { html: escapeText(unescaped) };
++				return { html: unescaped };
+ 			}
+ 		} else if(node.nodeName === "#comment") {
+ 			return {

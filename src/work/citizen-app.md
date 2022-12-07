@@ -1,9 +1,8 @@
 ---
-title: "Citizen App: A new way to travel
-"
+title: "Citizen App: A new way to travel"
 date: 2017-10-25
 tags:
-  - case 
+  - case
 callout: Making an app that gives users a more authentic travel experience
 info:
   date: Sep 2017
@@ -12,7 +11,7 @@ info:
   role: UX Designer
 ---
 
-{% image "https://cdn-images-1.medium.com/max/6380/1*CboC4wnSvaU5B_rSMw0cmQ.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/6380/1*CboC4wnSvaU5B_rSMw0cmQ.png"></light-box>
 
 ## Summary
 
@@ -22,7 +21,7 @@ Together with a team of two other UX designers, we carried out extensive researc
 
 If you’ve already heard enough of my yabbering, you can view the final clickable prototype [here](https://invis.io/2MDGTB1RN#/253175213_City_Picker).
 
-{% image "https://cdn-images-1.medium.com/max/8026/1*3ZIKYCNRbLcDgzxZNYzsJA.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/8026/1*3ZIKYCNRbLcDgzxZNYzsJA.jpeg"></light-box>
 
 ## Background
 
@@ -56,7 +55,7 @@ By visiting their Shoreditch hotel, interviewing employees, and doing a deep-div
 
 - **CitizenM targets a very specific user:** CitizenM make it clear who their target customer is: the _‘new breed of traveller.’_ This seems independent of age and social group — customers in the hotel ranged from early 20s to early 50s and included business people and artsy types — and is more focussed on common interests, including travel and technology.
 
-{% image "https://cdn-images-1.medium.com/max/7010/1*PPTN8_txBiTpCumb4pU2Vw.jpeg", "Some cheeky messaging at the CitizenM hotel" %}
+<light-box @src="https://cdn-images-1.medium.com/max/7010/1*PPTN8_txBiTpCumb4pU2Vw.jpeg">Some cheeky messaging at the CitizenM hotel</light-box>
 
 ### The competitive landscape
 
@@ -64,13 +63,13 @@ We reviewed both direct hotel competitors to CitizenM and competitor apps that c
 
 This showed that there was potentially an unfulfilled user need that our app could address.
 
-{% image "https://cdn-images-1.medium.com/max/2432/1*f2hhfxlpklq_xPBe67zRbA.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2432/1*f2hhfxlpklq_xPBe67zRbA.png"></light-box>
 
 ### Interviewing users
 
 To understand the user situation and problems that the app could solve, we carried out 12 interviews with people that matched the characteristics of the CitizenM customer.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*CrMoihqYuhxWiBTCXjRMFA.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*CrMoihqYuhxWiBTCXjRMFA.png"></light-box>
 
 Synthesising the findings into an affinity map, we found three themes across all interviews:
 
@@ -78,25 +77,25 @@ Synthesising the findings into an affinity map, we found three themes across all
 
 Trust was hugely important for people when deciding on and enjoying local tours and experiences. They valued real locals, authentic experiences and advice from trusted forums. One of our users said:
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*r6SY0GMwLjaKZoDoSyMITQ.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*r6SY0GMwLjaKZoDoSyMITQ.png"></light-box>
 
 #### Balance
 
 Whilst users loved authentic experiences, this didn’t mean they were not interested in touristy experiences. Travellers got the most satisfaction when there was a _balance_ in their itinerary.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*2fQShObOv1lZ7yeK6Iz6uw.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*2fQShObOv1lZ7yeK6Iz6uw.png"></light-box>
 
 #### Confidence in decisions
 
 Most travellers expressed a desire to be confident that they had booked a good experience. This manifested in various ways, such as extensively reading reviews, asking friends for tips, or checking and comparing multiple sites to find the best things to do.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*sHz9pGTc7NE-BOhDj7ryNA.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*sHz9pGTc7NE-BOhDj7ryNA.png"></light-box>
 
 ### Identifying a key persona
 
 We concocted four personas based on the interviews, representing the broad range goals and frustrations of travellers:
 
-{% image "https://cdn-images-1.medium.com/max/2346/1*kjz36qjpm1AfqJ3L96W9BQ.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2346/1*kjz36qjpm1AfqJ3L96W9BQ.png"></light-box>
 
 Alex, a 33 year old Italian from Florence, became our primary persona because his goals and frustrations closely matched those of our interviewees, and his sense of adventure and love for authenticity closely matched the CitizenM brand. Alex is someone that wants his travel experiences to be authentic, wants to meet real people doing real things, and make lifelong friends. He researches a lot before he travels and loves to pre-book experiences before he goes.
 
@@ -122,7 +121,7 @@ Going into the Design Studio, our aim was to build something that:
 
 - gave Alex the resources to be _confident_ in his booking decisions.
 
-{% image "https://cdn-images-1.medium.com/max/6522/1*-s_w5Sxfumo7_qslVNkVlA.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/6522/1*-s_w5Sxfumo7_qslVNkVlA.jpeg"></light-box>
 
 A common theme across many of the interviews was that quite a few users would stay in an Airbnb in order to make friends with the local renting out the house, and often the local would then take them out to ‘hidden’ spots that were off the beaten track. Through brainstorming and critique, this lead the team to a key idea: rather than focusing on the tours and experiences themselves, our app would put the focus on the _locals giving the tours_.
 
@@ -132,19 +131,19 @@ By allowing users to search by their interests, connect with locals that they th
 
 We then developed a prototype that demonstrated the idea and the features that were designed in the Design Studio, and started testing with users.
 
-{% image "https://cdn-images-1.medium.com/max/6528/1*f1dfjIQfdpShk6OuyLja3g.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/6528/1*f1dfjIQfdpShk6OuyLja3g.jpeg"></light-box>
 
 The prototype involved the user, Alex, visiting the profile of a local called Sam to ask him about the best areas in London to see graffiti. On testing, users weren’t finding the ‘chat’ button where they thought it would be. Since chatting with locals was such an important part of the app, we decided to move the button further up the profile and emphasise the feature with the text ‘Ask me anything!’:
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*quiUFWdyBV2Ga1DRYhQIJA.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*quiUFWdyBV2Ga1DRYhQIJA.png"></light-box>
 
 In testing, we asked the user to search for ‘graffiti tour’ on the app, and initially we designed the prototype to allow the user to tap the ‘search’ icon and type ‘graffiti tours’. We found very quickly that very few users went straight to the search function, and instead would tap the ‘Culture and Arts’ category button in the hopes of finding the graffiti tours. Due to this, we made some large changes to the flow of the app, allowing users to find graffiti tours by browsing the categories:
 
-{% image "https://cdn-images-1.medium.com/max/3342/1*mKAdkKAfCn6WecPHXXrZ7g.png", "Left: the revised user flow; right: users preferred to tap on ‘Culture & Arts’ rather than the search button" %}
+<light-box @src="https://cdn-images-1.medium.com/max/3342/1*mKAdkKAfCn6WecPHXXrZ7g.png">Left: the revised user flow; right: users preferred to tap on ‘Culture & Arts’ rather than the search button</light-box>
 
 When designing at a higher fidelity, we spent a lot of time thinking about the information that needed to be included on the ‘Experience Preview’ panels. We wanted users to know as much about the tour/experience as possible without being overwhelmed with information whilst browsing. Through testing, we found that along with price, our users wanted to see the star rating, as well as the local that was organising the tour. This matched well with our research on the trust and authenticity that the ‘local guide’ represented, and also allowed us to put more focus on the local — a key differentiator with the app.
 
-{% image "https://cdn-images-1.medium.com/max/2016/1*xXwh2AqZ0uMizgKNjziHwQ.png", "The addition of star ratings and the ‘local guide’ to the experience panel." %}
+<light-box @src="https://cdn-images-1.medium.com/max/2016/1*xXwh2AqZ0uMizgKNjziHwQ.png">The addition of star ratings and the ‘local guide’ to the experience panel.</light-box>
 
 ### Interactive Prototype
 

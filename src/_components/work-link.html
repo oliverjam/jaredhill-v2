@@ -1,0 +1,117 @@
+<style webc:scoped>
+  :host {
+    --bg-inset: 2rem;
+    position: relative;
+    display: flex;
+    column-gap: calc(var(--gutter) / 2);
+    align-items: center;
+    padding: 0 var(--gutter);
+    transform: translate(0, 0); /* stupid hack to fix bg z-index */
+  }
+
+  :host svg {
+    transition: transform 0.2s;
+  }
+
+  :host:hover svg {
+    transform: translateX(0.25rem);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    :host:hover svg {
+      transform: none;
+      animation: wiggle 0.5s infinite alternate ease-in-out;
+    }
+  }
+
+  @keyframes wiggle {
+    to {
+      transform: translateX(0.25rem);
+    }
+  }
+
+  :host:nth-child(odd)::after {
+    content: "";
+    position: absolute;
+    top: var(--bg-inset);
+    right: 0;
+    bottom: var(--bg-inset);
+    left: 0;
+    border-radius: clamp(1rem, 1rem + 1vw, 2rem);
+    background-color: var(--alternate);
+    z-index: -10;
+  }
+
+  :host .Body {
+    justify-items: start;
+    padding-top: calc(var(--bg-inset) + 1rem);
+    padding-bottom: calc(var(--bg-inset) + 1rem);
+    line-height: 1.2;
+  }
+
+  :host h3 {
+    font-size: var(--font-xl);
+  }
+
+  :host .Image {
+    flex: 1 0 40%;
+    aspect-ratio: 2 / 3;
+  }
+
+  :host .Image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  :host:nth-child(odd) .Image {
+    order: -1;
+  }
+
+  :host .Link {
+    text-decoration: none;
+  }
+
+  :host .Link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+</style>
+
+<li webc:root webc:keep>
+  <div class="Body Stack">
+    <h3>
+      <a :href="url" class="Link" @html="work_title"> </a>
+      <span class="hide-above-mobile" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          <path
+            fill-rule="evenodd"
+            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </span>
+    </h3>
+    <p class="hide-on-mobile" @html="description"></p>
+    <span class="Pill hide-on-mobile">
+      View project
+      <span aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          <path
+            fill-rule="evenodd"
+            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </span>
+    </span>
+  </div>
+  <div class="Image">
+    <img :src="url + cover" alt="" />
+  </div>
+</li>

@@ -1,0 +1,26 @@
+<script webc:type="js" webc:is="template">
+  let collection = collections[tag];
+  let items = [];
+  for (let i = collection.length - 1; i >= 0; i--) {
+    let { data, inputPath, url, templateContent } = collection[i];
+    if (data.draft) {
+      continue;
+    }
+    helpers.assert(data.title, `No title set for '${inputPath}'`);
+    helpers.assert(data.date, `No date set for '${inputPath}'`);
+    let posted_at = helpers.relativeTime(data.date);
+    let secs = helpers.readingTime(templateContent);
+    items.push(`
+      <post-link
+        @url="${url}"
+        @post_title="${data.title}"
+        @date="${posted_at}"
+        @seconds="${secs}"
+      ></post-link>
+    `);
+    if (limit && items.length === +limit) {
+      break;
+    }
+  }
+  `<ul role="list" webc:root webc:keep>${items.join("")}</ul>`;
+</script>

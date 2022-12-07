@@ -1,0 +1,89 @@
+html {
+  --primary: #d6edff;
+  --secondary: #bfe3ff;
+  --alternate: #ffdfba;
+  --text: #333333;
+  --textLight: #666666;
+  --bg-100: #ffffff;
+  --bg-200: #fafafa;
+  --bg-300: #f1f1f1;
+  --border-200: #a8a8a8;
+  --gutter: clamp(1rem, 1rem + 4vw, 4rem);
+  --measure-wide: 78rem;
+  --measure-narrow: 42rem;
+  --font-body-min: 1rem;
+  --font-body-max: 1.5rem;
+  --font-xl: clamp(var(--font-body-min), var(--font-body-min) + 1.5vw, 2rem);
+  --body-font: Spectral;
+  --ff-body: var(--body-font), Georgia, "Times New Roman", Times, serif;
+  --heading-font: Inter;
+  --ff-heading: var(--heading-font), system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  font-family: var(--ff-body);
+  font-size: clamp(
+    var(--font-body-min),
+    var(--font-body-min) + 0.5vw,
+    var(--font-body-max)
+  );
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+  font-weight: 300;
+  background-color: var(--bg-100);
+  color: var(--text);
+}
+
+:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px var(--alternate);
+}
+
+:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-heading);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 1px;
+  text-decoration-thickness: 1px;
+  text-decoration-skip-ink: auto;
+  text-decoration-skip: objects;
+}
+
+h2,
+.underline.underline {
+  text-decoration-style: solid;
+  text-decoration-line: underline;
+  text-decoration-color: var(--alternate);
+  text-decoration-thickness: 0.5rem;
+  text-decoration-skip-ink: none;
+  text-underline-offset: -0.4rem;
+}
+
+.header-anchor {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+:is(h2, h3):hover .header-anchor {
+  opacity: 1;
+}

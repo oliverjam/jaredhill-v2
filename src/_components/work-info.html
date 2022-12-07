@@ -1,0 +1,28 @@
+<style webc:scoped>
+  :host {
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 1.5rem;
+    line-height: 1.2;
+    background-color: var(--bg-200);
+  }
+  :host dt {
+    font-weight: 600;
+    text-align: right;
+    font-size: 1rem;
+  }
+</style>
+
+<dl webc:root>
+  <dt>Date</dt>
+  <dd @html="info.date"></dd>
+  <dt>Timeline</dt>
+  <dd @html="info.timeline"></dd>
+  <dt>Client</dt>
+  <dd @html="info.client"></dd>
+  <dt>Role</dt>
+  <dd @html="info.role"></dd>
+</dl>

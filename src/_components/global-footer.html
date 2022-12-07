@@ -1,0 +1,60 @@
+<style webc:scoped>
+  :host h2 {
+    font-size: inherit;
+  }
+  :host .Social {
+    padding: 1.5rem;
+  }
+  :host .Social > .Row {
+    gap: 4rem;
+    justify-content: center;
+  }
+  :host .Credit {
+    justify-content: space-between;
+    padding-block: 1.5rem;
+    font-size: 0.875rem;
+    background-color: var(--text);
+    color: var(--bg-100);
+  }
+</style>
+
+<footer webc:root webc:keep>
+  <div
+    id="contact"
+    class="Contact gutter bg-primary"
+    webc:if="footer !== false"
+  >
+    <div class="Center Stack">
+      <h2>Say hi.</h2>
+      <p>
+        You can contact me using <a href="/contact/">this form</a>. Or on
+        <a href="https://twitter.com/jamchiller">Twitter</a>. Or
+        <a href="https://medium.com/@jamchiller">Medium</a>. Or even
+        <a href="https://linkedin.com/in/jamchiller">Linkedin</a>. Really,
+        there's no excuse.
+      </p>
+    </div>
+  </div>
+  <social-links webc:keep class="Social hide-above-mobile"></social-links>
+  <div id="credit" class="Credit Row gutter-x">
+    <p>
+      This site was lovingly developed by
+      <external-link href="https://oliverjam.es">
+        my friend Oli.
+      </external-link>
+    </p>
+    <svg
+      class="hide-on-mobile"
+      viewBox="0 0 4 4"
+      width="24"
+      height="24"
+      fill="currentcolor"
+      aria-hidden="true"
+    >
+      <rect x="0" y="0" width="3" height="1"></rect>
+      <rect x="1" y="0" width="1" height="4"></rect>
+      <rect x="0" y="3" width="2" height="1"></rect>
+      <rect x="3" y="3" width="1" height="1"></rect>
+    </svg>
+  </div>
+</footer>

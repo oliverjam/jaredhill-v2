@@ -9,6 +9,7 @@ info:
   timeline: Fully operational MVP in 14 weeks; iteration and feature build-out for the subsequent 9 months.
   client: Standard Bank
   role: Lead Product Designer
+showToc: true
 ---
 
 ## Project Summary
@@ -19,11 +20,11 @@ The discovery period — which included interviews and tests with users in the p
 
 I led a design team of four as we undertook user interviews on the ground in Uganda, workshopped and tested solutions, designed the responsive PWA and managed delivery with the development team.
 
-{% image "https://cdn-images-1.medium.com/max/2560/1*bZEth0hJ7Junh8rzEo1R_A.jpeg", "Interviewing users in Uganda." %}
+<light-box @src="https://cdn-images-1.medium.com/max/2560/1*bZEth0hJ7Junh8rzEo1R_A.jpeg">Interviewing users in Uganda.</light-box>
 
 By creating a highly transparent, accessible process, the new platform greatly increased user satisfaction, and was able to reduce lead times on applications from 2–3 days down to less than an hour. Thanks to the strong feedback from users, the product is now being iterated upon and rolled out in other markets. The project also won the [Innovation in Digital Banking Award](https://www.iol.co.za/business-report/companies/standard-bank-wins-innovation-in-digital-banking-africa-award-2aea5d1e-8589-4eb3-a6b3-d68ac620a94b) from The Banker.
 
-{% image "https://cdn-images-1.medium.com/max/3376/0*szBphppLDhM9GSKo.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/3376/0*szBphppLDhM9GSKo.png"></light-box>
 
 ## Background
 
@@ -39,9 +40,9 @@ Over the past 20 years, banking in Africa has evolved very differently to bankin
 
 The discovery phase started with a number of workshops held in London and Joburg with client stakeholders to understand the current situation, process, and business requirements. We didn’t have access to users at this time, but user research and interviews had been conducted by the client-side team, and we used this opportunity to synthesise this research as a group. We created _empathy maps_ and _as-is experience maps_, to understand the current process and identify the pain points of applying for banking products such as Letters of Credit and Guarantees.
 
-{% image "https://cdn-images-1.medium.com/max/2560/1*Qa0xVo-HgYKHxCkOenUBcQ.jpeg", "Creating empathy maps as a group." %}
+<light-box @src="https://cdn-images-1.medium.com/max/2560/1*Qa0xVo-HgYKHxCkOenUBcQ.jpeg">Creating empathy maps as a group.</light-box>
 
-{% image "https://cdn-images-1.medium.com/max/8064/1*w6bwgtZe1-0zucYznayyug.jpeg", "Analysing the existing customer journey and finding pain points." %}
+<light-box @src="https://cdn-images-1.medium.com/max/8064/1*w6bwgtZe1-0zucYznayyug.jpeg">Analysing the existing customer journey and finding pain points.</light-box>
 
 As expected based on customer churn, user feedback (as relayed by the stakeholders) was overwhelmingly negative:
 
@@ -61,13 +62,13 @@ In lieu of more comprehensive and qualitative user research (which we did not ha
 
 The survey results were analysed with the caveat that they were self-declared pain points, and therefore needed to be validated before forming the base of our UX and product decisions.
 
-{% image "https://cdn-images-1.medium.com/max/7808/1*h0dkSf1eoJIFV9l368hn2w.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/7808/1*h0dkSf1eoJIFV9l368hn2w.jpeg"></light-box>
 
 ## Synthesising the initial research
 
 Based on our understanding of the problems and users, proto-personas were created to get represent the key findings and frustrations for the three main user groups:
 
-{% image "https://cdn-images-1.medium.com/max/19196/1*bEQYB9rB7ipEP1e-1E4xPA.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/19196/1*bEQYB9rB7ipEP1e-1E4xPA.jpeg"></light-box>
 
 To guide design direction, early versions of design principles were also created:
 
@@ -81,13 +82,13 @@ To guide design direction, early versions of design principles were also created
 
 Whilst I didn’t feel we had collected enough primary research to be certain about our design decisions, I decided that early work on information architecture and high-level interface structure would be helpful to get the ball rolling, and also have a straw-man to test with the users in Uganda.
 
-{% image "https://cdn-images-1.medium.com/max/8064/1*8UzRAmyf-JjsswnpXZYTUg.jpeg", "Some early wire flows." %}
+<light-box @src="https://cdn-images-1.medium.com/max/8064/1*8UzRAmyf-JjsswnpXZYTUg.jpeg">Some early wire flows.</light-box>
 
-{% image "https://cdn-images-1.medium.com/max/5728/1*DvxvVnWMJSAxRxz94eQoAg.jpeg", "Early explorations of the interface, attempting to get our head around the process and the best way of representing it on the interface." %}
+<light-box @src="https://cdn-images-1.medium.com/max/5728/1*DvxvVnWMJSAxRxz94eQoAg.jpeg">Early explorations of the interface, attempting to get our head around the process and the best way of representing it on the interface.</light-box>
 
 Research suggested that the bank’s clients had higher expectations of products due to advancements in personal banking, and so the wireframes aimed to take cues from popular personal banking apps in order to simplify the experience. There was no reason why corporate banking couldn’t be as simple and intuitive as personal banking had become.
 
-{% image "https://cdn-images-1.medium.com/max/6394/1*redXY1JogKcauJI3Ce2HRA.png", "Mid-fidelity wireframes for testing." %}
+<light-box @src="https://cdn-images-1.medium.com/max/6394/1*redXY1JogKcauJI3Ce2HRA.png">Mid-fidelity wireframes for testing.</light-box>
 
 In preparation for interviews with users, I lead the design of a mid-fidelity prototype in order to test some of the key assumptions made in the discovery stage. The prototype would allow a user to log on, make an application through a personalised application form, and watch the application move through the process. We wanted to find out whether the users understood the process, whether some of the IA decisions matched the users’ mental models, and added some colour to the wireframes to see how we could use the information hierarchy to emphasise areas of the interface and therefore make the process clearer to the users.
 
@@ -95,7 +96,7 @@ In preparation for interviews with users, I lead the design of a mid-fidelity pr
 
 Armed with the proto-personas, design principles, and various assumptions around user problems, I spent a week in Uganda with a couple of client stakeholders, talking to clients as well as colleagues who were typically involved in the process from the Standard Bank side. The conversations with users started with interview questions which aimed to validate some of the secondary research, and then a usability test of the current prototype (link [here](<https://www.figma.com/proto/JhZjQ8jdLqXgA94kPkakhd/Trade-Core---Flow-Graveyard-V1-(Copy)?page-id=1%3A2213&node-id=7%3A3408&viewport=4979%2C1413%2C0.25&scaling=scale-down-width&starting-point-node-id=7%3A3408&hide-ui=1>)).
 
-{% image "https://cdn-images-1.medium.com/max/2560/1*yLkd-J2kNiE63P3dVmd77Q.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/2560/1*yLkd-J2kNiE63P3dVmd77Q.jpeg"></light-box>
 
 We learned a huge amount through this first round of testing, which countered a lot of the assumptions made about the users previously:
 
@@ -107,7 +108,7 @@ We learned a huge amount through this first round of testing, which countered a 
 
 In addition to these key findings, I identified a number of usability issues with the early interface designs.
 
-{% image "https://cdn-images-1.medium.com/max/6796/1*v2Sv1nso0Uu3WcWwVVCCfA.png", "Some of the many usability issues." %}
+<light-box @src="https://cdn-images-1.medium.com/max/6796/1*v2Sv1nso0Uu3WcWwVVCCfA.png">Some of the many usability issues.</light-box>
 
 - Users liked that the new process digitised a lot of the offline work, but were still very unclear about the process as a whole, and the product still had a steep learning curve, with a lot of banking terminology.
 
@@ -117,9 +118,9 @@ In addition to these key findings, I identified a number of usability issues wit
 
 Based on this feedback, we iterated the personas, principles and user problems to reflect the new findings:
 
-{% image "https://cdn-images-1.medium.com/max/17956/1*Mud1_DuKy6Binm0ItA5ROA.jpeg", "The new design principles." %}
+<light-box @src="https://cdn-images-1.medium.com/max/17956/1*Mud1_DuKy6Binm0ItA5ROA.jpeg">The new design principles.</light-box>
 
-{% image "https://cdn-images-1.medium.com/max/19218/1*0G8tuCJW-el2UQePFy6qrQ.jpeg", "Personas adapted to reflect some of the interview findings." %}
+<light-box @src="https://cdn-images-1.medium.com/max/19218/1*0G8tuCJW-el2UQePFy6qrQ.jpeg">Personas adapted to reflect some of the interview findings.</light-box>
 
 There were some key changes to the product strategy and user experience that resulted from these new findings.
 
@@ -127,7 +128,7 @@ There were some key changes to the product strategy and user experience that res
 
 It was clear that the core of the experience for all parties was the application (for either a Letter of Credit or Guarantee). As such, we decided to build out a highly robust and scalable ‘hub’ for each individual application, which would host all relevant information and actions for that application. We would aim to make this the place that all colleagues and end-users would come to find out more information about their application.
 
-{% image "https://cdn-images-1.medium.com/max/19400/1*sEyrDenvNijlSBu2QX7mvA.png", "Different explorations and iterations of the Product page, with accordions and key action buttons." %}
+<light-box @src="https://cdn-images-1.medium.com/max/19400/1*sEyrDenvNijlSBu2QX7mvA.png">Different explorations and iterations of the Product page, with accordions and key action buttons.</light-box>
 
 The application process, whilst long and complex, was also quite linear — that is, an application is moved between stakeholders, each with a single action to complete. I saw this as an opportunity, and decided to introduce a pattern called the ‘Primary Action Button’, which would sit at the top right hand side of the Product page, and only appear when there was a critical action that the user needed to complete to move to the next stage of the application. Combined with stripped back UI design, this button really stood out visually, hopefully demarcating the key action for users.
 
@@ -135,7 +136,7 @@ The application process, whilst long and complex, was also quite linear — that
 
 The decision was made that the obscured process for colleagues and clients had to be surfaced _even more explicitly_ in order to genuinely resolve the pain points. I designed and implemented the Status Tracker, which transparently represented the entire process of an application from start to finish, including all tasks that needed to be done. This radical transparency was new to the bank, and added accountability to all parties responsible for moving the application to the next stage. It gave clients the ability to see where their application was in the process, and if it was stuck in the process, where it was stuck.
 
-{% image "https://cdn-images-1.medium.com/max/4938/1*xWX0ollVgdKi-1ie0-0gMA.png", "An early iteration of the Status Tracker." %}
+<light-box @src="https://cdn-images-1.medium.com/max/4938/1*xWX0ollVgdKi-1ie0-0gMA.png">An early iteration of the Status Tracker.</light-box>
 
 ### The ‘draft’ conceptual model
 
@@ -149,7 +150,7 @@ One of the biggest findings from the testing was that a lot of the issues with t
 
 Creating a separate platform for the colleagues to manage the administrative side of applications was clearly not going to solve this. Using the ‘transparency’ design principle, we decided that the colleague platform would be a ‘mirror’ image of the client platform, with the colleagues viewing the same pages that clients would, with adjusted permissions showing more information and actions.
 
-{% image "https://cdn-images-1.medium.com/max/20000/1*-6BtPBv_2qRugu8ZISw9AA.png", "An IA diagram comparing the client vs colleague experience, and how they mirror each other." %}
+<light-box @src="https://cdn-images-1.medium.com/max/20000/1*-6BtPBv_2qRugu8ZISw9AA.png">An IA diagram comparing the client vs colleague experience, and how they mirror each other.</light-box>
 
 In this way, the colleagues would benefit from the same levels of transparency and simplicity that we were creating for the clients.
 
@@ -157,7 +158,7 @@ In this way, the colleagues would benefit from the same levels of transparency a
 
 Having iterated on the designs, high fidelity prototypes were built out and two more rounds of usability testing were carried out (an example of one of the iterated prototypes can be seen [here](<https://www.figma.com/proto/JhZjQ8jdLqXgA94kPkakhd/Trade-Core---Flow-Graveyard-V1-(Copy)?page-id=86%3A7032&node-id=87%3A7508&viewport=2357%2C1548%2C0.13&scaling=scale-down-width&starting-point-node-id=87%3A11694&hide-ui=1]>)). We learnt lots and lots of things — a few of the key findings are below.
 
-{% image "https://cdn-images-1.medium.com/max/8064/1*UCzN2lpYDXL4m7nPB9FbPA.jpeg", "We drove around Kampala, running tests in clients’ offices using this setup." %}
+<light-box @src="https://cdn-images-1.medium.com/max/8064/1*UCzN2lpYDXL4m7nPB9FbPA.jpeg">We drove around Kampala, running tests in clients’ offices using this setup.</light-box>
 
 ### The Product Page and Primary Action button
 
@@ -169,7 +170,7 @@ The success of this conceptual model gave me the idea to extend the model to the
 
 We found this worked well for users — if they needed to complete an action, they knew exactly where to look.
 
-{% image "https://cdn-images-1.medium.com/max/13664/1*5agABkgz3S_KDscUQomlBQ.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/13664/1*5agABkgz3S_KDscUQomlBQ.png"></light-box>
 
 The concept of the Primary Action button became central to the entire platform, and I implemented it on other sections of the platform later. However, I worked hard to make sure that the blue button was only used for actions that were critical to moving the application forward, to not dilute the effect.
 
@@ -181,7 +182,7 @@ After its introduction, the Status Tracker became the bell of the ball for the p
 
 What surprised me was how something so simple could make such a difference to the experience for all the stakeholders. I think as designers we want our best, most revolutionary ideas to be the ones that truly change our users’ lives, but sometimes it’s just the most obvious ones that work best.
 
-{% image "https://cdn-images-1.medium.com/max/2000/1*HTIpZHO6z-AVMA2IlSXqBA.png", "A later iteration of the Status Tracker." %}
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*HTIpZHO6z-AVMA2IlSXqBA.png">A later iteration of the Status Tracker.</light-box>
 
 Apart from a few cosmetic changes, the Status Tracker stayed as it was. Just like the Primary Action Button, it became central to the experience of Quantum Leap and as I built out the platform, it was co-opted for every process a user was involved in.
 
@@ -191,11 +192,11 @@ The concept of ‘draft’ applications required multiple iterations to get righ
 
 Users weren’t understanding that when they created a draft application, Standard Bank wouldn’t be involved until they clicked _Issue Letter of Credit._ Some reacted negatively to this, saying that they wanted their Relationship Managers to check the application before it was issued.
 
-{% image "https://cdn-images-1.medium.com/max/4164/1*XU7bh8t3wI1kdb7PDK4sPg.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/4164/1*XU7bh8t3wI1kdb7PDK4sPg.png"></light-box>
 
 However, this complaint seemed to go away when we changed the button text from ‘Issue Letter of Credit’ to ‘Submit Application’. Suddenly, users seemed to understand the process better and feel more relaxed about submitting.
 
-{% image "https://cdn-images-1.medium.com/max/3756/1*pDvWy174TCJQMPhHfVUlnA.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/3756/1*pDvWy174TCJQMPhHfVUlnA.png"></light-box>
 
 I would guess that this was a result of properly aligning our conceptual model with the users’ mental models. A user can imagine ‘submitting an application’ to their Relationship Manager, who could then review it and send it back if there were any changes needed. ‘Issue Letter of Credit’ was much more final, and a much scarier button to press.
 
@@ -205,7 +206,7 @@ Designing the colleague’s view of the platform to be a mirror image of the cli
 
 In our research, we found that colleague-side systems tended to be particularly badly designed, confusing, and complex; frankenstein’s monsters, hack jobs cobbled together from various third party systems. It’s not surprising then, that when colleagues were given a platform that was designed to be as simple as personal banking, they were very happy with it. Even more importantly, colleagues continued to comment that they could ‘speak the users’ language’ because they could see what was going on in their platform, which helped with troubleshooting. We saw huge efficiencies created once colleagues were able to properly diagnose and fix errors in applications.
 
-{% image "https://cdn-images-1.medium.com/max/4752/1*RnJb3Q6MspfVZq9EV8pyRA.jpeg", "The sitemap, when really boiled down to the basics." %}
+<light-box @src="https://cdn-images-1.medium.com/max/4752/1*RnJb3Q6MspfVZq9EV8pyRA.jpeg">The sitemap, when really boiled down to the basics.</light-box>
 
 That being said, as can be seen in the original personas, the colleagues and clients differ in some major ways, and as complexity was added to the platform, the delta between the two became wider. Colleagues required ways to action more than one task at a time, to sort through large swathes of information quickly, and to use ‘power user’ functionalities.
 
@@ -222,13 +223,13 @@ After 14 weeks, we onboarding 10 Ugandan clients onto the Quantum Leap platform,
 
 The project was expanded and I spent almost a year in total building out the MVP, testing, iterating and adding new features. As part of this, I lead the development of a design team in Johannesburg, building out the design system, and implementing a culture of design thinking. The Quantum Leap program won the [Innovation in Digital Banking Award](https://www.iol.co.za/business-report/companies/standard-bank-wins-innovation-in-digital-banking-africa-award-2aea5d1e-8589-4eb3-a6b3-d68ac620a94b) for Africa from The Banker.
 
-{% image "https://cdn-images-1.medium.com/max/2560/1*dY5neiGZkobC_xJ4Nw58Rg.jpeg", "Senior bank stakeholders and the first client to issue an transaction online." %}
+<light-box @src="https://cdn-images-1.medium.com/max/2560/1*dY5neiGZkobC_xJ4Nw58Rg.jpeg">Senior bank stakeholders and the first client to issue an transaction online.</light-box>
 
 This case study is really the tip of the iceberg when it comes to the decisions made on this project. There was a lot of service and business design carried out to bring a lot of the processes online, as well as complexities around building an entirely new, responsive banking platform within an existing bank. I hope to write a few more case studies on the particulars of these problems and how they were solved.
 
 Some of the key discoveries and patterns that were developed, such as the Primary Action button, would be so successful that it would go on to be used throughout the platform as a unifying pattern. This made the development of future features a lot easier as I found that users intuitively knew what to do with never-before-seen flows.
 
-{% image "https://cdn-images-1.medium.com/max/5600/1*2-Zqt8rlmwgcyuJpi8Z_lw.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/5600/1*2-Zqt8rlmwgcyuJpi8Z_lw.png"></light-box>
 
 ## Reflections
 
@@ -248,7 +249,7 @@ Whilst I was given the freedom to challenge even the most basic assumptions, the
 
 In this way, perhaps utilising current practices was something worth doing.
 
-{% image "https://cdn-images-1.medium.com/max/8064/1*ZyTnX50HYck0pztOPpSoyA.jpeg" %}
+<light-box @src="https://cdn-images-1.medium.com/max/8064/1*ZyTnX50HYck0pztOPpSoyA.jpeg"></light-box>
 
 ### Focusing on outcomes rather than features
 

@@ -1,0 +1,14 @@
+<style webc:scoped>
+  :host {
+    display: block;
+  }
+</style>
+<svg
+  webc:root
+  webc:keep
+  :width="size || 24"
+  :height="size || 24"
+  aria-hidden="true"
+>
+  <use :href="'/assets/icons.svg#' + name" />
+</svg>

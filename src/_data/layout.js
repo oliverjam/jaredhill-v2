@@ -1,1 +1,1 @@
-module.exports = "base";
+module.exports = "page";

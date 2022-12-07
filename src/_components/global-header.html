@@ -1,0 +1,39 @@
+<style webc:scoped>
+  :host {
+    justify-content: space-between;
+    padding: 2rem var(--gutter);
+    font-family: var(--ff-heading);
+    font-size: 1rem;
+    background-color: var(--primary);
+  }
+  :host a {
+    text-transform: capitalize;
+    color: inherit;
+    text-decoration-line: none;
+    text-decoration-skip-ink: none;
+    text-decoration-skip: none;
+    text-decoration-thickness: 2.5px;
+    text-underline-offset: 4px;
+  }
+
+  :host a[aria-current],
+  :host a:hover {
+    text-decoration-line: underline;
+  }
+</style>
+<header webc:root webc:keep class="Row">
+  <nav class="Row gap-lg">
+    <a href="/">
+      <use-icon @size="30" name="logo"></use-icon>
+    </a>
+    <ul class="Row" role="list">
+      <nav-link href="/">home</nav-link>
+      <nav-link href="/about/">about</nav-link>
+      <nav-link href="/blog/">blog</nav-link>
+      <nav-link href="/contact/">contact</nav-link>
+    </ul>
+  </nav>
+  <nav class="hide-on-mobile">
+    <social-links></social-links>
+  </nav>
+</header>

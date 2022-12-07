@@ -1,0 +1,40 @@
+<style webc:scoped>
+  :host {
+    scroll-snap-align: center;
+    font-family: var(--ff-heading);
+  }
+  :host .Highlight > * {
+    display: inline;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding: 0.5rem;
+    line-height: 1.9;
+    background-color: var(--bg-100);
+  }
+  :host .Quote {
+    font-size: var(--font-xl);
+  }
+  :host .Quote::before {
+    content: "“";
+  }
+  :host .Quote::after {
+    content: "”";
+  }
+  :host .Author {
+    font-style: normal;
+  }
+  :host .Author::before {
+    content: "- ";
+  }
+</style>
+
+<li webc:root webc:keep>
+  <blockquote class="Stack">
+    <div class="Highlight">
+      <p class="Quote"><slot></slot></p>
+    </div>
+    <div class="Highlight">
+      <cite @html="author" class="Author"></cite>
+    </div>
+  </blockquote>
+</li>

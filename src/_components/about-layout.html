@@ -1,0 +1,24 @@
+<style webc:scoped>
+  :host {
+    display: grid;
+    gap: var(--gutter);
+  }
+  @media (min-width: 40rem) {
+    :host {
+      grid-template-columns:
+        minmax(0, var(--measure-narrow))
+        minmax(14rem, 1fr);
+    }
+    :host .Portrait {
+      order: 1;
+    }
+  }
+  :host .Content > * + * {
+    margin-top: 1.5rem;
+  }
+</style>
+
+<div webc:root class="CenterWide gutter">
+  <img class="Portrait" :src="image" alt="" />
+  <div class="Content"><slot></slot></div>
+</div>

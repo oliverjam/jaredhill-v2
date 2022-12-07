@@ -1,0 +1,73 @@
+<style webc:scoped>
+  :host table-contents {
+    display: none;
+  }
+  @media (min-width: 66rem) {
+    :host[toc] {
+      display: grid;
+      grid-template-columns: [toc] 26rem [article] minmax(0, 1fr);
+      max-inline-size: var(--measure-wide);
+      margin-inline: auto;
+    }
+    :host[toc] table-contents {
+      display: block;
+      grid-area: toc;
+      padding: var(--gutter);
+      padding-inline-end: 0;
+    }
+  }
+  :host[toc] article {
+    grid-area: article;
+  }
+  :host article > * + * {
+    margin-top: 1.5rem;
+  }
+  :host article > call-out + * {
+    margin-top: calc(var(--gutter) * 0.75);
+  }
+  :host article > * + :is(h2, h3, h4, h5, h6) {
+    margin-top: 3rem;
+  }
+  :host article > :where(:not(full-width)) {
+    max-inline-size: var(--measure-narrow);
+    margin-inline: auto;
+  }
+  /* Indent lists so markers appear aligned with other content */
+  :host article > :is(ol, ul) {
+    padding-inline-start: calc(var(--gutter) + 1em);
+  }
+  :host hr {
+    --n: 3;
+    margin-inline: auto;
+    border: 0;
+    block-size: 0.25rem;
+    inline-size: 8rem;
+    background-image: radial-gradient(
+      circle closest-side,
+      var(--text) 98%,
+      transparent
+    );
+    background-size: calc(100% / var(--n)) 100%;
+  }
+  :host blockquote {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: var(--textLight);
+  }
+
+  :host blockquote > :first-child::before {
+    content: "“";
+  }
+
+  :host blockquote > :last-child::after {
+    content: "”";
+  }
+  :host img {
+    width: 100%;
+  }
+</style>
+
+<slot name="toc"></slot>
+<article class="gutter">
+  <slot></slot>
+</article>

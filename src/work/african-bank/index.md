@@ -8,7 +8,7 @@ date: 2021-03-09
 callout: For an African bank with presence in 17 African countries, I helped build a greenfield corporate banking platform that gave businesspeople faster, easier and more transparent way to access banking services.
 ---
 
-{% image "https://cdn-images-1.medium.com/max/3376/1*Bh2kx6dQDbhHNzfrV2mAcQ.png" %}
+<light-box @src="https://cdn-images-1.medium.com/max/3376/1*Bh2kx6dQDbhHNzfrV2mAcQ.png"></light-box>
 
 Going from idea to a product in the hands of customers in 14 weeks, I completely redesigned the way that the bank's clients applied for and received transaction products, focussing on creating a system that solved a number of key problems that people were experiencing. I led a design team of four as we undertook user interviews on the ground in Uganda, workshopped and tested solutions, designed the responsive PWA and managed delivery with the development team.
 
