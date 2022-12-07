@@ -44,7 +44,7 @@
   border-radius: 999px;
   border: 1px solid var(--bg-300);
   padding: 1rem 1.75rem;
-  font-family: var(--heading-font);
+  font-family: var(--ff-heading);
   background-color: hsla(0, 0%, 100%, 50%);
 }
 
