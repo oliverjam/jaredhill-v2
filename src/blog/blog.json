@@ -1,5 +1,5 @@
 {
-  "layout": "blog.html",
+  "layout": "content",
   "tags": "blog",
   "showReadingTime": true
 }
