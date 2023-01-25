@@ -9,6 +9,7 @@ info:
   timeline: 2 week design sprint
   client: Medicspot - a healthcare startup
   role: Freelance Product Designer
+showToc: true
 ---
 
 ## Summary
