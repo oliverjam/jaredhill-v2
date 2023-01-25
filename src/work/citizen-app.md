@@ -9,6 +9,7 @@ info:
   timeline: 2 week design sprint
   company: Mock case study for General Assembly
   role: UX Designer
+showToc: true
 ---
 
 <light-box @src="https://cdn-images-1.medium.com/max/6380/1*CboC4wnSvaU5B_rSMw0cmQ.png"></light-box>
