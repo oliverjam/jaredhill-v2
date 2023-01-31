@@ -264,3 +264,5 @@ This sort of thinking lead to some interesting decisions, such as the decision _
 The outcomes vs features focus is an important conversation for organisations to have. For me, the main message that needs to be taken away is that design is not just the delivery of set of digital features. Sometimes, design includes the _removal_ of digital (and non-digital) features.
 
 And, by framing things as ‘problems to solve’ rather than ‘features to build’, we allow _everyone_ to be involved in innovative thinking, not just designers. There are ways to solve problems outside feature development (such as business model and service design) that many other stakeholders need to help to innovate in.
+
+---
