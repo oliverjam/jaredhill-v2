@@ -266,3 +266,4 @@ The outcomes vs features focus is an important conversation for organisations to
 And, by framing things as ‘problems to solve’ rather than ‘features to build’, we allow _everyone_ to be involved in innovative thinking, not just designers. There are ways to solve problems outside feature development (such as business model and service design) that many other stakeholders need to help to innovate in.
 
 ---
+
