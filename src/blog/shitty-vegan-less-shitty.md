@@ -6,6 +6,7 @@ tags:
   - product design
   - usability
 callout: “Am I improving as a designer?”
+showToc: true
 ---
 
 It’s a question that most of us ask ourselves from time to time. A single visit to Design Twitter, filled with its hustlers and lifelong learners, is enough to leave anyone with the crushing feeling of not doing enough to keep up.
