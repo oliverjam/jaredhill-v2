@@ -20,7 +20,7 @@ The discovery period — which included interviews and tests with users in the p
 
 I led a design team of four as we undertook user interviews on the ground in Uganda, workshopped and tested solutions, designed the responsive PWA and managed delivery with the development team.
 
-<light-box @src="https://cdn-images-1.medium.com/max/2560/1*bZEth0hJ7Junh8rzEo1R_A.jpeg">Interviewing users in Uganda.</light-box>
+<light-box @src="sb-image1.webp" @alt="Jared interviewing users in Uganda.">Interviewing users in Uganda.</light-box>
 
 By creating a highly transparent, accessible process, the new platform greatly increased user satisfaction, and was able to reduce lead times on applications from 2–3 days down to less than an hour. Thanks to the strong feedback from users, the product is now being iterated upon and rolled out in other markets. The project also won the [Innovation in Digital Banking Award](https://www.iol.co.za/business-report/companies/standard-bank-wins-innovation-in-digital-banking-africa-award-2aea5d1e-8589-4eb3-a6b3-d68ac620a94b) from The Banker.
 
