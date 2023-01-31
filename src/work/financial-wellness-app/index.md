@@ -3,7 +3,7 @@ title: An app to build healthier habits
 description: For a US insurance company, I designed a financial wellness app based around behavioural science theories.
 featured: true
 draft: true
-cover: metlife-home.png
+cover: metlife-home.webp
 date: 2019-03-09
 callout: An insurance company in the US wanted to find a way to help their clients’ employees to better understand their finances and improve their decision-making. The product needed to provide employers important information about their employees’ financial wellness, and give them the ability to recommend insurance products based upon user needs.
 ---

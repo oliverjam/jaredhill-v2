@@ -3,7 +3,7 @@ title: Helping users start their savings journey
 description: I helped design a brand-new challenger banking app for one of the UK’s best-known financial brands.
 featured: true
 draft: true
-cover: bo-home-page.png
+cover: bo-home-page.webp
 date: 2020-03-09
 callout: A leading UK retail bank wanted to create a greenfield digital bank that could compete with the growing popularity of the likes of Monzo and Revolut. To differentiate themselves, the app was to be targeted towards those who struggled to save each month, giving them the resources to start their savings journey.
 ---

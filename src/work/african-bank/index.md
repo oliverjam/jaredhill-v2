@@ -2,7 +2,7 @@
 title: Bringing transparency to African banking
 description: I lead a ground-up digital rebuild for Africa’s biggest corporate bank.
 featured: true
-cover: standard-bank-home.png
+cover: standard-bank-home.webp
 draft: true
 date: 2021-03-09
 callout: For an African bank with presence in 17 African countries, I helped build a greenfield corporate banking platform that gave businesspeople faster, easier and more transparent way to access banking services.
