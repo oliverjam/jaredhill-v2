@@ -47,7 +47,7 @@ This is what body text straight after an intro looks like! AndLorem ipsum dolor 
 
 Okay it's time to look at images. Here's a normal image, hosted on my site and with alt text:
 
-<light-box @src="/Users/jaredhill/Documents/GitHub/jaredhill-v2/src/blog/test-blog-piece/normal-image.jpg" @alt="A photo of an old man.">Check out the superiority complex on this guy.</light-box>
+<light-box @src="normal-image.webp" @alt="A photo of an old man.">Check out the superiority complex on this guy.</light-box>
 
 And here's text straight after it. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Now it's time to look at a full width image!! Let's goooooo!!!!
 Full width image:
