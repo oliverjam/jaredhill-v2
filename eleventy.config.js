@@ -23,7 +23,7 @@ module.exports = function (config) {
   // all other assets are served from /assets
   config.addPassthroughCopy({ "src/_assets": "assets" });
   // so images can be co-located with case studies rather than in _assets
-  config.addPassthroughCopy("src/work/**/*.{png,jpg,gif}");
+  config.addPassthroughCopy("src/work/**/*.{png,jpg,gif,webp}");
 
   config.addFilter("assert", assert);
   config.addFilter("readingTime", readingTime);
