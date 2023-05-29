@@ -21,6 +21,8 @@ So sit back, plug in your walkman, and enjoy these sweet beats.
 
 <yt-embed id="CdqoNKCCt7A"></yt-embed>
 
+<yt-embed id="8QEXUkD3p54"></yt-embed>
+
 We all have unconscious biases. Even when we think we’re being fair and impartial, [research tells us](https://www.psychologytoday.com/gb/blog/between-the-lines/201204/studies-unconscious-bias-racism-not-always-racists) that we still subconsciously favour those that are similar to ourselves. I’ve never understood why people find this so surprising; humans love familiarity and predictability, and our monkey brains associate these things with people who are similar to us in culture, gender, ability or ethnicity. This isn’t something to be ashamed of but it _is_ something that needs to be acknowledged and accounted for, now more than ever. And yet, when it comes to testing, we can often forget about this bias completely.
 
 It doesn’t help that a lot of usability testing takes place in homogenous circumstances, usually due to a lack of time or resources. Guerilla testing, for example, is great — as long as you remember that you’re at the mercy of the place you’re testing. Going into a coffeeshop during working hours? Hate to say it, but the type of person hanging out in a cool coffeeshop in the middle of the day is a _specific_ _type of person_. With even shorter time constraints, I’ve seen usability tests carried out on people within the organisation itself, who quite often have prior knowledge of the product and industry, and are more likely to be digitally adept.
