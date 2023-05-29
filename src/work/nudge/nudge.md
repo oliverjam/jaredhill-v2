@@ -5,10 +5,10 @@ tags:
   - case study
 callout: Developing an app to solve the age old problem of distraction
 info:
-  date: Oct 2017
-  timeline: 2 week design sprint
-  type: Mock case study for General Assembly
-  role: UX Designer
+  date: Sep 2017
+  timeline: 2-week design sprint
+  client: Mock case study for General Assembly
+  role: UX/UI Designer
 showToc: true
 ---
 

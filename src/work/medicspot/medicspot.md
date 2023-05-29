@@ -5,10 +5,10 @@ tags:
 date: 2017-10-27
 callout: Creating an intuitive video chat system that builds patient-doctor engagement — without getting in the way.
 info:
-  date: November 2017
+  date: Nov 2017
   timeline: 2 week design sprint
   client: Medicspot - a healthcare startup
-  role: Freelance Product Designer
+  role: Product Designer
 showToc: true
 ---
 

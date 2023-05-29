@@ -5,9 +5,9 @@ tags:
   - case
 callout: Making an app that gives users a more authentic travel experience
 info:
-  date: Sep 2017
-  timeline: 2 week design sprint
-  company: Mock case study for General Assembly
+  date: Oct 2017
+  timeline: 2-week design sprint
+  client: CitizenM (mock case study for General Assembly)
   role: UX Designer
 showToc: true
 ---
