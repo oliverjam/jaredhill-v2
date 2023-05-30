@@ -18,9 +18,9 @@ RBS, one of the largest banks in the UK, had been losing customers to the growin
 
 I was involved in the project as a design consultant from Oliver Wyman and was part of a design team that included brand designers, UX designers and UI designers. I spent almost a year helping to build the bank and led the design on several sections of the app, including the home screen and onboarding. I also led the creation of the central mechanism that aimed to help users save week by week, which is the focus of this case study. For this feature, I developed a conceptual model for saving money week by week and made key product strategy decisions. The designs were validated through behavioural change research, user interviews generated during the discovery period, and regular tests with users during the build phase.
 
-After rounds of testing and iteration, users responded well to the central saving metaphor and were able to intuitively use it to put away extra money each week. RBS was happy with the user feedback, and after further iteration and a beta release, the app was successfully launched on the App Store in October 2019.
-
 <light-box @src="https://cdn-images-1.medium.com/max/2000/1*djm02id1QPc-F4r-jnbQbg.jpeg"></light-box>
+
+After rounds of testing and iteration, users responded well to the central saving metaphor and were able to intuitively use it to put away extra money each week. RBS was happy with the user feedback, and after further iteration and a beta release, the app was successfully launched on the App Store in October 2019.
 
 <light-box @src="https://cdn-images-1.medium.com/max/3294/1*VDQx5d9apSM7O0onaRBKmA.jpeg"></light-box>
 
