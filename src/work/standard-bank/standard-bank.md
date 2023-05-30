@@ -267,3 +267,4 @@ And, by framing things as ‘problems to solve’ rather than ‘features to bui
 
 ---
 
+_Thanks for reading! Remember to follow me [on Medium](https://medium.com/@jamchiller) and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content._
