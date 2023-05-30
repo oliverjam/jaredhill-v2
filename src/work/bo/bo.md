@@ -20,6 +20,8 @@ I was involved in the project as a design consultant from Oliver Wyman and was p
 
 After rounds of testing and iteration, users responded well to the central saving metaphor and were able to intuitively use it to put away extra money each week. RBS was happy with the user feedback, and after further iteration and a beta release, the app was successfully launched on the App Store in October 2019.
 
+<light-box @src="https://cdn-images-1.medium.com/max/2000/1*djm02id1QPc-F4r-jnbQbg.jpeg"></light-box>
+
 <light-box @src="https://cdn-images-1.medium.com/max/3294/1*VDQx5d9apSM7O0onaRBKmA.jpeg"></light-box>
 
 ## Background
@@ -98,7 +100,7 @@ This process — from budgeting to weekly saving sweeps — was linear yet compl
 
 <light-box @src="https://cdn-images-1.medium.com/max/4384/1*-HCQ5Csa5QwRYPU-SOf-wA.png">A zoomed section of the wireflow.</light-box>
 
-After rounds of iteration, we felt we had designed a simple conceptual model of saving that might help struggling users understand how daily wins could add up to long-term benefits. These four screens best demonstrate how this conceptual model worked:
+After rounds of iteration, I felt I had designed a simple conceptual model of saving that might help struggling users understand how daily wins could add up to long-term benefits. These four screens best demonstrate how this conceptual model worked:
 
 <light-box @src="https://cdn-images-1.medium.com/max/3444/1*TjJa8SsxihWQKzXh_pAheQ.png"></light-box>
 
@@ -228,7 +230,7 @@ Another seven users were brought in for moderated face-to-face usability tests o
 
 <light-box @src="https://cdn-images-1.medium.com/max/4000/1*61smN51SP1LnCCTkCkRFxg.png"></light-box>
 
-There was a *huge *improvement (phew!) in usability compared to the last round of testing.
+There was a *huge* improvement (phew!) in usability compared to the last round of testing.
 
 - Users immediately understood the concept, could explain it well and navigated through all the screens with ease.
 
@@ -341,5 +343,9 @@ Unfortunately, despite pushing hard for this, the executive team wanted the main
 It’s hard to say how important this task-based separation is in making a financial app that users want to use, but it’s worth noting that when the app launched 9 months after my departure, they *had* changed the feature so that a user could partition only a part of their money to the savings mechanism.
 
 Alas, the search for the perfect financial app continues.
+
+---
+
+_Thanks for reading! Remember to follow me [on Medium](https://medium.com/@jamchiller) and Twitter ([@jamchiller](https://twitter.com/JamChiller)) for more content._
 
 
