@@ -74,7 +74,7 @@ The team had identified the ‘*Strugglers*’ archetype as one that was underse
 
 I called out several key elements from this persona which I thought would influence this feature:
 
-- **Strugglers have no savings** they are currently unable to — or *feel* unable to — realistically plan for the future by putting aside money on a weekly or monthly basis.
+- **Strugglers have no savings:** they are currently unable to — or *feel* unable to — realistically plan for the future by putting aside money on a weekly or monthly basis.
 
 - **Strugglers are driven by negative emotions:** Strugglers feel out of control and anxious, and deal with these emotions daily.
 
@@ -116,7 +116,7 @@ From left to right:
 
 Each screen in this flow is designed to guide the user through the savings journey, *carefully* shifting the user’s focus from short-term to long-term.
 
-I also realised that visual signifiers would be essential in carrying meaning throughout the app for Strugglers, who were often overwhelmed with money and required simplicity. I used existing brand assets to inject this meaning:
+I also realised that repeated visual symbols would be essential in carrying meaning throughout the app for Strugglers, who were often overwhelmed with money and required simplicity. I used existing brand assets to inject this meaning:
 
 <light-box @src="https://cdn-images-1.medium.com/max/2856/1*0tRw6PqLB1FhGuRpMTFZnA.jpeg"></light-box>
 
@@ -142,7 +142,7 @@ I designed several ways to go about this, the two final options being:
 
 - **Option 1** automatically sets a monthly goal for the user, by multiplying their weekly goal by 4.
 
-- **Option 2** was more complex, allowing the user to create a custom goal with a name as well as an automatic monthly goal. Visually, the automatic monthly goal is shown as a portion of the larger custom goal.
+- **Option 2** was more complex, not only setting this automatic goal but allowing the user to create a longer-term custom goal with a name. Visually, the automatic monthly goal is shown as a portion of the larger custom goal.
 
 Whilst Option 2 made the goal more tangible (by giving it a name), we decided against it because:
 
@@ -156,7 +156,7 @@ Therefore, we included Option 1 in our first feedback session.
 
 In this session, we had just one hour with the CEO to explain the designs, justify the changes to his original vision, and receive feedback. Being a long (albeit linear) process which included several novel concepts, I knew this would prove a challenge. So, I decided to print out huge, blown-up versions of the end-to-end wireflows and stick them on the wall, so he could physically engage with the designs and absorb them linearly. The results from the workshop were:
 
-- For the most part, he was happy with the conception model used to solve the core user need.
+- For the most part, he was happy with the conceptual model used to solve the core user need.
 
 - Despite the print-outs, there was still confusion as to what was happening in the app and each stage of the month-long saving process. It was a bloody complex process.
 
@@ -190,7 +190,7 @@ The answer: to enforce a standardised rainy-day goal (calculated at 5 weeks net 
 
  2. The user would make significant steps towards an incremental goal each week, no matter how little money they put in (research said that Strugglers save little to no money each week, and suffer from unrealistic goals in the medium and long term)
 
-<light-box @src="https://cdn-images-1.medium.com/max/5304/1*pr75tfIxZkRrdY5CVAFyag.png">The new designs, with a new visual pattern to represent their savings.</light-box>
+<light-box @src="https://cdn-images-1.medium.com/max/5304/1*pr75tfIxZkRrdY5CVAFyag.png">The new designs, with a new visual symbol to represent their savings.</light-box>
 
 ### Now to test with users
 
@@ -244,7 +244,7 @@ To everyone’s delight (especially mine, since this case study is getting way t
 
 ### Iterations to the conceptual model
 
-To address the conceptual model challenges from the last test, as well as create overarching motifs to simplify the experience (an early goal for the design team), I created a walkthrough of the process from goal-setting to savings growth:
+To address the conceptual model challenges from the last test, as well as create overarching visual symbols to simplify the experience (an early goal for the design team), I created a walkthrough of the process from goal-setting to savings growth:
 
 <light-box @src="https://cdn-images-1.medium.com/max/2298/1*Um_TGakYTcoEHiojqxILzA.jpeg"></light-box>
 
