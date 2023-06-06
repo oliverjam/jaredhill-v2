@@ -124,7 +124,7 @@ I also realised that repeated visual symbols would be essential in carrying mean
 
 - The full yellow ‘sun’ (resembling Bó’s logo) represented a user’s *long-term* savings
 
-One thing that stuck out to me from the research and interviews was that no matter how much we tried, we couldn’t find a consistent *conceptual model for saving* across users. Users all seemed to approach saving in different ways, and indeed, could even have a different relationship with it depending on the time of week, month, or year. Creating a successful MVP required us to prescribe one model to all users, and even to this day, I question whether this is an achievable goal for any company (more on this in the [Reflections section](https://jaredhill.co/work/bo/#reflections)).
+One thing that stuck out to me from the research and interviews was that no matter how much we tried, we couldn’t find a consistent *conceptual model for saving* across users. Users all seemed to approach saving in different ways, and indeed, could even have a different relationship with it depending on the time of week, month, or year. Creating a successful MVP required us to prescribe one model to all users, and even to this day, I question whether this is an achievable goal for any company (more on this in the [Reflections section](/work/bo/#reflections)).
 
 ### The ‘Savings’ screen
 
