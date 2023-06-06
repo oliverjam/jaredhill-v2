@@ -1,8 +1,8 @@
 ---
-title: Bringing transparency to African banking
-description: I lead a ground-up digital rebuild for Africa’s biggest corporate bank.
+title: Giving users sustainable transport options
+description: I designed a new way for Booking.com customers to get between the airport and their accommodation.
 featured: true
-cover: standard-bank-home.webp
+cover: booking-home.webp
 draft: true
 date: 2022-03-09
 callout: For an African bank with presence in 17 African countries, I helped build a greenfield corporate banking platform that gave businesspeople faster, easier and more transparent way to access banking services.
