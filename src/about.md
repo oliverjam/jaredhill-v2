@@ -10,7 +10,7 @@ I've created products for a range of users including thrifty Londoners, Ugandan 
 
 Right now I’m learning more about:
 
-&nbsp;&nbsp;&nbsp;🇴&nbsp;Object-oriented UX
+&nbsp;&nbsp;&nbsp;🇴&nbsp;Figma's new 'variable' feature
 
 &nbsp;&nbsp;&nbsp;🔗&nbsp;Webflow
 
@@ -20,7 +20,7 @@ In my spare time, I'm currently enjoying:
 
 &nbsp;&nbsp;&nbsp;🧗‍♂️&nbsp;Climbing (despite a debilitating fear of heights)
 
-&nbsp;&nbsp;&nbsp;🥟&nbsp;Cooking (mainly very spicy Chinese food)
+&nbsp;&nbsp;&nbsp;🥟&nbsp;Salsa dancing (trying to add to my traditional repertoire of one (1) move)
 
 &nbsp;&nbsp;&nbsp;🗺️&nbsp;Maps (just really big on maps)
 
