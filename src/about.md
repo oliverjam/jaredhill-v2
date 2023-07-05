@@ -20,7 +20,7 @@ In my spare time, I'm currently enjoying:
 
 &nbsp;&nbsp;&nbsp;🧗‍♂️&nbsp;Climbing (despite a debilitating fear of heights)
 
-&nbsp;&nbsp;&nbsp;🕺&nbsp;Salsa dancing (trying to add to my traditional repertoire of one (1) move)
+&nbsp;&nbsp;&nbsp;🕺&nbsp;Salsa dancing (trying to add to my current repertoire of one single dance move)
 
 &nbsp;&nbsp;&nbsp;🗺️&nbsp;Maps (just really big on maps)
 
