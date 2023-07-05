@@ -8,19 +8,19 @@ I nerd out on products that do what users want and then get the hell out the way
 
 I've created products for a range of users including thrifty Londoners, Ugandan businesspeople, and German energy traders, for companies such as Barclays, RBS, Metlife and Omorovicza. Most recently, I was a Senior Product Designer at [Booking.com](https://www.booking.com).
 
-Right now I’m learning more about:
+Right now I’m:
 
-&nbsp;&nbsp;&nbsp;🇴&nbsp;Figma's new 'variable' feature
+&nbsp;&nbsp;&nbsp;📦&nbsp;Learning about Object-Oriented UX
 
-&nbsp;&nbsp;&nbsp;🔗&nbsp;Webflow
+&nbsp;&nbsp;&nbsp;🔗&nbsp;Exploring Figma's new 'variables' feature
 
-&nbsp;&nbsp;&nbsp;⚙️&nbsp;Systems thinking
+&nbsp;&nbsp;&nbsp;📖&nbsp;Reading Victor Papanek's 'Design for the Real World'
 
 In my spare time, I'm currently enjoying:
 
 &nbsp;&nbsp;&nbsp;🧗‍♂️&nbsp;Climbing (despite a debilitating fear of heights)
 
-&nbsp;&nbsp;&nbsp;🥟&nbsp;Salsa dancing (trying to add to my traditional repertoire of one (1) move)
+&nbsp;&nbsp;&nbsp;🕺&nbsp;Salsa dancing (trying to add to my traditional repertoire of one (1) move)
 
 &nbsp;&nbsp;&nbsp;🗺️&nbsp;Maps (just really big on maps)
 
