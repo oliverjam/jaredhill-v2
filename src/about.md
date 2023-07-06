@@ -10,19 +10,19 @@ I've created products for a range of users including thrifty Londoners, Ugandan 
 
 Right now I’m:
 
-&nbsp;&nbsp;&nbsp;📦&nbsp;Learning about Object-Oriented UX
+&nbsp;&nbsp;&nbsp;📦&nbsp;&nbsp;Learning about Object-Oriented UX
 
-&nbsp;&nbsp;&nbsp;🔗&nbsp;Exploring Figma's new 'variables' feature
+&nbsp;&nbsp;&nbsp;🔗&nbsp;&nbsp;Exploring Figma's new 'variables' feature
 
-&nbsp;&nbsp;&nbsp;📖&nbsp;Reading Victor Papanek's 'Design for the Real World'
+&nbsp;&nbsp;&nbsp;📖&nbsp;&nbsp;Reading Victor Papanek's 'Design for the Real World'
 
 In my spare time, I'm currently enjoying:
 
-&nbsp;&nbsp;&nbsp;🧗‍♂️&nbsp;Climbing (despite a debilitating fear of heights)
+&nbsp;&nbsp;&nbsp;🧗‍♂️&nbsp;&nbsp;Climbing (despite a debilitating fear of heights)
 
-&nbsp;&nbsp;&nbsp;🕺&nbsp;Salsa dancing (trying to add to my current repertoire of one single dance move)
+&nbsp;&nbsp;&nbsp;🕺&nbsp;&nbsp;Salsa dancing (trying to add to my current repertoire of one single dance move)
 
-&nbsp;&nbsp;&nbsp;🗺️&nbsp;Maps (just really big on maps)
+&nbsp;&nbsp;&nbsp;🗺️&nbsp;&nbsp;Maps (just really big on maps)
 
 I also love teaching: I've been an Instructor Associate at [General Assembly](https://generalassemb.ly/) and have given presentations at [TechCircus](https://www.techcircustv.com) and [Founders & Coders](https://www.foundersandcoders.com/).
 

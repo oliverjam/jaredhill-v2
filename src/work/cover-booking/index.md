@@ -1,5 +1,5 @@
 ---
-title: Giving users sustainable transport options
+title: Using data to give users better sustainable transport options
 description: I designed a new way for Booking.com customers to get between the airport and their accommodation.
 featured: true
 cover: booking-home.webp
