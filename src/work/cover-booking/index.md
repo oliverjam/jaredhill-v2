@@ -2,7 +2,7 @@
 title: Using data to give users better sustainable transport options
 description: I designed a new way for Booking.com customers to get between the airport and their accommodation.
 featured: true
-cover: booking-home.webp
+cover: booking-home.png
 draft: true
 date: 2022-03-09
 callout: For an African bank with presence in 17 African countries, I helped build a greenfield corporate banking platform that gave businesspeople faster, easier and more transparent way to access banking services.
