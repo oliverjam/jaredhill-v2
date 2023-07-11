@@ -8,8 +8,6 @@ date: 2022-03-09
 callout: At Booking.com, I used user testing, data and analytics to lead a design overhaul of a growing area of the product. 
 ---
 
-<light-box @src="https://cdn-images-1.medium.com/max/3376/1*Bh2kx6dQDbhHNzfrV2mAcQ.png"></light-box>
-
 Booking.com is one of Europe's largest tech firms, with a range of products including hotel booking, car hire, insurance, and on-demand taxi. I worked in one of the newest product areas - helping customers travel to and from the airport, by train, bus and other forms of public transport. 
 
 By running a number of usability tests on the current state screens and analysing behavioural data, I identified a number of problems to solve in order to improve usability and increase bookings. From these insights, I designed a vision for the product as well as a refreshed version of the screens to release on the Booking.com app that would test some of these hypotheses. 
