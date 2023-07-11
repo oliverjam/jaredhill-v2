@@ -1,19 +1,26 @@
 ---
 title: Using data to give users better sustainable transport options
-description: I designed a new way for Booking.com customers to get between the airport and their accommodation.
+description: I designed an improved way for Booking.com customers to get between the airport and their accommodation.
 featured: true
 cover: booking-home.webp
 draft: true
 date: 2022-03-09
-callout: For an African bank with presence in 17 African countries, I helped build a greenfield corporate banking platform that gave businesspeople faster, easier and more transparent way to access banking services.
+callout: At Booking.com, I used user testing, data and analytics to lead a design overhaul of a growing area of the product. 
 ---
 
 <light-box @src="https://cdn-images-1.medium.com/max/3376/1*Bh2kx6dQDbhHNzfrV2mAcQ.png"></light-box>
 
-Going from idea to a product in the hands of customers in 14 weeks, I completely redesigned the way that the bank's clients applied for and received transaction products, focussing on creating a system that solved a number of key problems that people were experiencing. I led a design team of four as we undertook user interviews on the ground in Uganda, workshopped and tested solutions, designed the responsive PWA and managed delivery with the development team.
+Booking.com is one of Europe's largest tech firms, with a range of products including hotel booking, car hire, insurance, and on-demand taxi. I worked in one of the newest product areas - helping customers travel to and from the airport, by train, bus and other forms of public transport. 
+
+By running a number of usability tests on the current state screens and analysing behavioural data, I identified a number of problems to solve in order to improve usability and increase bookings. From these insights, I designed a vision for the product as well as a refreshed version of the screens to release on the Booking.com app that would test some of these hypotheses. 
+
+<light-box @src="booking-home.webp"></light-box>
 
 ## Results
 
-By adding transparency and clarity to the process, the MVP was able to reduce lead times on applications from 2–3 days down to less than an hour. Thanks to extremely strong feedback from users, the product was iterated upon and rolled out in other markets - I spent a total of 18 months building out the platform. In 2019, the product won the Innovation in Digital Banking Award by The Banker.
+The refreshed screens were released to app users and not only scored highly in usability tests but improved a number of desired customer behaviour metrics. I created a roadmap for the web experience to gradually align to the product vision, progressively adding elements so that we could measure the performance of each individual change to the interface. Additionally, the overall Public Transport design vision was approved and integrated with the wider product vision.
 
 _For the full case study, [contact me](https://jaredhill.co/contact/)!_
+
+
+
