@@ -12,7 +12,7 @@ Booking.com is one of Europe's largest tech firms, with a range of products incl
 
 By running a number of usability tests on the current state screens and analysing behavioural data, I identified a number of problems to solve in order to improve usability and increase bookings. From these insights, I designed a vision for the product as well as a refreshed version of the screens to release on the Booking.com app that would test some of these hypotheses. 
 
-<light-box @src="booking-home.webp"></light-box>
+<light-box @src="booking-preview.png"></light-box>
 
 ## Results
 
