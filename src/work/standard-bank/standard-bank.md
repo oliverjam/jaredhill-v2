@@ -76,7 +76,7 @@ To guide design direction, early versions of design principles were also created
 
 - _Personalised_: Users complained that no matter how many times they run the process, it never got smarter. The interface must adapt to each individual user’s needs and requirements.
 
-- _Mobile-first_: All previous banking products had been desktop-only. However, business in Uganda was increasingly done on-the-go with smartphones, on-the-go. The new product should be designed mobile-first, to future-proof it and make it easier to manage the process from anywhere.
+- _Mobile-first_: All previous banking products had been desktop-only. However, business in Uganda was increasingly done with smartphones, on-the-go. The new product should be designed mobile-first, to future-proof it and make it easier to manage the process from anywhere.
 
 ## Initial designs
 
