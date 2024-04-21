@@ -4,7 +4,7 @@ layout: base.html
 
 <page-layout>
   <h1 slot="header" @html="title"></h1>
-  <about-layout @image="/assets/about-1.jpg">
+  <about-layout @image="/assets/about-1.png">
     <call-out @html="callout" webc:if="callout"></call-out>
     <template webc:nokeep @raw="content"></template>
   </about-layout>
